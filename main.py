@@ -45,6 +45,8 @@ def signup():
 		uid=request.form.get("id",'')
 		name=request.form.get("name",'')
 		aadhar=request.form.get("aadhar",'')
+		gender=request.form.get("gender",'')
+		bloodgroup=request.form.get("bloodgroup",'')
 		address=request.form.get("address",'')
 		role=request.form.get("role",'')
 		city=request.form.get("city",'')
@@ -75,6 +77,8 @@ def signup():
 			d["aadhar"]=aadhar
 			d["address"]=address
 			d["city"]=city
+			d["gender"]=gender
+			d["bloodgroup"]=bloodgroup
 			d["dob"]=dob
 			d["role"]=role
 			d["name"]=name

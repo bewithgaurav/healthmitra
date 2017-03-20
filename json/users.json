@@ -1,6 +1,8 @@
 [
 	{
 		"id" : "uid",
+		"name": "random",
+		"gender":"male",
 		"email":"random",
 		"password" : "new reply",
 		"aadhar": "gk",
