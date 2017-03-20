@@ -32,7 +32,7 @@ app.secret_key = 'moriarty'
 
 @app.route('/', methods=['POST','GET'])
 def index():
-	return render_template("memberprofile.html")
+	return render_template("index.html")
 
 @app.route('/register',methods=['POST','GET'])
 def signup():
