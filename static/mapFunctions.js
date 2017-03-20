@@ -24,7 +24,7 @@ function geocodeLatLng(geocoder, map,marker, infoWindow,myLatLng,i) {
 
 //initialize and set markers on map
 function initialize() {
-	map = new google.maps.Map(document.getElementById('map'), {
+	map = new google.maps.Map(document.getElementById('map-canvas'), {
 	  zoom: 5,
 	  center: new google.maps.LatLng(28.459497,77.026638),
 	  mapTypeId: google.maps.MapTypeId.TERRAIN

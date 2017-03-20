@@ -9,6 +9,7 @@ import hashlib
 import webbrowser
 from pyfcm import FCMNotification
 import glob
+import urllib
 
 push_service = FCMNotification(api_key="AAAAH6ulmio:APA91bHmJnSaRswJukPEUnVe4OPl00qqqfoypMAjdVFWPAI2n-6C-ymn9tGQ31WkNonM16X-82TAd2GHJZgJcXjzG4AaqphrgBtlGwjyAzzkvDnue3p10AwTaNEUonAKESIFoD_wVtoq")
 
@@ -66,6 +67,24 @@ def showMap(name=None):
 		obj.append(file[1])
 	return render_template('heatmapindex.html',obj=obj)
 
+@app.route('/nearby',methods=['GET','POST'])
+def find():
+	x=request.args.get('lat')
+	y=request.args.get('lng')
+	url='https://maps.googleapis.com/maps/api/place/nearbysearch/json?location='+x+','+y+'&'+'radius=500&type=hospital&key=AIzaSyAVzWndyAd1kRlvwLOWuLLG-PF1_JXP3XE'
+	response = urllib.request.urlopen(url)
+	reader = codecs.getreader("utf-8")
+
+	data = json.load(reader(response))   
+
+	#print(data)
+	data=data['results']
+	obj=[]
+	for x in data:
+		y=[x['geometry']['location']['lat'],x['geometry']['location']['lng'],x['name'],x['vicinity']]
+		obj.append(y)
+
+	return render_template('map.html',obj=obj)
 
 @app.route('/register',methods=['POST','GET'])
 def signup():
@@ -207,10 +226,11 @@ def addnews():
 		return('News Updated')
 	return render_template("purana.html")
 
-@app.route('/chat',methods=['GET','POST'])
+@app.route('/videochat',methods=['GET','POST'])
 def create_chat():
 	uid=session["user"]["id"]
 	token='emitra'+uid
+	token=(hashlib.md5(token.encode('utf-8')).hexdigest())
 	chatupdated={}
 	chatupdated["chat"]=[]
 	new={}
@@ -221,7 +241,7 @@ def create_chat():
 	chatupdated["chat"].append(new)
 	db.update(chatupdated)
 	webbrowser.open('http://appr.tc/r/'+token)
-	return('0')
+	return('New Tab is opened')
 
 @app.route('/show_online_docs',methods=['GET','POST'])
 def show_online_doctors():
@@ -231,9 +251,9 @@ def show_online_doctors():
 	for x in chats:
 		if x['status']=='available':
 			available.append(x)
-	return render_template('show_docs.html',available=available)
+	return render_template('videochat.html',available=available)
 
-@app.route('/show_online_docs',methods=['GET','POST'])
+@app.route('/join_chat',methods=['GET','POST'])
 def join_chat():
 	uid=request.form.get("duid",'')
 	chats = db.child("chat").get()
@@ -245,7 +265,8 @@ def join_chat():
 	chatupdated={}
 	chatupdated["chat"]=chats
 	db.update(chatupdated)
-	return urllib.urlopen('http://webr.tc/r/'+token)
+	webbrowser.open('http://appr.tc/r/'+token)
+	return("New Tab")
 
 @app.route('/notification',methods=['POST','GET'])
 def notify():
@@ -322,11 +343,11 @@ def bloodapi():
 				}
 			)
 	
-	if c:
-		registration_ids = ["ewEDOBTYu-w:APA91bG-Gc9SZPT7YY82jubMJ-WYWfpfSe3JXc1T9oSuWQpwoIe1DZjrveXnOcagCdM3Px0iWVqSBqSvM1qWvBQy3bw9U3Ad8897qu3ZHSRVkwX_29oBxbhjTlmqoyrlIcRpHC8t9JgE"]
-		message_title = "Sanskar"
-		message_body = "Chutiya hai"
-		result = push_service.notify_multiple_devices(registration_ids=registration_ids, message_title=message_title, message_body=message_body, message_icon="facebook.png")
+	# if c:
+	# 	registration_ids = ["ewEDOBTYu-w:APA91bG-Gc9SZPT7YY82jubMJ-WYWfpfSe3JXc1T9oSuWQpwoIe1DZjrveXnOcagCdM3Px0iWVqSBqSvM1qWvBQy3bw9U3Ad8897qu3ZHSRVkwX_29oBxbhjTlmqoyrlIcRpHC8t9JgE"]
+	# 	message_title = "Sanskar"
+	# 	message_body = "Chutiya hai"
+	# 	result = push_service.notify_multiple_devices(registration_ids=registration_ids, message_title=message_title, message_body=message_body, message_icon="facebook.png")
 	d={}
 	d["details"]=b
 	js = jsonify(d)

@@ -17,11 +17,6 @@ html, body, #map-wrapper #map-canvas {
     height: 540px;
     width: 100%;  }
     </style>
-<script>var a={{ obj|safe }};</script>
-
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVzWndyAd1kRlvwLOWuLLG-PF1_JXP3XE"></script>
-  <script type="text/javascript" src="{{ url_for('static', filename='mapFunctions.js') }}"></script>
-  
 
 <!--[if lt IE 9]>
 <script src="static/assets/js/html5shiv.min.js"></script>
@@ -65,17 +60,20 @@ html, body, #map-wrapper #map-canvas {
         </div>
       </div>
     </nav>
-    <form id="searchForm">
-      <input type="text" placeholder="Search...">
-      <input type="submit" value="">
-    </form>
+    
   </div>
 </header>
-<br>
-
-<div id="map-wrapper">
-                <div id="map-canvas"></div>
-            </div>
+<br><br>
+<br><br>
+<center>
+<h2>List of Online Doctors, Click to Initiate Chat</h2><br><br>
+{% for i in available %}
+  <form method=POST action="/join_chat">
+  <input name="duid" type="hidden" id={{i.duid}} value={{i.duid}} />
+  <button type="submit">{{i.duid}}</button>
+  </form>
+{% endfor %}
+</center>
 <script src="static/assets/js/jquery.min.js"></script> 
 <script src="static/assets/js/bootstrap.min.js"></script> 
 <script src="static/assets/js/wow.min.js"></script> 
