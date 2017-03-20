@@ -10,6 +10,7 @@ import webbrowser
 from pyfcm import FCMNotification
 import glob
 import urllib
+import codecs
 
 push_service = FCMNotification(api_key="AAAAH6ulmio:APA91bHmJnSaRswJukPEUnVe4OPl00qqqfoypMAjdVFWPAI2n-6C-ymn9tGQ31WkNonM16X-82TAd2GHJZgJcXjzG4AaqphrgBtlGwjyAzzkvDnue3p10AwTaNEUonAKESIFoD_wVtoq")
 
@@ -67,7 +68,7 @@ def showMap(name=None):
 		obj.append(file[1])
 	return render_template('heatmapindex.html',obj=obj)
 
-@app.route('/nearby',methods=['GET','POST'])
+@app.route('/nearbyhospitals',methods=['GET','POST'])
 def find():
 	x=request.args.get('lat')
 	y=request.args.get('lng')
@@ -84,7 +85,25 @@ def find():
 		y=[x['geometry']['location']['lat'],x['geometry']['location']['lng'],x['name'],x['vicinity']]
 		obj.append(y)
 
-	return render_template('map.html',obj=obj)
+	return render_template('map.html',obj=obj,decision="Hospitals")
+
+@app.route('/nearbymedicals',methods=['GET','POST'])
+def findmedicals():
+	x=request.args.get('lat')
+	y=request.args.get('lng')
+	url='https://maps.googleapis.com/maps/api/place/nearbysearch/json?location='+x+','+y+'&'+'radius=500&type=pharmacy&key=AIzaSyAVzWndyAd1kRlvwLOWuLLG-PF1_JXP3XE'
+	response = urllib.request.urlopen(url)
+	reader = codecs.getreader("utf-8")
+	data = json.load(reader(response))   
+	#print(data)
+	data=data['results']
+	obj=[]
+	for x in data:
+		y=[x['geometry']['location']['lat'],x['geometry']['location']['lng'],x['name'],x['vicinity']]
+		obj.append(y)
+
+	return render_template('map.html',obj=obj,decision="Medical Stores")
+
 
 @app.route('/register',methods=['POST','GET'])
 def signup():
@@ -176,6 +195,9 @@ def login():
 		flash("Invalid Credentials")
 	return render_template("login.html")
 
+@app.route('/statistics',methods=['POST','GET'])
+def stats():
+	return render_template("statistics.html")
 
 @app.route('/news',methods=['POST','GET'])
 def news():

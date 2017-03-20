@@ -17,11 +17,6 @@ html, body, #map-wrapper #map-canvas {
     height: 540px;
     width: 100%;  }
     </style>
-<script>var a={{ obj|safe }};</script>
-
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVzWndyAd1kRlvwLOWuLLG-PF1_JXP3XE"></script>
-  <script type="text/javascript" src="{{ url_for('static', filename='mapFunctions.js') }}"></script>
-  
 
 <!--[if lt IE 9]>
 <script src="static/assets/js/html5shiv.min.js"></script>
@@ -65,13 +60,40 @@ html, body, #map-wrapper #map-canvas {
         </div>
       </div>
     </nav>
+    
   </div>
 </header>
-<br>
-<center><h2>Nearby {{decision}} (Click On the Marker For Details)</h2>
-<div id="map-wrapper">
-                <div id="map-canvas"></div>
-            </div>
+<br><br>
+<br><center>
+<h2>Click on the Diseases to View Stats</h2><br><br>
+<table border="1px" cellpadding="10px" width="80%" width="80%">
+  <tr>
+    <td><center><h3><b>Disease</b></h3></center></td>
+    <td><center><h3><b>Link to Heat Map</b></h3></a></h4></td>
+    <td><center><h3><b>Link to Cluster Map</b></h3></h4></td>
+  </tr>  
+  <tr>
+    <td><center><h4>Typhoid</h4></center></td>
+    <td><center><a href="/showheat/1">Heat Map</a></h4></td>
+    <td><center><a href="/show?index=1">Cluster Centers</a></h4></td>
+  </tr>  
+  <tr>
+    <td><center><h4>Jaundice</h4></td>
+    <td><center><a href="/showheat/2">Heat Map</a></h4></td>
+    <td><center><a href="/show?index=2">Cluster Centers</a></h4></td>
+  </tr>  
+  <tr>
+    <td><center><h4>Malaria</h4></td>
+    <td><center><a href="/showheat/3">Heat Map</a></h4></td>
+    <td><center><a href="/show?index=3">Cluster Centers</a></h4></td>
+  </tr>  
+  <tr>
+    <td><center><h4>Dengue</h4></td>
+    <td><center><a href="/showheat/4">Heat Map</a></h4></td>
+    <td><center><a href="/show?index=4">Cluster Centers</a></h4></td>
+  </tr>  
+</table>
+</center>
 <script src="static/assets/js/jquery.min.js"></script> 
 <script src="static/assets/js/bootstrap.min.js"></script> 
 <script src="static/assets/js/wow.min.js"></script> 
