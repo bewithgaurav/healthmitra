@@ -8,6 +8,7 @@ from time import gmtime, strftime
 import hashlib
 import webbrowser
 from pyfcm import FCMNotification
+import glob
 
 push_service = FCMNotification(api_key="AAAAH6ulmio:APA91bHmJnSaRswJukPEUnVe4OPl00qqqfoypMAjdVFWPAI2n-6C-ymn9tGQ31WkNonM16X-82TAd2GHJZgJcXjzG4AaqphrgBtlGwjyAzzkvDnue3p10AwTaNEUonAKESIFoD_wVtoq")
 
@@ -38,6 +39,32 @@ app.secret_key = 'moriarty'
 @app.route('/', methods=['POST','GET'])
 def index():
 	return render_template("index.html")
+
+@app.route('/show/<d>',methods=['GET','POST'])
+def showList(d):
+	obj=[]
+	for line in open('h'+str(d)+'o.txt'):
+		line=line.split(',')
+		if len(line)==4:
+			obj.append([line[0],line[1]])
+	return render_template('map.html',obj=obj,did=d)
+
+@app.route('/showheat/<d>',methods=['GET','POST'])
+def show(d):
+	obj=[]
+	for line in open('hi'+str(d)+'.txt'):
+		line=line.split(' ')
+		obj.append([line[0],line[1]])
+	return render_template('heatmap.html',obj=obj,did=d)
+
+@app.route('/map')
+def showMap(name=None):
+	obj=[]
+
+	for file in glob.glob("h*o.txt"): 
+		obj.append(file[1])
+	return render_template('heatmapindex.html',obj=obj)
+
 
 @app.route('/register',methods=['POST','GET'])
 def signup():
@@ -134,7 +161,7 @@ def login():
 def news():
 	news = db.child("news").get()
 	news=(news.val())
-	return render_template("news.html",news=news)
+	return render_template("index.html",news=news)
 
 @app.route('/addnews',methods=['POST','GET'])
 def addnews():
@@ -299,8 +326,11 @@ def bloodapi():
 		message_title = "Sanskar"
 		message_body = "Chutiya hai"
 		result = push_service.notify_multiple_devices(registration_ids=registration_ids, message_title=message_title, message_body=message_body, message_icon="facebook.png")
+	js = json.dumps(b)
 
-	return jsonify(b)
+	resp = Response(js, status=200, mimetype='application/json')
+	resp.headers['Link'] = 'http://luisrei.com'
+	return resp
 
 @app.route('/question',methods=['POST','GET'])
 def question():

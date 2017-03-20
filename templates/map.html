@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <style>
+      html, body, #map { margin: 0; padding: 0; height: 100%; }
+    </style>
+      <script>var a={{ obj|safe }};</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVzWndyAd1kRlvwLOWuLLG-PF1_JXP3XE"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='mapFunctions.js') }}"></script>
+	
+  </head>
+
+  <body>
+    <div id="map"></div>
+    

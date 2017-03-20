@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		document.getElementById('my_selection').onchange = function() {
+   		window.location.href = this.children[this.selectedIndex].getAttribute('href');}
+	</script>
+</head>
+
+<body>
+<center><br><br><br>
+<select onChange="window.location.href=this.value">
+{{obj.sort()}}
+{% for i in obj%}
+  <option value="/show/{{ i }}">{{ i }}</option>
+{%endfor%} 
+</select>
+
+<select onChange="window.location.href=this.value">
+{{obj.sort()}}
+{% for i in obj%}
+  <option value="/showheat/{{ i }}">{{ i }}</option>
+{%endfor%} 
+</select>
+
+</body>
+</html>
