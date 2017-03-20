@@ -46,7 +46,7 @@ def notify():
 				}
 			)
 	
-	if l:
+	if c:
 		registration_ids = ["ewEDOBTYu-w:APA91bG-Gc9SZPT7YY82jubMJ-WYWfpfSe3JXc1T9oSuWQpwoIe1DZjrveXnOcagCdM3Px0iWVqSBqSvM1qWvBQy3bw9U3Ad8897qu3ZHSRVkwX_29oBxbhjTlmqoyrlIcRpHC8t9JgE"]
 		message_title = "Sanskar"
 		message_body = "Chutiya hai"
