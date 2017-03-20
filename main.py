@@ -326,10 +326,8 @@ def bloodapi():
 		message_title = "Sanskar"
 		message_body = "Chutiya hai"
 		result = push_service.notify_multiple_devices(registration_ids=registration_ids, message_title=message_title, message_body=message_body, message_icon="facebook.png")
-	js = json.dumps(b)
-
+	js = jsonify(b)
 	resp = Response(js, status=200, mimetype='application/json')
-	resp.headers['Link'] = 'http://luisrei.com'
 	return resp
 
 @app.route('/question',methods=['POST','GET'])

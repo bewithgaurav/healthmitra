@@ -38,10 +38,10 @@ h2{font-family:'Varela',sans-serif}
 .navbar-default .navbar-toggle{border-color:#ffd62c}
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{border-color:#ffd62c}
 .navbar-collapse.in{overflow-x:hidden}
-.custom_nav > li:nth-child(1) > a{background:none repeat scroll 0 0 #ffd62c}
-.custom_nav > li:nth-child(2) > a{background:none repeat scroll 0 0 #e76b33}
-.custom_nav > li:nth-child(3) > a{background:none repeat scroll 0 0 #7dc34d}
-.custom_nav > li:nth-child(4) > a{background:none repeat scroll 0 0 #09c}
+.custom_nav > li:nth-child(1) > a{background:#3b3b3b}
+.custom_nav > li:nth-child(2) > a{background:#3b3b3b}
+.custom_nav > li:nth-child(3) > a{background:#3b3b3b}
+.custom_nav > li:nth-child(4) > a{background:#3b3b3b}
 .dropdown-menu{background-color:#3b3b3b; padding:0}
 .dropdown-menu li a{border-top:1px solid #222}
 .dropdown-menu li:first-child a{border-top:none}
