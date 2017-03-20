@@ -267,18 +267,18 @@ def bloodapi():
 	a={}
 	a["bloodgroup"]=request.args['bloodgroup']
 	a["uid"]=request.args['id']
-    a["city"]=request.args['city']
-    a["mobile"]=request.args['mobile']
-    a["address"]=request.args['address']
-    mobile=
+	a["city"]=request.args['city']
+	a["mobile"]=request.args['mobile']
+	a["address"]=request.args['address']
 	users = db.child("users").get()
 	users=(users.val())
 	response={}
 	c=0
+	b=[]
 	for user in users:
 		if user["bloodgroup"]==a["bloodgroup"] and a["city"]==user["city"]:
 			c+=1
-			a.append(
+			b.append(
 				{
 					"name":user["name"],
 					"mobile":user["mobile"]
@@ -291,7 +291,7 @@ def bloodapi():
 		message_body = "Chutiya hai"
 		result = push_service.notify_multiple_devices(registration_ids=registration_ids, message_title=message_title, message_body=message_body, message_icon="facebook.png")
 
-	return jsonify(response)
+	return jsonify(b)
 
 @app.route('/question',methods=['POST','GET'])
 def question():
