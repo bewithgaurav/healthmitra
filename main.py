@@ -328,7 +328,7 @@ def bloodapi():
 		result = push_service.notify_multiple_devices(registration_ids=registration_ids, message_title=message_title, message_body=message_body, message_icon="facebook.png")
 	js = jsonify(b)
 	resp = Response(js, status=200, mimetype='application/json')
-	return resp
+	return js
 
 @app.route('/question',methods=['POST','GET'])
 def question():
