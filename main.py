@@ -7,6 +7,11 @@ import datetime
 from time import gmtime, strftime
 import hashlib
 import webbrowser
+from pyfcm import FCMNotification
+
+push_service = FCMNotification(api_key="AAAAH6ulmio:APA91bHmJnSaRswJukPEUnVe4OPl00qqqfoypMAjdVFWPAI2n-6C-ymn9tGQ31WkNonM16X-82TAd2GHJZgJcXjzG4AaqphrgBtlGwjyAzzkvDnue3p10AwTaNEUonAKESIFoD_wVtoq")
+
+
 config = {
   	
   "apiKey" : "AIzaSyCLlwtDViQPRFWCYrm4OXVUoXx5oC12e2U",
@@ -280,7 +285,7 @@ def bloodapi():
 	c=0
 	b=[]
 	for user in users:
-		if user["bloodgroup"]==a["bloodgroup"] and a["city"]==user["city"]:
+		if "bloodgroup" in user and user["bloodgroup"]==a["bloodgroup"] and a["city"]==user["city"]:
 			c+=1
 			b.append(
 				{
