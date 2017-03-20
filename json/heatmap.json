@@ -1,0 +1,39 @@
+[
+	{
+		"city":"Jaipur",
+		"hospitals":
+		[
+		
+			{
+				"hospital":"anything",
+				"records":
+				[
+
+					{
+						"disease":	"typhoid",
+						"coordinates":
+						[
+							[4.5,4.5],
+							[4.5,4.5],
+							[4.5,4.5],
+							[4.5,4.5]
+						]
+					},
+					{
+						"disease":	"malaria",
+						"coordinates":
+						[
+							[4.5,4.5],
+							[4.5,4.5],
+							[4.5,4.5],
+							[4.5,4.5]
+						]
+					}
+
+				]
+				
+			}
+				
+		]
+	}
+]

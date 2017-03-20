@@ -1,0 +1,4581 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ask me\n"
+"POT-Creation-Date: 2015-12-15 05:09+0200\n"
+"PO-Revision-Date: 2015-12-15 05:09+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: vi_VI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:7
+msgid "404"
+msgstr "Lỗi 404!"
+
+#: 404.php:8
+msgid "Opps! Page Not Found"
+msgstr ""
+
+#: 404.php:11 template-recently_answered.php:75
+msgid "Home Page"
+msgstr "Trang chủ"
+
+#: admin/functions/main_functions.php:352 admin/functions/main_functions.php:444
+#: includes/answers.php:54 template-comment_follow.php:72
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s tại %2$s"
+
+#: admin/functions/main_functions.php:356 admin/functions/main_functions.php:448
+#: admin/functions/register_post.php:55 admin/functions/register_post.php:56
+#: admin/functions/register_post.php:80 admin/functions/register_post.php:81
+#: includes/answers.php:58 single-question.php:273
+#: woocommerce/myaccount/my-address.php:45
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+#: admin/functions/main_functions.php:362 admin/functions/main_functions.php:457
+#: template-question_follow.php:87 template-user_favorite_questions.php:91
+#: template-user_question.php:95
+msgid "Reply"
+msgstr "Trả lời"
+
+#: admin/functions/main_functions.php:367 admin/functions/main_functions.php:472
+msgid "This comment is edited."
+msgstr ""
+
+#: admin/functions/main_functions.php:370 admin/functions/main_functions.php:475
+#: template-comment_follow.php:77
+msgid "Your comment is awaiting moderation."
+msgstr "Bình luận của bạn đang chờ kiểm duyệt."
+
+#: admin/functions/main_functions.php:432 admin/functions/main_functions.php:436
+#: includes/answers.php:42 includes/answers.php:46 question.php:167
+#: question.php:170 single-question.php:348 single-question.php:351
+msgid "Like"
+msgstr "Thích"
+
+#: admin/functions/main_functions.php:433 admin/functions/main_functions.php:437
+#: includes/answers.php:43 includes/answers.php:47 question.php:166
+#: question.php:169 single-question.php:347 single-question.php:350
+msgid "Dislike"
+msgstr "Không thích"
+
+#: admin/functions/main_functions.php:455 admin/functions/main_functions.php:467
+#: includes/answers.php:66 includes/answers.php:77 question.php:70
+#: question.php:126 single-question.php:117 single-question.php:143
+msgid "Report"
+msgstr "Báo cáo vi phạm"
+
+#: admin/functions/main_functions.php:463 includes/answers.php:73
+msgid "Please briefly explain why you feel this answer should be reported ."
+msgstr ""
+"Xin vui lòng giải thích tại sao bạn cảm thấy câu trả lời này nên được báo cáo "
+"vi phạm."
+
+#: admin/functions/main_functions.php:468 includes/answers.php:78
+#: question.php:127 single-question.php:144
+#: woocommerce/myaccount/my-orders.php:75
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#: admin/functions/main_functions.php:481 admin/functions/register_post.php:192
+#: admin/functions/register_post.php:200 functions/shortcode_ask.php:151
+#: functions/shortcode_ask.php:524 functions/shortcode_ask.php:669
+#: question-comments.php:131 single-question.php:250 single-question.php:257
+#: single.php:96
+msgid "Attachment"
+msgstr "File đính kèm"
+
+#: admin/functions/main_functions.php:490 functions.php:816
+msgid "Best answer"
+msgstr "Câu trả lời tốt nhất"
+
+#: admin/functions/main_functions.php:493 functions.php:815
+msgid "Cancel the best answer"
+msgstr "Hủy bỏ câu trả lời tốt nhất"
+
+#: admin/functions/main_functions.php:497 functions.php:814
+msgid "Select as best answer"
+msgstr "Chọn là tốt nhất câu trả lời"
+
+#: admin/functions/main_functions.php:529
+msgid "<i class=\"icon-angle-left\"></i>"
+msgstr ""
+
+#: admin/functions/main_functions.php:530
+msgid "<i class=\"icon-angle-right\"></i>"
+msgstr ""
+
+#: admin/functions/main_functions.php:604
+msgid "<span class=\"crumbs-span\">/</span>"
+msgstr ""
+
+#: admin/functions/main_functions.php:605
+msgid "Home"
+msgstr "Trang chủ"
+
+#: admin/functions/main_functions.php:614 admin/functions/main_functions.php:723
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: admin/functions/main_functions.php:646
+msgid "Daily Archives : "
+msgstr "Lưu trữ hàng ngày:"
+
+#: admin/functions/main_functions.php:648
+msgid "Monthly Archives : "
+msgstr "Lưu Trữ Hàng Tháng:"
+
+#: admin/functions/main_functions.php:650
+msgid "Yearly Archives : "
+msgstr "Lưu trữ hàng năm:"
+
+#: admin/functions/main_functions.php:667 admin/functions/main_functions.php:772
+msgid "Error 404"
+msgstr "LỖI 404"
+
+#: admin/functions/main_functions.php:695 admin/functions/main_functions.php:801
+msgid "Error 404 "
+msgstr "LỖI 404"
+
+#: admin/functions/main_functions.php:708 admin/functions/main_functions.php:710
+#: admin/functions/main_functions.php:712
+msgid "Archives for "
+msgstr "Lưu trữ cho"
+
+#: admin/functions/main_functions.php:714
+msgid "Archives by: "
+msgstr "Lưu trữ theo:"
+
+#: admin/functions/main_functions.php:793
+msgid "Search results for "
+msgstr "Kết quả tìm kiếm cho"
+
+#: admin/functions/main_functions.php:795
+msgid "Posts tagged "
+msgstr "Bài viết đã đánh dấu"
+
+#: admin/functions/main_functions.php:805
+msgid "Page"
+msgstr "Trang"
+
+#: admin/functions/main_functions.php:832 admin/functions/main_functions.php:840
+msgid "Your avatar"
+msgstr "Ảnh đại diện của bạn"
+
+#: admin/functions/main_functions.php:847 functions/shortcode_ask.php:1049
+#: functions/shortcode_ask.php:1536 includes/author-head.php:137
+msgid "Country"
+msgstr "Quốc gia"
+
+#: admin/functions/main_functions.php:850 functions/shortcode_ask.php:1052
+#: functions/shortcode_ask.php:1539 woocommerce/cart/shipping-calculator.php:26
+msgid "Select a country&hellip;"
+msgstr "Chọn một quốc gia&hellip;"
+
+#: admin/functions/main_functions.php:857 functions/shortcode_ask.php:1061
+#: functions/shortcode_ask.php:1548 includes/author-head.php:140
+#: woocommerce/cart/shipping-calculator.php:70
+msgid "City"
+msgstr "Thành Phố"
+
+#: admin/functions/main_functions.php:863 functions/shortcode_ask.php:1067
+#: functions/shortcode_ask.php:1554 includes/author-head.php:143
+msgid "Age"
+msgstr "Tuổi"
+
+#: admin/functions/main_functions.php:869 functions/shortcode_ask.php:1073
+#: functions/shortcode_ask.php:1514 includes/author-head.php:133
+msgid "Phone"
+msgstr "Điện thoại"
+
+#: admin/functions/main_functions.php:878 functions/shortcode_ask.php:1079
+#: functions/shortcode_ask.php:1560 includes/author-head.php:146
+msgid "Sex"
+msgstr "Giới tính"
+
+#: admin/functions/main_functions.php:881 functions/shortcode_ask.php:1081
+#: functions/shortcode_ask.php:1562 includes/author-head.php:146
+msgid "Male"
+msgstr "Nam"
+
+#: admin/functions/main_functions.php:884 functions/shortcode_ask.php:1085
+#: functions/shortcode_ask.php:1564 includes/author-head.php:146
+msgid "Female"
+msgstr "Nữ"
+
+#: admin/functions/main_functions.php:888 functions/shortcode_ask.php:1505
+msgid "Follow-up email"
+msgstr ""
+
+#: admin/functions/main_functions.php:894
+msgid ""
+"Show the points, favorite question, authors i follow, followers, question "
+"follow, answer follow, post follow and comment follow"
+msgstr ""
+
+#: admin/functions/main_functions.php:898
+msgid "Show this pages only for me or any one?"
+msgstr ""
+
+#: admin/functions/main_functions.php:915
+msgid "Received email when any one add a new question"
+msgstr ""
+
+#: admin/functions/main_functions.php:919
+msgid "Received email?"
+msgstr ""
+
+#: admin/functions/main_functions.php:926
+msgid "Social Networking"
+msgstr "Mạng xã hội"
+
+#: admin/functions/main_functions.php:929
+msgid "Google +"
+msgstr ""
+
+#: admin/functions/main_functions.php:935 footer.php:149
+#: functions/shortcode_ask.php:739 functions/shortcode_ask.php:1602
+#: header.php:375 includes/author-head.php:188 single-question.php:395
+#: single.php:136 template-contact_us.php:71 template-followers.php:75
+#: template-i_follow.php:75 template-users.php:53
+msgid "Twitter"
+msgstr ""
+
+#: admin/functions/main_functions.php:941 footer.php:152
+#: functions/shortcode_ask.php:730 functions/shortcode_ask.php:1598
+#: header.php:378 includes/author-head.php:179 single-question.php:385
+#: single.php:126 template-contact_us.php:62 template-followers.php:66
+#: template-i_follow.php:66 template-users.php:44
+msgid "Facebook"
+msgstr ""
+
+#: admin/functions/main_functions.php:947 footer.php:158
+#: functions/shortcode_ask.php:748 functions/shortcode_ask.php:1606
+#: header.php:384 template-contact_us.php:80 template-users.php:80
+msgid "Youtube"
+msgstr ""
+
+#: admin/functions/main_functions.php:953
+msgid "linkedin"
+msgstr ""
+
+#: admin/functions/main_functions.php:959 functions/shortcode_ask.php:1622
+#: includes/author-head.php:215 single-question.php:427 single.php:168
+#: template-contact_us.php:134 template-followers.php:102
+#: template-i_follow.php:102 template-users.php:89
+msgid "Pinterest"
+msgstr ""
+
+#: admin/functions/main_functions.php:965 functions/shortcode_ask.php:1618
+#: includes/author-head.php:224 template-contact_us.php:116
+#: template-followers.php:111 template-i_follow.php:111 template-users.php:98
+msgid "Instagram"
+msgstr ""
+
+#: admin/functions/main_functions.php:973
+msgid "Add or remove points for the user"
+msgstr "Thêm hoặc loại bỏ điểm cho thành viên"
+
+#: admin/functions/main_functions.php:976
+msgid "Add or remove points"
+msgstr ""
+
+#: admin/functions/main_functions.php:980
+msgid "Add"
+msgstr "Thêm"
+
+#: admin/functions/main_functions.php:981
+#: admin/includes/class-options-media-uploader.php:67
+#: admin/includes/class-options-media-uploader.php:114
+#: admin/meta-box/inc/fields/file-input.php:42
+msgid "Remove"
+msgstr "Xóa"
+
+#: admin/functions/main_functions.php:984
+msgid "The points"
+msgstr "Điểm"
+
+#: admin/functions/main_functions.php:986
+msgid "The reason"
+msgstr "Lý do"
+
+#: admin/functions/main_functions.php:1083
+msgid "Afghanistan"
+msgstr ""
+
+#: admin/functions/main_functions.php:1084
+msgid "&#197;land Islands"
+msgstr ""
+
+#: admin/functions/main_functions.php:1085
+msgid "Albania"
+msgstr ""
+
+#: admin/functions/main_functions.php:1086
+msgid "Algeria"
+msgstr ""
+
+#: admin/functions/main_functions.php:1087
+msgid "Andorra"
+msgstr ""
+
+#: admin/functions/main_functions.php:1088
+msgid "Angola"
+msgstr ""
+
+#: admin/functions/main_functions.php:1089
+msgid "Anguilla"
+msgstr ""
+
+#: admin/functions/main_functions.php:1090
+msgid "Antarctica"
+msgstr ""
+
+#: admin/functions/main_functions.php:1091
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: admin/functions/main_functions.php:1092
+msgid "Argentina"
+msgstr ""
+
+#: admin/functions/main_functions.php:1093
+msgid "Armenia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1094
+msgid "Aruba"
+msgstr ""
+
+#: admin/functions/main_functions.php:1095
+msgid "Australia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1096
+msgid "Austria"
+msgstr ""
+
+#: admin/functions/main_functions.php:1097
+msgid "Azerbaijan"
+msgstr ""
+
+#: admin/functions/main_functions.php:1098
+msgid "Bahamas"
+msgstr ""
+
+#: admin/functions/main_functions.php:1099
+msgid "Bahrain"
+msgstr ""
+
+#: admin/functions/main_functions.php:1100
+msgid "Bangladesh"
+msgstr ""
+
+#: admin/functions/main_functions.php:1101
+msgid "Barbados"
+msgstr ""
+
+#: admin/functions/main_functions.php:1102
+msgid "Belarus"
+msgstr ""
+
+#: admin/functions/main_functions.php:1103
+msgid "Belgium"
+msgstr ""
+
+#: admin/functions/main_functions.php:1104
+msgid "Belau"
+msgstr ""
+
+#: admin/functions/main_functions.php:1105
+msgid "Belize"
+msgstr ""
+
+#: admin/functions/main_functions.php:1106
+msgid "Benin"
+msgstr ""
+
+#: admin/functions/main_functions.php:1107
+msgid "Bermuda"
+msgstr ""
+
+#: admin/functions/main_functions.php:1108
+msgid "Bhutan"
+msgstr ""
+
+#: admin/functions/main_functions.php:1109
+msgid "Bolivia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1110
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
+
+#: admin/functions/main_functions.php:1111
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: admin/functions/main_functions.php:1112
+msgid "Botswana"
+msgstr ""
+
+#: admin/functions/main_functions.php:1113
+msgid "Bouvet Island"
+msgstr ""
+
+#: admin/functions/main_functions.php:1114
+msgid "Brazil"
+msgstr ""
+
+#: admin/functions/main_functions.php:1115
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: admin/functions/main_functions.php:1116
+msgid "British Virgin Islands"
+msgstr ""
+
+#: admin/functions/main_functions.php:1117
+msgid "Brunei"
+msgstr ""
+
+#: admin/functions/main_functions.php:1118
+msgid "Bulgaria"
+msgstr ""
+
+#: admin/functions/main_functions.php:1119
+msgid "Burkina Faso"
+msgstr ""
+
+#: admin/functions/main_functions.php:1120
+msgid "Burundi"
+msgstr ""
+
+#: admin/functions/main_functions.php:1121
+msgid "Cambodia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1122
+msgid "Cameroon"
+msgstr ""
+
+#: admin/functions/main_functions.php:1123
+msgid "Canada"
+msgstr ""
+
+#: admin/functions/main_functions.php:1124
+msgid "Cape Verde"
+msgstr ""
+
+#: admin/functions/main_functions.php:1125
+msgid "Cayman Islands"
+msgstr ""
+
+#: admin/functions/main_functions.php:1126
+msgid "Central African Republic"
+msgstr ""
+
+#: admin/functions/main_functions.php:1127
+msgid "Chad"
+msgstr ""
+
+#: admin/functions/main_functions.php:1128
+msgid "Chile"
+msgstr ""
+
+#: admin/functions/main_functions.php:1129
+msgid "China"
+msgstr ""
+
+#: admin/functions/main_functions.php:1130
+msgid "Christmas Island"
+msgstr ""
+
+#: admin/functions/main_functions.php:1131
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: admin/functions/main_functions.php:1132
+msgid "Colombia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1133
+msgid "Comoros"
+msgstr ""
+
+#: admin/functions/main_functions.php:1134
+msgid "Congo (Brazzaville)"
+msgstr ""
+
+#: admin/functions/main_functions.php:1135
+msgid "Congo (Kinshasa)"
+msgstr ""
+
+#: admin/functions/main_functions.php:1136
+msgid "Cook Islands"
+msgstr ""
+
+#: admin/functions/main_functions.php:1137
+msgid "Costa Rica"
+msgstr ""
+
+#: admin/functions/main_functions.php:1138
+msgid "Croatia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1139
+msgid "Cuba"
+msgstr ""
+
+#: admin/functions/main_functions.php:1140
+msgid "Cura&Ccedil;ao"
+msgstr ""
+
+#: admin/functions/main_functions.php:1141
+msgid "Cyprus"
+msgstr ""
+
+#: admin/functions/main_functions.php:1142
+msgid "Czech Republic"
+msgstr ""
+
+#: admin/functions/main_functions.php:1143
+msgid "Denmark"
+msgstr ""
+
+#: admin/functions/main_functions.php:1144
+msgid "Djibouti"
+msgstr ""
+
+#: admin/functions/main_functions.php:1145
+msgid "Dominica"
+msgstr ""
+
+#: admin/functions/main_functions.php:1146
+msgid "Dominican Republic"
+msgstr ""
+
+#: admin/functions/main_functions.php:1147
+msgid "Ecuador"
+msgstr ""
+
+#: admin/functions/main_functions.php:1148
+msgid "Egypt"
+msgstr ""
+
+#: admin/functions/main_functions.php:1149
+msgid "El Salvador"
+msgstr ""
+
+#: admin/functions/main_functions.php:1150
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: admin/functions/main_functions.php:1151
+msgid "Eritrea"
+msgstr ""
+
+#: admin/functions/main_functions.php:1152
+msgid "Estonia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1153
+msgid "Ethiopia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1154
+msgid "Falkland Islands"
+msgstr ""
+
+#: admin/functions/main_functions.php:1155
+msgid "Faroe Islands"
+msgstr ""
+
+#: admin/functions/main_functions.php:1156
+msgid "Fiji"
+msgstr ""
+
+#: admin/functions/main_functions.php:1157
+msgid "Finland"
+msgstr ""
+
+#: admin/functions/main_functions.php:1158
+msgid "France"
+msgstr ""
+
+#: admin/functions/main_functions.php:1159
+msgid "French Guiana"
+msgstr ""
+
+#: admin/functions/main_functions.php:1160
+msgid "French Polynesia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1161
+msgid "French Southern Territories"
+msgstr ""
+
+#: admin/functions/main_functions.php:1162
+msgid "Gabon"
+msgstr ""
+
+#: admin/functions/main_functions.php:1163
+msgid "Gambia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1164
+msgid "Georgia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1165
+msgid "Germany"
+msgstr ""
+
+#: admin/functions/main_functions.php:1166
+msgid "Ghana"
+msgstr ""
+
+#: admin/functions/main_functions.php:1167
+msgid "Gibraltar"
+msgstr ""
+
+#: admin/functions/main_functions.php:1168
+msgid "Greece"
+msgstr ""
+
+#: admin/functions/main_functions.php:1169
+msgid "Greenland"
+msgstr ""
+
+#: admin/functions/main_functions.php:1170
+msgid "Grenada"
+msgstr ""
+
+#: admin/functions/main_functions.php:1171
+msgid "Guadeloupe"
+msgstr ""
+
+#: admin/functions/main_functions.php:1172
+msgid "Guatemala"
+msgstr ""
+
+#: admin/functions/main_functions.php:1173
+msgid "Guernsey"
+msgstr ""
+
+#: admin/functions/main_functions.php:1174
+msgid "Guinea"
+msgstr ""
+
+#: admin/functions/main_functions.php:1175
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: admin/functions/main_functions.php:1176
+msgid "Guyana"
+msgstr ""
+
+#: admin/functions/main_functions.php:1177
+msgid "Haiti"
+msgstr ""
+
+#: admin/functions/main_functions.php:1178
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: admin/functions/main_functions.php:1179
+msgid "Honduras"
+msgstr ""
+
+#: admin/functions/main_functions.php:1180
+msgid "Hong Kong"
+msgstr ""
+
+#: admin/functions/main_functions.php:1181
+msgid "Hungary"
+msgstr ""
+
+#: admin/functions/main_functions.php:1182
+msgid "Iceland"
+msgstr ""
+
+#: admin/functions/main_functions.php:1183
+msgid "India"
+msgstr ""
+
+#: admin/functions/main_functions.php:1184
+msgid "Indonesia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1185
+msgid "Iran"
+msgstr ""
+
+#: admin/functions/main_functions.php:1186
+msgid "Iraq"
+msgstr ""
+
+#: admin/functions/main_functions.php:1187
+msgid "Republic of Ireland"
+msgstr ""
+
+#: admin/functions/main_functions.php:1188
+msgid "Isle of Man"
+msgstr ""
+
+#: admin/functions/main_functions.php:1189
+msgid "Israel"
+msgstr ""
+
+#: admin/functions/main_functions.php:1190
+msgid "Italy"
+msgstr ""
+
+#: admin/functions/main_functions.php:1191
+msgid "Ivory Coast"
+msgstr ""
+
+#: admin/functions/main_functions.php:1192
+msgid "Jamaica"
+msgstr ""
+
+#: admin/functions/main_functions.php:1193
+msgid "Japan"
+msgstr ""
+
+#: admin/functions/main_functions.php:1194
+msgid "Jersey"
+msgstr ""
+
+#: admin/functions/main_functions.php:1195
+msgid "Jordan"
+msgstr ""
+
+#: admin/functions/main_functions.php:1196
+msgid "Kazakhstan"
+msgstr ""
+
+#: admin/functions/main_functions.php:1197
+msgid "Kenya"
+msgstr ""
+
+#: admin/functions/main_functions.php:1198
+msgid "Kiribati"
+msgstr ""
+
+#: admin/functions/main_functions.php:1199
+msgid "Kuwait"
+msgstr ""
+
+#: admin/functions/main_functions.php:1200
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: admin/functions/main_functions.php:1201
+msgid "Laos"
+msgstr ""
+
+#: admin/functions/main_functions.php:1202
+msgid "Latvia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1203
+msgid "Lebanon"
+msgstr ""
+
+#: admin/functions/main_functions.php:1204
+msgid "Lesotho"
+msgstr ""
+
+#: admin/functions/main_functions.php:1205
+msgid "Liberia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1206
+msgid "Libya"
+msgstr ""
+
+#: admin/functions/main_functions.php:1207
+msgid "Liechtenstein"
+msgstr ""
+
+#: admin/functions/main_functions.php:1208
+msgid "Lithuania"
+msgstr ""
+
+#: admin/functions/main_functions.php:1209
+msgid "Luxembourg"
+msgstr ""
+
+#: admin/functions/main_functions.php:1210
+msgid "Macao S.A.R., China"
+msgstr ""
+
+#: admin/functions/main_functions.php:1211
+msgid "Macedonia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1212
+msgid "Madagascar"
+msgstr ""
+
+#: admin/functions/main_functions.php:1213
+msgid "Malawi"
+msgstr ""
+
+#: admin/functions/main_functions.php:1214
+msgid "Malaysia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1215
+msgid "Maldives"
+msgstr ""
+
+#: admin/functions/main_functions.php:1216
+msgid "Mali"
+msgstr ""
+
+#: admin/functions/main_functions.php:1217
+msgid "Malta"
+msgstr ""
+
+#: admin/functions/main_functions.php:1218
+msgid "Marshall Islands"
+msgstr ""
+
+#: admin/functions/main_functions.php:1219
+msgid "Martinique"
+msgstr ""
+
+#: admin/functions/main_functions.php:1220
+msgid "Mauritania"
+msgstr ""
+
+#: admin/functions/main_functions.php:1221
+msgid "Mauritius"
+msgstr ""
+
+#: admin/functions/main_functions.php:1222
+msgid "Mayotte"
+msgstr ""
+
+#: admin/functions/main_functions.php:1223
+msgid "Mexico"
+msgstr ""
+
+#: admin/functions/main_functions.php:1224
+msgid "Micronesia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1225
+msgid "Moldova"
+msgstr ""
+
+#: admin/functions/main_functions.php:1226
+msgid "Monaco"
+msgstr ""
+
+#: admin/functions/main_functions.php:1227
+msgid "Mongolia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1228
+msgid "Montenegro"
+msgstr ""
+
+#: admin/functions/main_functions.php:1229
+msgid "Montserrat"
+msgstr ""
+
+#: admin/functions/main_functions.php:1230
+msgid "Morocco"
+msgstr ""
+
+#: admin/functions/main_functions.php:1231
+msgid "Mozambique"
+msgstr ""
+
+#: admin/functions/main_functions.php:1232
+msgid "Myanmar"
+msgstr ""
+
+#: admin/functions/main_functions.php:1233
+msgid "Namibia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1234
+msgid "Nauru"
+msgstr ""
+
+#: admin/functions/main_functions.php:1235
+msgid "Nepal"
+msgstr ""
+
+#: admin/functions/main_functions.php:1236
+msgid "Netherlands"
+msgstr ""
+
+#: admin/functions/main_functions.php:1237
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: admin/functions/main_functions.php:1238
+msgid "New Caledonia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1239
+msgid "New Zealand"
+msgstr ""
+
+#: admin/functions/main_functions.php:1240
+msgid "Nicaragua"
+msgstr ""
+
+#: admin/functions/main_functions.php:1241
+msgid "Niger"
+msgstr ""
+
+#: admin/functions/main_functions.php:1242
+msgid "Nigeria"
+msgstr ""
+
+#: admin/functions/main_functions.php:1243
+msgid "Niue"
+msgstr ""
+
+#: admin/functions/main_functions.php:1244
+msgid "Norfolk Island"
+msgstr ""
+
+#: admin/functions/main_functions.php:1245
+msgid "North Korea"
+msgstr ""
+
+#: admin/functions/main_functions.php:1246
+msgid "Norway"
+msgstr ""
+
+#: admin/functions/main_functions.php:1247
+msgid "Oman"
+msgstr ""
+
+#: admin/functions/main_functions.php:1248
+msgid "Pakistan"
+msgstr ""
+
+#: admin/functions/main_functions.php:1249
+msgid "Palestinian Territory"
+msgstr ""
+
+#: admin/functions/main_functions.php:1250
+msgid "Panama"
+msgstr ""
+
+#: admin/functions/main_functions.php:1251
+msgid "Papua New Guinea"
+msgstr ""
+
+#: admin/functions/main_functions.php:1252
+msgid "Paraguay"
+msgstr ""
+
+#: admin/functions/main_functions.php:1253
+msgid "Peru"
+msgstr ""
+
+#: admin/functions/main_functions.php:1254
+msgid "Philippines"
+msgstr ""
+
+#: admin/functions/main_functions.php:1255
+msgid "Pitcairn"
+msgstr ""
+
+#: admin/functions/main_functions.php:1256
+msgid "Poland"
+msgstr ""
+
+#: admin/functions/main_functions.php:1257
+msgid "Portugal"
+msgstr ""
+
+#: admin/functions/main_functions.php:1258
+msgid "Qatar"
+msgstr ""
+
+#: admin/functions/main_functions.php:1259
+msgid "Reunion"
+msgstr ""
+
+#: admin/functions/main_functions.php:1260
+msgid "Romania"
+msgstr ""
+
+#: admin/functions/main_functions.php:1261
+msgid "Russia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1262
+msgid "Rwanda"
+msgstr ""
+
+#: admin/functions/main_functions.php:1263
+msgid "Saint Barth&eacute;lemy"
+msgstr ""
+
+#: admin/functions/main_functions.php:1264
+msgid "Saint Helena"
+msgstr ""
+
+#: admin/functions/main_functions.php:1265
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: admin/functions/main_functions.php:1266
+msgid "Saint Lucia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1267
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#: admin/functions/main_functions.php:1268
+msgid "Saint Martin (Dutch part)"
+msgstr ""
+
+#: admin/functions/main_functions.php:1269
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: admin/functions/main_functions.php:1270
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: admin/functions/main_functions.php:1271
+msgid "San Marino"
+msgstr ""
+
+#: admin/functions/main_functions.php:1272
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr ""
+
+#: admin/functions/main_functions.php:1273
+msgid "Saudi Arabia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1274
+msgid "Senegal"
+msgstr ""
+
+#: admin/functions/main_functions.php:1275
+msgid "Serbia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1276
+msgid "Seychelles"
+msgstr ""
+
+#: admin/functions/main_functions.php:1277
+msgid "Sierra Leone"
+msgstr ""
+
+#: admin/functions/main_functions.php:1278
+msgid "Singapore"
+msgstr ""
+
+#: admin/functions/main_functions.php:1279
+msgid "Slovakia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1280
+msgid "Slovenia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1281
+msgid "Solomon Islands"
+msgstr ""
+
+#: admin/functions/main_functions.php:1282
+msgid "Somalia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1283
+msgid "South Africa"
+msgstr ""
+
+#: admin/functions/main_functions.php:1284
+msgid "South Georgia/Sandwich Islands"
+msgstr ""
+
+#: admin/functions/main_functions.php:1285
+msgid "South Korea"
+msgstr ""
+
+#: admin/functions/main_functions.php:1286
+msgid "South Sudan"
+msgstr ""
+
+#: admin/functions/main_functions.php:1287
+msgid "Spain"
+msgstr ""
+
+#: admin/functions/main_functions.php:1288
+msgid "Sri Lanka"
+msgstr ""
+
+#: admin/functions/main_functions.php:1289
+msgid "Sudan"
+msgstr ""
+
+#: admin/functions/main_functions.php:1290
+msgid "Suriname"
+msgstr ""
+
+#: admin/functions/main_functions.php:1291
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: admin/functions/main_functions.php:1292
+msgid "Swaziland"
+msgstr ""
+
+#: admin/functions/main_functions.php:1293
+msgid "Sweden"
+msgstr ""
+
+#: admin/functions/main_functions.php:1294
+msgid "Switzerland"
+msgstr ""
+
+#: admin/functions/main_functions.php:1295
+msgid "Syria"
+msgstr ""
+
+#: admin/functions/main_functions.php:1296
+msgid "Taiwan"
+msgstr ""
+
+#: admin/functions/main_functions.php:1297
+msgid "Tajikistan"
+msgstr ""
+
+#: admin/functions/main_functions.php:1298
+msgid "Tanzania"
+msgstr ""
+
+#: admin/functions/main_functions.php:1299
+msgid "Thailand"
+msgstr ""
+
+#: admin/functions/main_functions.php:1300
+msgid "Timor-Leste"
+msgstr ""
+
+#: admin/functions/main_functions.php:1301
+msgid "Togo"
+msgstr ""
+
+#: admin/functions/main_functions.php:1302
+msgid "Tokelau"
+msgstr ""
+
+#: admin/functions/main_functions.php:1303
+msgid "Tonga"
+msgstr ""
+
+#: admin/functions/main_functions.php:1304
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: admin/functions/main_functions.php:1305
+msgid "Tunisia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1306
+msgid "Turkey"
+msgstr ""
+
+#: admin/functions/main_functions.php:1307
+msgid "Turkmenistan"
+msgstr ""
+
+#: admin/functions/main_functions.php:1308
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: admin/functions/main_functions.php:1309
+msgid "Tuvalu"
+msgstr ""
+
+#: admin/functions/main_functions.php:1310
+msgid "Uganda"
+msgstr ""
+
+#: admin/functions/main_functions.php:1311
+msgid "Ukraine"
+msgstr ""
+
+#: admin/functions/main_functions.php:1312
+msgid "United Arab Emirates"
+msgstr ""
+
+#: admin/functions/main_functions.php:1313
+msgid "United Kingdom (UK)"
+msgstr ""
+
+#: admin/functions/main_functions.php:1314
+msgid "United States (US)"
+msgstr ""
+
+#: admin/functions/main_functions.php:1315
+msgid "Uruguay"
+msgstr ""
+
+#: admin/functions/main_functions.php:1316
+msgid "Uzbekistan"
+msgstr ""
+
+#: admin/functions/main_functions.php:1317
+msgid "Vanuatu"
+msgstr ""
+
+#: admin/functions/main_functions.php:1318
+msgid "Vatican"
+msgstr ""
+
+#: admin/functions/main_functions.php:1319
+msgid "Venezuela"
+msgstr ""
+
+#: admin/functions/main_functions.php:1320
+msgid "Vietnam"
+msgstr ""
+
+#: admin/functions/main_functions.php:1321
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: admin/functions/main_functions.php:1322
+msgid "Western Sahara"
+msgstr ""
+
+#: admin/functions/main_functions.php:1323
+msgid "Western Samoa"
+msgstr ""
+
+#: admin/functions/main_functions.php:1324
+msgid "Yemen"
+msgstr ""
+
+#: admin/functions/main_functions.php:1325
+msgid "Zambia"
+msgstr ""
+
+#: admin/functions/main_functions.php:1326
+msgid "Zimbabwe"
+msgstr ""
+
+#: admin/functions/main_functions.php:1358
+msgctxt "Page slug"
+msgid "add_question"
+msgstr ""
+
+#: admin/functions/main_functions.php:1359
+msgctxt "Page title"
+msgid "Add question"
+msgstr ""
+
+#: admin/functions/main_functions.php:1372
+msgctxt "Page slug"
+msgid "edit_question"
+msgstr ""
+
+#: admin/functions/main_functions.php:1373
+msgctxt "Page title"
+msgid "Edit question"
+msgstr ""
+
+#: admin/functions/main_functions.php:1386
+msgctxt "Page slug"
+msgid "login"
+msgstr ""
+
+#: admin/functions/main_functions.php:1387
+msgctxt "Page title"
+msgid "Login"
+msgstr ""
+
+#: admin/functions/main_functions.php:1400
+msgctxt "Page slug"
+msgid "edit_profile"
+msgstr ""
+
+#: admin/functions/main_functions.php:1401
+msgctxt "Page title"
+msgid "Edit profile"
+msgstr ""
+
+#: admin/functions/main_functions.php:1414
+msgctxt "Page slug"
+msgid "user_post"
+msgstr ""
+
+#: admin/functions/main_functions.php:1415
+msgctxt "Page title"
+msgid "User post"
+msgstr ""
+
+#: admin/functions/main_functions.php:1428
+msgctxt "Page slug"
+msgid "user_question"
+msgstr ""
+
+#: admin/functions/main_functions.php:1429
+msgctxt "Page title"
+msgid "User question"
+msgstr ""
+
+#: admin/functions/main_functions.php:1442
+msgctxt "Page slug"
+msgid "user_answer"
+msgstr ""
+
+#: admin/functions/main_functions.php:1443
+msgctxt "Page title"
+msgid "User answer"
+msgstr ""
+
+#: admin/functions/main_functions.php:1456
+msgctxt "Page slug"
+msgid "favorite_question"
+msgstr ""
+
+#: admin/functions/main_functions.php:1457
+msgctxt "Page title"
+msgid "Favorite question"
+msgstr ""
+
+#: admin/functions/main_functions.php:1470
+msgctxt "Page slug"
+msgid "user_point"
+msgstr ""
+
+#: admin/functions/main_functions.php:1471
+msgctxt "Page title"
+msgid "User point"
+msgstr ""
+
+#: admin/functions/main_functions.php:1484
+msgctxt "Page slug"
+msgid "i_follow_user"
+msgstr ""
+
+#: admin/functions/main_functions.php:1485
+msgctxt "Page title"
+msgid "I follow user"
+msgstr ""
+
+#: admin/functions/main_functions.php:1498
+msgctxt "Page slug"
+msgid "followers_user"
+msgstr ""
+
+#: admin/functions/main_functions.php:1499
+msgctxt "Page title"
+msgid "Followers user"
+msgstr ""
+
+#: admin/functions/main_functions.php:1512
+msgctxt "Page slug"
+msgid "follow_question"
+msgstr ""
+
+#: admin/functions/main_functions.php:1513
+msgctxt "Page title"
+msgid "Follow question"
+msgstr ""
+
+#: admin/functions/main_functions.php:1526
+msgctxt "Page slug"
+msgid "follow_answer"
+msgstr ""
+
+#: admin/functions/main_functions.php:1527
+msgctxt "Page title"
+msgid "Follow answer"
+msgstr ""
+
+#: admin/functions/main_functions.php:1540
+msgctxt "Page slug"
+msgid "follow_post"
+msgstr ""
+
+#: admin/functions/main_functions.php:1541
+msgctxt "Page title"
+msgid "Follow post"
+msgstr ""
+
+#: admin/functions/main_functions.php:1554
+msgctxt "Page slug"
+msgid "follow comment"
+msgstr ""
+
+#: admin/functions/main_functions.php:1555
+msgctxt "Page title"
+msgid "Follow comment"
+msgstr ""
+
+#: admin/functions/main_functions.php:1568
+msgctxt "Page slug"
+msgid "edit_post"
+msgstr ""
+
+#: admin/functions/main_functions.php:1569
+msgctxt "Page title"
+msgid "Edit post"
+msgstr ""
+
+#: admin/functions/main_functions.php:1582
+msgctxt "Page slug"
+msgid "edit_comment"
+msgstr ""
+
+#: admin/functions/main_functions.php:1583
+msgctxt "Page title"
+msgid "Edit comment"
+msgstr ""
+
+#: admin/functions/nav_menu.php:7
+msgid "You can use WP menu builder to build menus"
+msgstr "Bạn có thể sử dụng WP menu để tạo menu tại đây"
+
+#: admin/functions/page_builder.php:8 admin/functions/page_builder.php:9
+msgid "Page slideshow"
+msgstr "Trang slideshow"
+
+#: admin/functions/page_builder.php:10 admin/functions/page_builder.php:11
+msgid "Sort the sections"
+msgstr "Sắp xếp các thành phần"
+
+#: admin/functions/page_builder.php:74
+msgid "+ Add new slide"
+msgstr "Thêm slide mới"
+
+#: admin/functions/register_post.php:16 admin/functions/register_post.php:18
+#: admin/functions/register_post.php:19 admin/functions/register_post.php:20
+#: admin/functions/register_post.php:21 admin/functions/register_post.php:159
+#: admin/widgets/profile_links.php:30 admin/widgets/questions_categories.php:42
+#: admin/widgets/stats.php:41 author.php:17 functions/shortcode_ask.php:803
+#: includes/author-head.php:250 template-categories.php:24
+msgid "Questions"
+msgstr "Các câu hỏi"
+
+#: admin/functions/register_post.php:22
+msgid "Add New"
+msgstr "Thêm mới"
+
+#: admin/functions/register_post.php:23
+msgid "Add New question"
+msgstr "Thêm câu hỏi mới"
+
+#: admin/functions/register_post.php:24
+msgid "New question"
+msgstr "Câu hỏi mới"
+
+#: admin/functions/register_post.php:25
+msgid "Edit question"
+msgstr "Chỉnh sửa câu hỏi"
+
+#: admin/functions/register_post.php:26
+msgid "View question"
+msgstr "Xem câu hỏi"
+
+#: admin/functions/register_post.php:27
+msgid "All questions"
+msgstr "Tất cả các câu hỏi"
+
+#: admin/functions/register_post.php:28
+msgid "Search questions"
+msgstr "Tìm kiếm câu hỏi:"
+
+#: admin/functions/register_post.php:29
+msgid "Parent question:"
+msgstr "Câu hỏi chính:"
+
+#: admin/functions/register_post.php:30
+msgid "No questions found."
+msgstr "Không tìm thấy các câu hỏi này."
+
+#: admin/functions/register_post.php:31
+msgid "No questions found in Trash."
+msgstr "Không tìm thấy các câu hỏi này trong thùng rác."
+
+#: admin/functions/register_post.php:49 admin/functions/register_post.php:50
+#: admin/functions/register_post.php:53 admin/functions/register_post.php:54
+msgid "Categories"
+msgstr "Danh mục"
+
+#: admin/functions/register_post.php:51
+msgid "Search in categories"
+msgstr "Tìm kiếm trong danh mục"
+
+#: admin/functions/register_post.php:52
+msgid "All categories"
+msgstr "Tất cả danh mục"
+
+#: admin/functions/register_post.php:57 admin/functions/register_post.php:58
+msgid "Add a new category"
+msgstr "Thêm một danh mục"
+
+#: admin/functions/register_post.php:74 admin/functions/register_post.php:75
+#: admin/functions/register_post.php:78 admin/functions/register_post.php:79
+#: functions/shortcode_ask.php:91 functions/shortcode_ask.php:310
+#: functions/shortcode_ask.php:509 functions/shortcode_ask.php:636
+msgid "Tags"
+msgstr "Từ khóa"
+
+#: admin/functions/register_post.php:76
+msgid "Search in tags"
+msgstr "Tìm kiếm từ khóa"
+
+#: admin/functions/register_post.php:77
+msgid "All tags"
+msgstr "Tất cả các từ khóa"
+
+#: admin/functions/register_post.php:82 admin/functions/register_post.php:83
+msgid "Add new tag"
+msgstr "Thêm từ khóa mới"
+
+#: admin/functions/register_post.php:102
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: admin/functions/register_post.php:103
+msgid "Type"
+msgstr "Loại"
+
+#: admin/functions/register_post.php:104
+msgid "Added by"
+msgstr "Được gửi bởi"
+
+#: admin/functions/register_post.php:105 woocommerce/myaccount/my-orders.php:33
+#: woocommerce/myaccount/my-orders.php:52
+msgid "Date"
+msgstr "Ngày"
+
+#: admin/functions/register_post.php:116 functions/shortcode_ask.php:107
+#: functions/shortcode_ask.php:326 question.php:73 single-question.php:120
+#: template-question_follow.php:70 template-user_favorite_questions.php:74
+#: template-user_question.php:76
+msgid "Poll"
+msgstr "Thăm dò ý kiến"
+
+#: admin/functions/register_post.php:116 question.php:75 single-question.php:122
+#: template-question_follow.php:72 template-user_favorite_questions.php:76
+#: template-user_question.php:78
+msgid "Question"
+msgstr "Câu hỏi"
+
+#: admin/functions/register_post.php:132
+#, php-format
+msgid "Updated. <a href=\"%s\">View question</a>"
+msgstr "Cập Nhật. <a href=\"%s\">Xem câu hỏi</a>"
+
+#: admin/functions/register_post.php:192 admin/functions/register_post.php:200
+#: single-question.php:286
+msgid "Delete"
+msgstr ""
+
+#: admin/functions/register_post.php:213
+msgid "This question is a poll?"
+msgstr "Câu hỏi này là một cuộc thăm dò?"
+
+#: admin/functions/register_post.php:221
+msgid "Add a new option to poll"
+msgstr "Thêm một tùy chọn mới để thăm dò ý kiến"
+
+#: admin/functions/register_post.php:224
+msgid "Poll Options"
+msgstr "Tùy chọn thăm dò ý kiến"
+
+#: admin/functions/register_post.php:271 functions/shortcode_ask.php:98
+#: functions/shortcode_ask.php:317 functions/shortcode_ask.php:516
+#: functions/shortcode_ask.php:643
+msgid "Category"
+msgstr "Danh mục"
+
+#: admin/functions/register_post.php:290
+msgid "Choose from here the question category."
+msgstr "Chọn danh mục câu hỏi."
+
+#: admin/functions/register_post.php:294 functions/shortcode_ask.php:186
+#: functions/shortcode_ask.php:403
+msgid "Video description"
+msgstr "Mô tả câu hỏi bằng video"
+
+#: admin/functions/register_post.php:301 functions/shortcode_ask.php:188
+#: functions/shortcode_ask.php:405
+msgid "Do you need a video to description the problem better ?"
+msgstr "Bạn có cần một đoạn video để mô tả vấn đề tốt hơn?"
+
+#: admin/functions/register_post.php:306 functions/shortcode_ask.php:193
+#: functions/shortcode_ask.php:410
+msgid "Video type"
+msgstr "Thể loại video"
+
+#: admin/functions/register_post.php:316
+msgid "Choose from here the video type."
+msgstr ""
+
+#: admin/functions/register_post.php:320 functions/shortcode_ask.php:205
+#: functions/shortcode_ask.php:422
+msgid "Video ID"
+msgstr "Video ID"
+
+#: admin/functions/register_post.php:324
+msgid ""
+"Put here the video id : http://www.youtube.com/watch?v=sdUUx5FdySs EX : "
+"'sdUUx5FdySs'."
+msgstr ""
+
+#: admin/functions/register_post.php:329
+msgid "Notified by e-mail"
+msgstr "Thông báo qua e-mail"
+
+#: admin/functions/register_post.php:336
+msgid "Notified by e-mail at incoming answers"
+msgstr "Thông báo qua e-mail khi có câu trả lời"
+
+#: admin/functions/widget_functions.php:30
+msgid "The first footer widget area"
+msgstr ""
+
+#: admin/functions/widget_functions.php:37
+msgid "The Second footer widget area"
+msgstr ""
+
+#: admin/functions/widget_functions.php:44
+msgid "The Third footer widget area"
+msgstr ""
+
+#: admin/functions/widget_functions.php:51
+msgid "The Fourth footer widget area"
+msgstr ""
+
+#: admin/includes/class-options-framework-admin.php:117
+msgid "If you press will delete report !"
+msgstr "Nếu bạn nhấn sẽ xóa báo cáo!"
+
+#: admin/includes/class-options-framework-admin.php:118
+msgid "If you press will delete the attachemtn !"
+msgstr ""
+
+#: admin/includes/class-options-framework-admin.php:119
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Nhấn OK để thiết lập lại. Tất cả cài đặt sẽ bị mất!"
+
+#: admin/includes/class-options-framework-admin.php:154
+#: admin/includes/class-options-framework-admin.php:181
+msgid "Save Options"
+msgstr "Lưu Tùy chọn"
+
+#: admin/includes/class-options-framework-admin.php:173
+msgid "Saving"
+msgstr "Đang lưu..."
+
+#: admin/includes/class-options-framework-admin.php:174
+msgid "Reseting Options"
+msgstr "Khôi Phục Mặc Định"
+
+#: admin/includes/class-options-framework-admin.php:183
+msgid "Restore Defaults"
+msgstr "Khôi phục mặc định"
+
+#: admin/includes/class-options-framework-admin.php:210
+msgid "Default options restored."
+msgstr "Đã phục hồi tùy chọn mặc định."
+
+#: admin/includes/class-options-framework-admin.php:264
+msgid "Options saved."
+msgstr "Tùy chọn đã lưu."
+
+#: admin/includes/class-options-media-uploader.php:62
+msgid "No file chosen"
+msgstr "Không có tập tin được lựa chọn"
+
+#: admin/includes/class-options-media-uploader.php:65
+#: admin/includes/class-options-media-uploader.php:113
+msgid "Upload"
+msgstr "Tải lên"
+
+#: admin/includes/class-options-media-uploader.php:70
+msgid "Upgrade your version of WordPress for full media support."
+msgstr "Nâng cấp phiên bản WordPress hỗ trợ phương tiện truyền thông đầy đủ."
+
+#: admin/includes/class-options-media-uploader.php:94
+msgid "View File"
+msgstr "Xem Tập Tin"
+
+#: admin/includes/class-options-sanitization.php:250
+msgid "No Repeat"
+msgstr "Không lặp lại"
+
+#: admin/includes/class-options-sanitization.php:251
+msgid "Repeat Horizontally"
+msgstr "Lặp lại theo chiều ngang"
+
+#: admin/includes/class-options-sanitization.php:252
+msgid "Repeat Vertically"
+msgstr "Lặp lại theo chiều dọc"
+
+#: admin/includes/class-options-sanitization.php:253
+msgid "Repeat All"
+msgstr "Lặp lại Tất cả"
+
+#: admin/includes/class-options-sanitization.php:266
+msgid "Top Left"
+msgstr "Trên cùng bên Trái"
+
+#: admin/includes/class-options-sanitization.php:267
+msgid "Top Center"
+msgstr "Trên cùng ở Giữa"
+
+#: admin/includes/class-options-sanitization.php:268
+msgid "Top Right"
+msgstr "Trên cùng bên phải"
+
+#: admin/includes/class-options-sanitization.php:269
+msgid "Middle Left"
+msgstr "Ở giữa bên trái"
+
+#: admin/includes/class-options-sanitization.php:270
+msgid "Middle Center"
+msgstr "Trung tâm"
+
+#: admin/includes/class-options-sanitization.php:271
+msgid "Middle Right"
+msgstr "Ở giữa bên phải"
+
+#: admin/includes/class-options-sanitization.php:272
+msgid "Bottom Left"
+msgstr "Bên dưới trái"
+
+#: admin/includes/class-options-sanitization.php:273
+msgid "Bottom Center"
+msgstr "Bên dưới ở giữa"
+
+#: admin/includes/class-options-sanitization.php:274
+msgid "Bottom Right"
+msgstr "Bên dưới phải"
+
+#: admin/includes/class-options-sanitization.php:287
+msgid "Scroll Normally"
+msgstr "Di chuyển Thông thường"
+
+#: admin/includes/class-options-sanitization.php:288
+msgid "Fixed in Place"
+msgstr "Cố định một chỗ"
+
+#: admin/includes/class-options-sanitization.php:362
+msgid "Normal"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:363
+msgid "Italic"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:364
+msgid "Bold"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:365
+msgid "Bold Italic"
+msgstr ""
+
+#: admin/meta-box/inc/field.php:185
+msgid "+"
+msgstr ""
+
+#: admin/meta-box/inc/field.php:202
+msgid "&#8211;"
+msgstr ""
+
+#: admin/meta-box/inc/fields/button.php:35
+msgid "Click me"
+msgstr "Nhấp vào tôi"
+
+#: admin/meta-box/inc/fields/file-advanced.php:23
+msgid "Select Files"
+msgstr "Chọn tập tin"
+
+#: admin/meta-box/inc/fields/file-advanced.php:64
+msgctxt "file upload"
+msgid "Select or Upload Files"
+msgstr "Thêm hoặc tải lên tập tin"
+
+#: admin/meta-box/inc/fields/file-advanced.php:100
+#: admin/meta-box/inc/fields/file.php:137
+msgctxt "file upload"
+msgid "Delete"
+msgstr "Xóa bỏ"
+
+#: admin/meta-box/inc/fields/file-advanced.php:101
+#: admin/meta-box/inc/fields/file.php:138
+msgctxt "file upload"
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+#: admin/meta-box/inc/fields/file-input.php:17
+msgid "Select File"
+msgstr "Chọn tập tin"
+
+#: admin/meta-box/inc/fields/file-input.php:40
+msgid "Select"
+msgstr "Chọn"
+
+#: admin/meta-box/inc/fields/file.php:19
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr "Bạn chỉ có thể tải lên tối đa %d file"
+
+#: admin/meta-box/inc/fields/file.php:20
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr "Bạn chỉ có thể tải lên tối đa %d file"
+
+#: admin/meta-box/inc/fields/file.php:70
+msgid "Error: Cannot delete file"
+msgstr "Lỗi: Không thể xóa file"
+
+#: admin/meta-box/inc/fields/file.php:83
+msgctxt "file upload"
+msgid "Upload Files"
+msgstr "Tải tập tin lên"
+
+#: admin/meta-box/inc/fields/file.php:84
+msgctxt "file upload"
+msgid "+ Add new file"
+msgstr "Thêm tập tin mới"
+
+#: admin/meta-box/inc/fields/image-advanced.php:22
+msgid "Select Images"
+msgstr "Chọn hình ảnh"
+
+#: admin/meta-box/inc/fields/image-advanced.php:70
+msgctxt "image upload"
+msgid "Select or Upload Images"
+msgstr "Chọn hoặc tải hình ảnh"
+
+#: admin/meta-box/inc/fields/image-advanced.php:106
+#: admin/meta-box/inc/fields/image.php:136
+msgctxt "image upload"
+msgid "Delete"
+msgstr "Xóa"
+
+#: admin/meta-box/inc/fields/image-advanced.php:107
+#: admin/meta-box/inc/fields/image.php:137
+msgctxt "image upload"
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+#: admin/meta-box/inc/fields/image.php:70
+#: admin/meta-box/inc/fields/thickbox-image.php:34
+msgctxt "image upload"
+msgid "Upload Images"
+msgstr "Tải ảnh lên"
+
+#: admin/meta-box/inc/fields/image.php:71
+msgctxt "image upload"
+msgid "+ Add new image"
+msgstr "+Thêm hình ảnh mới"
+
+#: admin/meta-box/inc/fields/map.php:48
+msgid "Find Address"
+msgstr "Tìm địa chỉ"
+
+#: admin/meta-box/inc/fields/oembed.php:54
+msgid "Embed HTML not available."
+msgstr "Nhúng HTML không có sẵn."
+
+#: admin/meta-box/inc/fields/oembed.php:76
+msgid "Preview"
+msgstr "Xem thử"
+
+#: admin/meta-box/inc/fields/plupload-image.php:102
+msgctxt "image upload"
+msgid "Drop images here"
+msgstr "Kéo hình thả vô đây"
+
+#: admin/meta-box/inc/fields/plupload-image.php:103
+msgctxt "image upload"
+msgid "or"
+msgstr "hoặc"
+
+#: admin/meta-box/inc/fields/plupload-image.php:104
+msgctxt "image upload"
+msgid "Select Files"
+msgstr "Chọn tập tin"
+
+#: admin/meta-box/inc/fields/plupload-image.php:179
+msgctxt "image upload"
+msgid "Allowed Image Files"
+msgstr "Tệp tin cho phép"
+
+#: admin/meta-box/inc/fields/post.php:52
+msgid "Post"
+msgstr "Bài viết"
+
+#: admin/meta-box/inc/fields/post.php:66
+#: admin/meta-box/inc/fields/taxonomy.php:40
+#: admin/meta-box/inc/fields/user.php:62
+#, php-format
+msgid "Select a %s"
+msgstr "Chọn một %s"
+
+#: admin/meta-box/inc/fields/user.php:54
+msgid "User"
+msgstr "Thành viên"
+
+#: admin/meta-box/inc/meta-box.php:241
+msgid "Please correct the errors highlighted below and try again."
+msgstr "Hãy sửa các lỗi nêu dưới đây và thử lại."
+
+#: admin/widgets/contact.php:30 template-contact_us.php:49
+msgid "Address :"
+msgstr "Địa chỉ:"
+
+#: admin/widgets/contact.php:31
+msgid "Support :"
+msgstr "Hỗ trợ"
+
+#: admin/widgets/counter.php:38 admin/widgets/subscribe.php:36
+msgid "Subscribe"
+msgstr "Nhận thông tin"
+
+#: admin/widgets/counter.php:39
+msgid "To RSS Feed"
+msgstr ""
+
+#: admin/widgets/counter.php:50
+msgid "People like it"
+msgstr ""
+
+#: admin/widgets/counter.php:61 admin/widgets/counter.php:72
+#: admin/widgets/profile_links.php:34 functions/shortcode_ask.php:818
+#: includes/author-head.php:263
+msgid "Followers"
+msgstr "Người theo dõi"
+
+#: admin/widgets/counter.php:83
+msgid "Subscribers"
+msgstr "Người đăng ký"
+
+#: admin/widgets/highest_points.php:56 admin/widgets/profile_links.php:36
+#: functions/shortcode_ask.php:812 includes/author-head.php:256
+msgid "Points"
+msgstr "Điểm"
+
+#: admin/widgets/login.php:31 functions/shortcode_ask.php:24
+#: functions/shortcode_ask.php:27 functions/shortcode_ask.php:277
+#: functions/shortcode_ask.php:469 functions/shortcode_ask.php:602
+#: functions/shortcode_ask.php:893 woocommerce/myaccount/form-login.php:65
+#: woocommerce/myaccount/form-login.php:102
+msgid "Register"
+msgstr "Đăng kí"
+
+#: admin/widgets/login.php:55 header.php:218 header.php:323 header.php:877
+#: template-login-2.php:15 template-login.php:15
+#: woocommerce/global/form-login.php:35 woocommerce/myaccount/form-login.php:27
+#: woocommerce/myaccount/form-login.php:46
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: admin/widgets/profile_links.php:29 functions/shortcode_ask.php:800
+msgid "Profile page"
+msgstr "Trang hồ sơ"
+
+#: admin/widgets/profile_links.php:31 admin/widgets/stats.php:42 author.php:23
+#: functions/shortcode_ask.php:806 includes/author-head.php:251
+#: question-comments.php:15
+msgid "Answers"
+msgstr "Câu trả lời"
+
+#: admin/widgets/profile_links.php:32 functions/shortcode_ask.php:809
+#: includes/author-head.php:253
+msgid "Favorite Questions"
+msgstr "Câu hỏi hay"
+
+#: admin/widgets/profile_links.php:33 functions/shortcode_ask.php:815
+#: includes/author-head.php:262
+msgid "Authors I Follow"
+msgstr ""
+
+#: admin/widgets/profile_links.php:38 functions/shortcode_ask.php:830
+#: includes/author-head.php:264
+msgid "Follow questions"
+msgstr ""
+
+#: admin/widgets/profile_links.php:39 functions/shortcode_ask.php:833
+#: includes/author-head.php:265
+msgid "Follow answers"
+msgstr ""
+
+#: admin/widgets/profile_links.php:40 functions/shortcode_ask.php:827
+#: includes/author-head.php:259
+msgid "Posts"
+msgstr "Bài viết"
+
+#: admin/widgets/profile_links.php:41 functions/shortcode_ask.php:836
+#: includes/author-head.php:266
+msgid "Follow posts"
+msgstr ""
+
+#: admin/widgets/profile_links.php:42 functions/shortcode_ask.php:839
+#: includes/author-head.php:267
+msgid "Follow comments"
+msgstr ""
+
+#: admin/widgets/profile_links.php:43 functions/shortcode_ask.php:842
+#: includes/author-head.php:163
+msgid "Edit profile"
+msgstr "Sửa hồ sơ cá nhân"
+
+#: admin/widgets/profile_links.php:44 functions/shortcode_ask.php:846
+msgid "Logout"
+msgstr "Thoát"
+
+#: admin/widgets/profile_links.php:60
+msgid "Profile"
+msgstr "Hồ sơ"
+
+#: admin/widgets/questions.php:47 admin/widgets/tabs.php:35
+msgid "Recent"
+msgstr "Mới nhất"
+
+#: admin/widgets/questions_categories.php:59
+msgid "Questions Categories"
+msgstr "Danh mục câu hỏi"
+
+#: admin/widgets/stats.php:43 includes/author-head.php:260
+msgid "Best Answers"
+msgstr "Trả lời hay nhất"
+
+#: admin/widgets/stats.php:44
+msgid "Users"
+msgstr "Thành viên"
+
+#: admin/widgets/stats.php:58
+msgid "Stats"
+msgstr "Thống kê"
+
+#: admin/widgets/subscribe.php:31 functions/shortcode_ask.php:775
+#: includes/author-head.php:233 single-question.php:437 single.php:178
+#: template-followers.php:120 template-i_follow.php:120 template-users.php:107
+#: woocommerce/single-product-reviews.php:67
+msgid "Email"
+msgstr ""
+
+#: admin/widgets/tabs.php:32
+msgid "Popular"
+msgstr "Phổ biến"
+
+#: admin/widgets/tabs.php:38 attachment.php:29 comments.php:13 page.php:36
+#: post.php:93 single.php:86 template-home.php:259
+msgid "Comments"
+msgstr "Bình luận"
+
+#: admin/widgets/twitter.php:38
+msgid "Loading twitter feed..."
+msgstr ""
+
+#: admin/widgets/twitter.php:39
+#, php-format
+msgid "about %d seconds ago"
+msgstr ""
+
+#: admin/widgets/twitter.php:40
+msgid "about a minute ago"
+msgstr ""
+
+#: admin/widgets/twitter.php:41
+#, php-format
+msgid "about %d minutes ago"
+msgstr ""
+
+#: admin/widgets/twitter.php:42
+msgid "about an hour ago"
+msgstr ""
+
+#: admin/widgets/twitter.php:43
+#, php-format
+msgid "about %d hours ago"
+msgstr ""
+
+#: admin/widgets/twitter.php:44
+msgid "about a day ago"
+msgstr ""
+
+#: admin/widgets/twitter.php:45
+#, php-format
+msgid "about %d days ago"
+msgstr ""
+
+#: admin/widgets/twitter.php:46
+msgid "view tweet on twitter"
+msgstr ""
+
+#: admin/woocommerce/woocommerce.php:98
+msgid "Select options"
+msgstr "Lựa chọn"
+
+#: admin/woocommerce/woocommerce.php:213
+msgid "&nbsp;Previous product"
+msgstr "&nbsp; Sản phẩm trước"
+
+#: admin/woocommerce/woocommerce.php:216
+msgid "Next product&nbsp;"
+msgstr "Sản phẩm tiếp theo &nbsp;"
+
+#: admin/woocommerce/woocommerce.php:229
+msgid "Share This"
+msgstr "Chia sẻ"
+
+#: attachment.php:29 page.php:36 post.php:93 single.php:86 template-home.php:259
+msgid "0 Comments"
+msgstr "0 Bình luận"
+
+#: attachment.php:29 page.php:36 post.php:93 single.php:86 template-home.php:259
+msgid "1 Comment"
+msgstr "1 bình luận"
+
+#: author.php:11
+msgid "#"
+msgstr ""
+
+#: author.php:12
+msgid "Today"
+msgstr "Hôm nay"
+
+#: author.php:13
+msgid "Month"
+msgstr "Tháng"
+
+#: author.php:14 woocommerce/cart/cart-totals.php:78
+#: woocommerce/cart/cart.php:30 woocommerce/checkout/review-order.php:18
+#: woocommerce/myaccount/my-orders.php:35 woocommerce/myaccount/my-orders.php:58
+#: woocommerce/order/order-details.php:21
+msgid "Total"
+msgstr "﻿Tổng cộng"
+
+#: author.php:29
+msgid "Visitors"
+msgstr "Số lượt truy cập"
+
+#: captcha/captcha.php:5
+msgid "You can only reach this page by posting from the form"
+msgstr ""
+
+#: comments.php:3 question-comments.php:6
+msgid "Please do not load this page directly. Thanks!"
+msgstr "Xin vui lòng không tải trang này trực tiếp. Cảm ơn!"
+
+#: comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"﻿Bài đăng này đã được bảo vệ bằng mật khẩu. Hãy nhập mật khẩu để có thể xem và "
+"bình luận."
+
+#: comments.php:13 comments.php:89 question-comments.php:172
+#: template-edit_comment.php:28
+msgid "Comment"
+msgstr "Bình luận"
+
+#: comments.php:13 question-comments.php:15
+msgid "No"
+msgstr "Không"
+
+#: comments.php:13 question-comments.php:15
+msgid "1"
+msgstr ""
+
+#: comments.php:13 question-comments.php:15
+msgid "%"
+msgstr ""
+
+#: comments.php:28
+msgid "Leave a reply"
+msgstr "Viết bình luận"
+
+#: comments.php:28
+#, php-format
+msgid "Leave a reply to %s"
+msgstr "Viết bình luận %s"
+
+#: comments.php:40 question-comments.php:111
+msgid "Logged in as"
+msgstr "Đăng nhập như"
+
+#: comments.php:40 question-comments.php:111
+msgid "Log out &raquo;"
+msgstr "Đăng xuất &raquo;"
+
+#: comments.php:44 question-comments.php:115
+#: woocommerce/single-product-reviews.php:65
+msgid "Name"
+msgstr "Tên"
+
+#: comments.php:48 functions/shortcode_ask.php:78
+#: functions/shortcode_ask.php:496 functions/shortcode_ask.php:995
+#: functions/shortcode_ask.php:1360 functions/shortcode_ask.php:1493
+#: question-comments.php:119
+msgid "E-Mail"
+msgstr ""
+
+#: comments.php:52 functions/shortcode_ask.php:1593 includes/author-head.php:149
+#: question-comments.php:123
+msgid "Website"
+msgstr ""
+
+#: comments.php:68 comments.php:78 comments.php:79
+#: functions/shortcode_ask.php:226 functions/shortcode_ask.php:233
+#: functions/shortcode_ask.php:234 functions/shortcode_ask.php:564
+#: functions/shortcode_ask.php:571 functions/shortcode_ask.php:572
+#: functions/shortcode_ask.php:1098 functions/shortcode_ask.php:1105
+#: functions/shortcode_ask.php:1106 question-comments.php:151
+#: question-comments.php:161 question-comments.php:162
+msgid "Captcha"
+msgstr "Mã xác nhận"
+
+#: comments.php:79 functions/shortcode_ask.php:234
+#: functions/shortcode_ask.php:572 functions/shortcode_ask.php:1106
+#: question-comments.php:162
+msgid "Click here to update the captcha"
+msgstr "Bấm vào đây để lấy mã xác nhận mới"
+
+#: comments.php:80 functions/shortcode_ask.php:235
+#: functions/shortcode_ask.php:573 functions/shortcode_ask.php:1107
+#: question-comments.php:163
+msgid "Click on image to update the captcha ."
+msgstr "Bấm vào hình ảnh để lấy mã xác nhận mới."
+
+#: comments.php:98 functions/shortcode_ask.php:179
+#: functions/shortcode_ask.php:392 functions/shortcode_ask.php:550
+#: functions/shortcode_ask.php:665 question-comments.php:181
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+
+#: comments.php:102
+msgid "Post Comment"
+msgstr "Đăng bình luận"
+
+#: comments.php:108
+#, php-format
+msgid ""
+"You must <a href=\"%s\" class=\"login-comments\">login</a> or <a href=\"%s\" "
+"class=\"signup\">register</a> to add a new comment ."
+msgstr ""
+"Bạn phải <a href=\"%s\" class=\"login-comments\">đăng nhập</a> hoặc <a href="
+"\"%s\" class=\"signup\">đăng ký</a> để thêm một bình luận mới."
+
+#: footer.php:155 functions/shortcode_ask.php:766
+#: functions/shortcode_ask.php:1614 header.php:381 includes/author-head.php:206
+#: single-question.php:405 single.php:146 template-contact_us.php:98
+#: template-followers.php:93 template-i_follow.php:93 template-users.php:71
+msgid "Google plus"
+msgstr ""
+
+#: footer.php:161 header.php:387
+msgid "Skype"
+msgstr ""
+
+#: footer.php:164 header.php:390
+msgid "Flickr"
+msgstr ""
+
+#: footer.php:167 functions/shortcode_ask.php:757
+#: functions/shortcode_ask.php:1610 header.php:393 includes/author-head.php:197
+#: template-contact_us.php:89 template-followers.php:84 template-i_follow.php:84
+#: template-users.php:62
+msgid "Linkedin"
+msgstr ""
+
+#: footer.php:170 header.php:396
+msgid "Rss"
+msgstr ""
+
+#: functions.php:799 header.php:566
+msgid "Go to..."
+msgstr "Đi đến..."
+
+#: functions.php:800
+msgid "Please fill the required field."
+msgstr "Xin vui lòng điền các thông tin bắt buộc."
+
+#: functions.php:801 functions/functions_ask.php:650
+#: functions/functions_ask.php:652 functions/functions_ask.php:658
+#: functions/functions_ask.php:660 functions/functions_ask.php:945
+#: functions/functions_ask.php:949 functions/functions_ask.php:1231
+#: functions/functions_ask.php:1235 functions/shortcode_ask.php:1188
+#: functions/shortcode_ask.php:1192
+msgid "The captcha is incorrect, please try again."
+msgstr "Mã xác nhận không chính xác, hãy thử một lần nữa."
+
+#: functions.php:805
+msgid "Fill out all the required fields."
+msgstr "Hãy điền vào tất cả các ô trống!"
+
+#: functions.php:806
+msgid "Sorry, you cannot vote on the same question more than once."
+msgstr ""
+"Xin lỗi, bạn không thể bỏ phiếu trong cùng một câu hỏi nhiều hơn một lần."
+
+#: functions.php:807
+msgid "Rating is available to members only."
+msgstr "Chỉ có thành viên mới được bỏ phiếu."
+
+#: functions.php:808
+msgid "Sorry, you cannot vote on the same comment more than once."
+msgstr "Xin lỗi, bạn không thể bỏ phiếu bình luận nhiều hơn một lần."
+
+#: functions.php:810
+msgid "Are you sure you want to Report?"
+msgstr "Bạn có chắc chắn bạn muốn báo cáo?"
+
+#: functions.php:811
+msgid "Are you sure you want to delete the question?"
+msgstr "Bạn có chắc chắn muốn xóa các câu hỏi?"
+
+#: functions.php:812
+msgid "Are you sure you want to delete the post?"
+msgstr "Bạn có chắc chắn muốn xóa bài viết?"
+
+#: functions.php:813
+msgid "Were reported for the question!"
+msgstr "Đã báo cáo câu hỏi!"
+
+#: functions.php:817 single-question.php:94 single-question.php:296
+msgid "Follow the question"
+msgstr ""
+
+#: functions.php:818 single-question.php:92 single-question.php:294
+msgid "Unfollow the question"
+msgstr ""
+
+#: functions.php:819 includes/author-head.php:170 single-question.php:296
+msgid "Follow"
+msgstr ""
+
+#: functions.php:820 includes/author-head.php:168 single-question.php:294
+msgid "Unfollow"
+msgstr ""
+
+#: functions.php:822 functions/shortcode_ask.php:528
+#: functions/shortcode_ask.php:673 functions/shortcode_ask.php:1013
+#: question-comments.php:135
+msgid "Select file"
+msgstr "Chọn tập tin"
+
+#: functions.php:823 functions/shortcode_ask.php:529
+#: functions/shortcode_ask.php:674 functions/shortcode_ask.php:1014
+#: question-comments.php:136
+msgid "Browse"
+msgstr ""
+
+#: functions/functions_ask.php:317
+msgid "Sorry no mistake, this is not a question asked ."
+msgstr "Xin lỗi không có sai lầm, đây không phải là một câu hỏi."
+
+#: functions/functions_ask.php:320 functions/functions_ask.php:322
+msgid "You must enter a numeric value and a value greater than zero ."
+msgstr "Bạn phải nhập một giá trị số và một giá trị lớn hơn không."
+
+#: functions/functions_ask.php:340
+msgid "Your points are insufficient ."
+msgstr "Điểm của bạn là không đủ."
+
+#: functions/functions_ask.php:369
+msgid " ago "
+msgstr "cách đây"
+
+#: functions/functions_ask.php:418 functions/functions_ask.php:427
+#: functions/functions_ask.php:467 functions/functions_ask.php:475
+#: functions/functions_ask.php:717 functions/functions_ask.php:730
+#: functions/functions_ask.php:737 functions/functions_ask.php:746
+#: functions/functions_ask.php:855 functions/functions_ask.php:866
+#: functions/functions_ask.php:1353 functions/functions_ask.php:1391
+#: functions/shortcode_ask.php:1291 functions/shortcode_ask.php:1299
+#: header.php:846 header.php:853
+msgid "Hi there"
+msgstr "Xin Chào"
+
+#: functions/functions_ask.php:420
+msgid "Abuse have been reported on the use of the following question"
+msgstr ""
+
+#: functions/functions_ask.php:469
+msgid "Abuse have been reported on the use of the following comment"
+msgstr ""
+
+#: functions/functions_ask.php:642 functions/functions_ask.php:644
+msgid "<strong>ERROR</strong>: please type a captcha."
+msgstr "<strong>ERROR:</strong> xin vui lòng gõ mã xác nhận khác."
+
+#: functions/functions_ask.php:719
+msgid "We would tell you"
+msgstr "Chúng tôi sẽ cho bạn biết"
+
+#: functions/functions_ask.php:719
+msgid "That the new post was added on a common theme by"
+msgstr ""
+
+#: functions/functions_ask.php:719
+msgid "Entitled"
+msgstr "Được phép"
+
+#: functions/functions_ask.php:721
+msgid "Click on the link below to go to the topic"
+msgstr "Click vào liên kết dưới đây để đi đến chủ đề"
+
+#: functions/functions_ask.php:725
+msgid ""
+"There may be more of Posts and we hope the answer to encourage members and "
+"get them to help."
+msgstr ""
+"Có thể có nhiều bài viết khác và chúng tôi hy vọng câu trả lời để khuyến "
+"khích các thành viên và để họ giúp đỡ."
+
+#: functions/functions_ask.php:727
+msgid "Accept from us Sincerely"
+msgstr "Chấp nhận từ chúng tôi Trân trọng"
+
+#: functions/functions_ask.php:739
+msgid "There are a new answers in this question"
+msgstr "Có một câu trả lời mới trong câu hỏi này"
+
+#: functions/functions_ask.php:788 functions/functions_ask.php:790
+#: functions/functions_ask.php:806 functions/functions_ask.php:876
+msgid "Added been successfully"
+msgstr "Đã thêm thành công"
+
+#: functions/functions_ask.php:788
+msgid "Has been Added successfully ."
+msgstr ""
+
+#: functions/functions_ask.php:790
+msgid "Has been Added successfully, the answer under review ."
+msgstr ""
+
+#: functions/functions_ask.php:806
+msgid "Has been added successfully, the question under review ."
+msgstr "Đã được thêm thành công, câu hỏi đang được xem xét."
+
+#: functions/functions_ask.php:857 functions/functions_ask.php:1355
+msgid "There are a new question"
+msgstr "Có một câu hỏi mới"
+
+#: functions/functions_ask.php:876
+msgid "Has been added successfully, the post under review ."
+msgstr "Đã được thêm thành công, các bài được xem xét."
+
+#: functions/functions_ask.php:912 functions/functions_ask.php:915
+#: functions/functions_ask.php:916 functions/functions_ask.php:917
+#: functions/functions_ask.php:921 functions/functions_ask.php:922
+#: functions/functions_ask.php:925 functions/functions_ask.php:930
+#: functions/functions_ask.php:932 functions/functions_ask.php:1208
+#: functions/functions_ask.php:1209 functions/functions_ask.php:1210
+#: functions/functions_ask.php:1214 functions/functions_ask.php:1215
+#: functions/functions_ask.php:1217 functions/functions_ask.php:1448
+#: functions/functions_ask.php:1451 functions/functions_ask.php:1453
+#: functions/functions_ask.php:1454 functions/functions_ask.php:1457
+#: functions/functions_ask.php:1461 functions/functions_ask.php:1463
+#: functions/functions_ask.php:1579 functions/functions_ask.php:1582
+#: functions/functions_ask.php:1585 functions/functions_ask.php:1586
+#: functions/functions_ask.php:1655 functions/functions_ask.php:1658
+#: functions/functions_ask.php:1660 functions/functions_ask.php:1661
+#: functions/functions_ask.php:1664 functions/functions_ask.php:1747
+#: functions/functions_ask.php:1748 functions/shortcode_ask.php:1336
+#: functions/shortcode_ask.php:1411
+msgid "Error"
+msgstr "Lỗi"
+
+#: functions/functions_ask.php:912 functions/shortcode_ask.php:263
+#, php-format
+msgid ""
+"Sorry do not have the minimum points Please do answer questions, even gaining "
+"points ( The minimum points = %s ) ."
+msgstr ""
+"Xin lỗi bạn không đủ số điểm tối thiểu. Vui lòng trả lời các câu hỏi để tăng "
+"điểm (Điểm số tối thiểu là %s ) ."
+
+#: functions/functions_ask.php:915 functions/functions_ask.php:1208
+msgid "There are required fields ( username )."
+msgstr "Bạn phải nhập (tên thành viên)."
+
+#: functions/functions_ask.php:916 functions/functions_ask.php:1209
+msgid "There are required fields ( email )."
+msgstr "Bạn phải nhập (email)."
+
+#: functions/functions_ask.php:917 functions/functions_ask.php:1210
+#: functions/shortcode_ask.php:1247
+msgid "Please write correctly email."
+msgstr "Vui lòng nhập chính xác địa chỉ email."
+
+#: functions/functions_ask.php:921 functions/functions_ask.php:1214
+#: functions/functions_ask.php:1453 functions/functions_ask.php:1660
+msgid "There are required fields ( title )."
+msgstr "Bạn phải nhập (tiêu đề)."
+
+#: functions/functions_ask.php:922 functions/functions_ask.php:1215
+#: functions/functions_ask.php:1454 functions/functions_ask.php:1661
+msgid "There are required fields ( category )."
+msgstr "Bạn phải nhập ( danh mục )."
+
+#: functions/functions_ask.php:925 functions/functions_ask.php:1457
+msgid "Please enter at least two values in poll."
+msgstr "Vui lòng nhập ít nhất là hai giá trị trong cuộc thăm dò."
+
+#: functions/functions_ask.php:930 functions/functions_ask.php:1461
+#: functions/functions_ask.php:1664
+msgid "There are required fields ( content )."
+msgstr "Bạn phải nhập ( nội dung )."
+
+#: functions/functions_ask.php:932 functions/functions_ask.php:1463
+msgid "There are required fields ( Video ID )."
+msgstr "Bạn phải nhập ( Video ID )."
+
+#: functions/functions_ask.php:941 functions/functions_ask.php:1227
+#: functions/shortcode_ask.php:1184
+msgid "There are required fields ( captcha )."
+msgstr "Bạn phải nhập ( mã xác nhận )."
+
+#: functions/functions_ask.php:956 functions/shortcode_ask.php:1239
+msgid "There are required fields ( Agree of the terms )."
+msgstr "Bạn cần phải ( Đồng ý các điều khoản )."
+
+#: functions/functions_ask.php:973
+msgid "Error in question."
+msgstr "Lỗi trong câu hỏi."
+
+#: functions/functions_ask.php:1217
+msgid "There are required fields ( details )."
+msgstr "Bạn phải nhập ( chi tiết )."
+
+#: functions/functions_ask.php:1254
+msgid "Error in post."
+msgstr "Lỗi trong bài."
+
+#: functions/functions_ask.php:1270 functions/functions_ask.php:1694
+msgid "Attachment Error: "
+msgstr "File đính kèm Lỗi:"
+
+#: functions/functions_ask.php:1419 functions/functions_ask.php:1540
+#: functions/functions_ask.php:1542 functions/functions_ask.php:1627
+msgid "Edited been successfully"
+msgstr "Đã được chỉnh sửa thành công."
+
+#: functions/functions_ask.php:1419 functions/functions_ask.php:1540
+#: functions/functions_ask.php:1627
+msgid "Has been edited successfully ."
+msgstr "Đã được chỉnh sửa thành công."
+
+#: functions/functions_ask.php:1448 template-edit_question.php:18
+#: template-edit_question.php:21
+msgid "Sorry you can't edit this question ."
+msgstr "Xin lỗi bạn không thể sửa câu hỏi này."
+
+#: functions/functions_ask.php:1451
+msgid "Sorry no question select or not found ."
+msgstr "Xin lỗi không có câu hỏi nào được chọn hoặc không tìm thấy."
+
+#: functions/functions_ask.php:1542
+msgid "Has been added successfully, the comment under review ."
+msgstr ""
+
+#: functions/functions_ask.php:1579 template-edit_comment.php:40
+msgid "You are not allowed to edit this comment."
+msgstr ""
+
+#: functions/functions_ask.php:1582 template-edit_comment.php:43
+msgid "Sorry no comment has you select or not found."
+msgstr ""
+
+#: functions/functions_ask.php:1585
+msgid "There are required fields ( comment )."
+msgstr ""
+
+#: functions/functions_ask.php:1586
+msgid "You don't modify anything this is the same comment!."
+msgstr ""
+
+#: functions/functions_ask.php:1655 template-edit_post.php:16
+#: template-edit_post.php:19
+msgid "Sorry you can't edit this post ."
+msgstr "Xin lỗi bạn không thể chỉnh sửa bài viết này."
+
+#: functions/functions_ask.php:1658
+msgid "Sorry no post select or not found ."
+msgstr "Xin lỗi không có bài viết nào được chọn hoặc không tìm thấy."
+
+#: functions/functions_ask.php:1747
+msgid "There are required fields."
+msgstr "Bạn phải nhập các thông tin yêu cầu."
+
+#: functions/functions_ask.php:1748 functions/shortcode_ask.php:1162
+msgid "Password does not match."
+msgstr "Mật khẩu không trùng khớp"
+
+#: functions/functions_ask.php:1760
+msgid "Error type , please upload: jpg, jpeg, png"
+msgstr ""
+
+#: functions/functions_ask.php:1768 functions/shortcode_ask.php:1203
+msgid "Error in upload the image : "
+msgstr "Lỗi khi tải lên các hình ảnh:"
+
+#: functions/functions_ask.php:1787
+msgid "Profile has been updated"
+msgstr "Hồ sơ đã được cập nhật"
+
+#: functions/functions_ask.php:1931
+msgid "Hello there,"
+msgstr ""
+
+#: functions/functions_ask.php:1932
+msgid "A new post has been submitted in "
+msgstr ""
+
+#: functions/functions_ask.php:1932
+msgid " Please find details below:"
+msgstr ""
+
+#: functions/functions_ask.php:1950
+msgid "To take action (approve/reject)- please go here:"
+msgstr ""
+
+#: functions/functions_ask.php:1953
+msgid "Thank You"
+msgstr ""
+
+#: functions/functions_ask.php:1954
+msgid "New Post Submission"
+msgstr ""
+
+#: functions/shortcode_ask.php:22
+msgid "Sorry, you do not have a permission to add a question ."
+msgstr ""
+
+#: functions/shortcode_ask.php:24 functions/shortcode_ask.php:27
+#: functions/shortcode_ask.php:277
+msgid "You must login to ask question ."
+msgstr "Bạn phải đăng nhập để đặt câu hỏi."
+
+#: functions/shortcode_ask.php:72 functions/shortcode_ask.php:490
+#: functions/shortcode_ask.php:881 functions/shortcode_ask.php:991
+#: woocommerce/myaccount/form-login.php:74
+msgid "Username"
+msgstr "Tên đăng nhập"
+
+#: functions/shortcode_ask.php:74 functions/shortcode_ask.php:492
+msgid "Please type your username ."
+msgstr "Vui lòng nhập tên đăng nhập."
+
+#: functions/shortcode_ask.php:80 functions/shortcode_ask.php:498
+msgid "Please type your E-Mail ."
+msgstr "Xin vui lòng nhập E-Mail của bạn."
+
+#: functions/shortcode_ask.php:84 functions/shortcode_ask.php:303
+msgid "Question Title"
+msgstr "Tiêu đề Câu hỏi"
+
+#: functions/shortcode_ask.php:86 functions/shortcode_ask.php:305
+msgid ""
+"Please choose an appropriate title for the question to answer it even easier ."
+msgstr ""
+"Vui lòng chọn một tên thích hợp cho các câu hỏi để trả lời nó thậm chí còn dễ "
+"dàng hơn."
+
+#: functions/shortcode_ask.php:93 functions/shortcode_ask.php:312
+#: functions/shortcode_ask.php:511 functions/shortcode_ask.php:638
+msgid "Please choose  suitable Keywords Ex : "
+msgstr "Vui lòng chọn phù hợp Keywords Ex:"
+
+#: functions/shortcode_ask.php:93 functions/shortcode_ask.php:312
+msgid "question , poll"
+msgstr "câu hỏi, thăm dò ý kiến"
+
+#: functions/shortcode_ask.php:100 functions/shortcode_ask.php:319
+#: functions/shortcode_ask.php:518 functions/shortcode_ask.php:645
+msgid "Select a Category"
+msgstr "Chọn một Danh mục:"
+
+#: functions/shortcode_ask.php:102 functions/shortcode_ask.php:321
+msgid ""
+"Please choose the appropriate section so easily search for your question ."
+msgstr ""
+"Vui lòng chọn các phần thích hợp để dễ dàng tìm kiếm cho câu hỏi của bạn."
+
+#: functions/shortcode_ask.php:109 functions/shortcode_ask.php:328
+msgid "This question is a poll ?"
+msgstr "Câu hỏi này là một bình chọn?"
+
+#: functions/shortcode_ask.php:110 functions/shortcode_ask.php:329
+msgid "If you want to be doing a poll click here ."
+msgstr "Nếu bạn muốn tạo một cuộc thăm dò nhấp chuột vào đây."
+
+#: functions/shortcode_ask.php:116 functions/shortcode_ask.php:155
+#: functions/shortcode_ask.php:335
+msgid "Add Field"
+msgstr "Thêm"
+
+#: functions/shortcode_ask.php:166 functions/shortcode_ask.php:379
+#: functions/shortcode_ask.php:537 functions/shortcode_ask.php:652
+msgid "Details"
+msgstr "Chi tiết"
+
+#: functions/shortcode_ask.php:178 functions/shortcode_ask.php:391
+#: functions/shortcode_ask.php:549 functions/shortcode_ask.php:664
+msgid "Type the description thoroughly and in details ."
+msgstr "Nhập mô tả kỹ lưỡng và chi tiết."
+
+#: functions/shortcode_ask.php:201 functions/shortcode_ask.php:418
+msgid "Choose from here the video type ."
+msgstr "Chọn thể loại video"
+
+#: functions/shortcode_ask.php:207 functions/shortcode_ask.php:424
+msgid ""
+"Put here the video id : http://www.youtube.com/watch?v=sdUUx5FdySs EX : "
+"'sdUUx5FdySs' ."
+msgstr ""
+"Chỉ cần nhập video id: http://www.youtube.com/watch?v=sdUUx5FdySs EX: "
+"'sdUUx5FdySs'."
+
+#: functions/shortcode_ask.php:213 functions/shortcode_ask.php:431
+msgid "Notified"
+msgstr "Thông báo"
+
+#: functions/shortcode_ask.php:215 functions/shortcode_ask.php:433
+msgid "Notified by e-mail at incoming answers ."
+msgstr "Thông báo qua e-mail khi có câu trả lời"
+
+#: functions/shortcode_ask.php:244 functions/shortcode_ask.php:1116
+msgid "Terms"
+msgstr "Điều khoản"
+
+#: functions/shortcode_ask.php:246
+#, php-format
+msgid ""
+"By posting your question, you agree to the <a target='%s' href='%s'>terms of "
+"service</a>."
+msgstr ""
+"Bằng cách đăng câu hỏi của bạn, bạn đồng ý với <a target='%s' href='%s'>điều "
+"khoản Dịch vụ</a>."
+
+#: functions/shortcode_ask.php:255
+msgid "Publish Your Question"
+msgstr "Đăng câu hỏi"
+
+#: functions/shortcode_ask.php:439
+msgid "Edit Your Question"
+msgstr "Chỉnh sửa câu hỏi"
+
+#: functions/shortcode_ask.php:467
+msgid "Sorry, you do not have a permission to add a post ."
+msgstr "Xin lỗi, bạn không có quyền viết bài mới."
+
+#: functions/shortcode_ask.php:469 functions/shortcode_ask.php:602
+msgid "You must login to add post ."
+msgstr "Bạn phải đăng nhập để viết bài."
+
+#: functions/shortcode_ask.php:502
+msgid "Post Title"
+msgstr "Tiêu đề bài viết"
+
+#: functions/shortcode_ask.php:504 functions/shortcode_ask.php:631
+msgid "Please choose an appropriate title for the post ."
+msgstr "Hãy chọn một tiêu đề thích hợp cho bài đăng."
+
+#: functions/shortcode_ask.php:511 functions/shortcode_ask.php:638
+msgid "post , video"
+msgstr ""
+
+#: functions/shortcode_ask.php:520 functions/shortcode_ask.php:647
+msgid "Please choose the appropriate section so easily search for your post ."
+msgstr ""
+"Vui lòng chọn các phần thích hợp để dễ dàng tìm kiếm cho câu hỏi của bạn."
+
+#: functions/shortcode_ask.php:582
+msgid "Publish Your Post"
+msgstr "Đăng bài viết"
+
+#: functions/shortcode_ask.php:629
+msgid "post Title"
+msgstr "tiêu đề bài viết"
+
+#: functions/shortcode_ask.php:685
+msgid "Edit Your post"
+msgstr "Chỉnh sửa bài viết"
+
+#: functions/shortcode_ask.php:726
+msgid "Welcome"
+msgstr "Chào mừng"
+
+#: functions/shortcode_ask.php:794
+msgid "Quick Links"
+msgstr "Liên kết nhanh"
+
+#: functions/shortcode_ask.php:885 functions/shortcode_ask.php:999
+#: functions/shortcode_ask.php:1497 woocommerce/global/form-login.php:26
+#: woocommerce/myaccount/form-login.php:38
+#: woocommerce/myaccount/form-login.php:88
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: functions/shortcode_ask.php:887 template-login-2.php:25
+msgid "Forget"
+msgstr "Quên"
+
+#: functions/shortcode_ask.php:892
+msgid "Log in"
+msgstr "Đăng nhập"
+
+#: functions/shortcode_ask.php:896
+msgid "Remember Me"
+msgstr "Tự động đăng nhập lần sau"
+
+#: functions/shortcode_ask.php:922
+msgid "<strong>Error :&nbsp;</strong>please insert your name ."
+msgstr "<strong>Lỗi :&nbsp;</strong> vui lòng nhập tên."
+
+#: functions/shortcode_ask.php:925
+msgid "<strong>Error :&nbsp;</strong>please insert your password ."
+msgstr "<strong>Lỗi :&nbsp;</strong> vui lòng nhập mật khẩu."
+
+#: functions/shortcode_ask.php:1003 functions/shortcode_ask.php:1501
+msgid "Confirm Password"
+msgstr "Xác nhận mật khẩu"
+
+#: functions/shortcode_ask.php:1009 functions/shortcode_ask.php:1574
+msgid "Profile Picture"
+msgstr "Hình ảnh cá nhân"
+
+#: functions/shortcode_ask.php:1035 functions/shortcode_ask.php:1481
+msgid "First Name"
+msgstr "Tên"
+
+#: functions/shortcode_ask.php:1039 functions/shortcode_ask.php:1485
+msgid "Last Name"
+msgstr "Họ"
+
+#: functions/shortcode_ask.php:1043 functions/shortcode_ask.php:1489
+msgid "Display name"
+msgstr "Tên hiển thị"
+
+#: functions/shortcode_ask.php:1118
+#, php-format
+msgid ""
+"By registering, you agree to the <a target='%s' href='%s'>terms of service</"
+"a>."
+msgstr ""
+"Bằng cách đăng ký, bạn đồng ý với <a target='%s' href='%s'>điều khoản Dịch "
+"vụ</a>."
+
+#: functions/shortcode_ask.php:1126
+msgid "Signup"
+msgstr "Đăng ký"
+
+#: functions/shortcode_ask.php:1158
+msgid "Please enter your name."
+msgstr "Vui lòng nhập tên của bạn."
+
+#: functions/shortcode_ask.php:1159 functions/shortcode_ask.php:1382
+msgid "Please enter your email."
+msgstr "Vui lòng nhập email của bạn."
+
+#: functions/shortcode_ask.php:1160
+msgid "Please enter your password."
+msgstr "Vui lòng nhập mật khẩu."
+
+#: functions/shortcode_ask.php:1161
+msgid "Please rewrite password."
+msgstr "Hãy viết lại mật khẩu."
+
+#: functions/shortcode_ask.php:1208
+msgid "There are required fields ( Profile Picture )."
+msgstr "Bạn phải nhập ( hình ảnh cá nhân )."
+
+#: functions/shortcode_ask.php:1213
+msgid "There are required fields ( Country )."
+msgstr "Bạn phải nhập ( Quốc gia )."
+
+#: functions/shortcode_ask.php:1216
+msgid "There are required fields ( City )."
+msgstr ""
+
+#: functions/shortcode_ask.php:1219
+msgid "There are required fields ( Age )."
+msgstr "Bạn phải nhập (  tuổi )."
+
+#: functions/shortcode_ask.php:1222
+msgid "There are required fields ( Phone )."
+msgstr "Bạn phải nhập ( số điện thoại )."
+
+#: functions/shortcode_ask.php:1225
+msgid "There are required fields ( Sex )."
+msgstr "Bạn phải nhập ( giới tính )."
+
+#: functions/shortcode_ask.php:1228
+msgid "There are required fields ( First Name )."
+msgstr ""
+
+#: functions/shortcode_ask.php:1231
+msgid "There are required fields ( Last Name )."
+msgstr ""
+
+#: functions/shortcode_ask.php:1234
+msgid "There are required fields ( Display Name )."
+msgstr ""
+
+#: functions/shortcode_ask.php:1243 functions/shortcode_ask.php:1249
+msgid "This account is already registered."
+msgstr "Tài khoản này đã được đăng ký."
+
+#: functions/shortcode_ask.php:1259
+msgid ""
+"<strong>Error</strong>: Sorry can not register please contact the webmaster "
+msgstr ""
+"<strong>Lỗi:</strong>: Không thể đăng ký, vui lòng liên hệ người quản lý."
+
+#: functions/shortcode_ask.php:1293
+msgid "This is the link to activate your membership"
+msgstr "Đây là liên kết để kích hoạt thành viên của bạn"
+
+#: functions/shortcode_ask.php:1295 header.php:850
+msgid "Activate"
+msgstr "Kích hoạt"
+
+#: functions/shortcode_ask.php:1365
+msgid "Reset"
+msgstr "Cài đặt lại"
+
+#: functions/shortcode_ask.php:1384
+msgid "Email is not correct."
+msgstr ""
+
+#: functions/shortcode_ask.php:1398
+#: woocommerce/emails/customer-reset-password.php:18
+#: woocommerce/emails/plain/customer-reset-password.php:16
+msgid "Someone requested that the password be reset for the following account:"
+msgstr "Một người nào đó yêu cầu được thiết lập lại mật khẩu cho tài khoản sau:"
+
+#: functions/shortcode_ask.php:1399
+#: woocommerce/emails/customer-reset-password.php:19
+#: woocommerce/emails/plain/customer-reset-password.php:18
+#, php-format
+msgid "Username: %s"
+msgstr "Tên đăng nhập: %s"
+
+#: functions/shortcode_ask.php:1400
+#: woocommerce/emails/customer-reset-password.php:20
+#: woocommerce/emails/plain/customer-reset-password.php:19
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+"Nếu đây là một sai lầm, chỉ cần bỏ qua email này và không có gì sẽ xảy ra."
+
+#: functions/shortcode_ask.php:1401
+#: woocommerce/emails/customer-reset-password.php:21
+#: woocommerce/emails/plain/customer-reset-password.php:20
+msgid "To reset your password, visit the following address:"
+msgstr "Để thiết lập lại mật khẩu của bạn, hãy truy cập vào địa chỉ sau đây:"
+
+#: functions/shortcode_ask.php:1402
+#: woocommerce/emails/customer-reset-password.php:24
+msgid "Click here to reset your password"
+msgstr "Nhấn vào đây để thiết lập lại mật khẩu của bạn"
+
+#: functions/shortcode_ask.php:1404 header.php:810
+msgid "Reset your password"
+msgstr ""
+
+#: functions/shortcode_ask.php:1413
+msgid "Check your email please."
+msgstr ""
+
+#: functions/shortcode_ask.php:1448
+msgid "Please login to edit profile ."
+msgstr "Hãy đăng nhập để chỉnh sửa thông tin cá nhân của bạn !"
+
+#: functions/shortcode_ask.php:1586
+msgid "About Yourself"
+msgstr "Nói về bản thân bạn"
+
+#: functions/shortcode_ask.php:1629
+msgid "Show your private pages for all the users?"
+msgstr ""
+
+#: functions/shortcode_ask.php:1644
+msgid "Received mail when user add a new question"
+msgstr ""
+
+#: functions/shortcode_ask.php:1654
+#: woocommerce/myaccount/form-lost-password.php:48
+msgid "Save"
+msgstr "Lưu"
+
+#: header.php:19
+#, php-format
+msgid "Page %s"
+msgstr "Trang %s"
+
+#: header.php:209 header.php:331 header.php:886 template-login-2.php:24
+#: template-login.php:23
+msgid "Register Now"
+msgstr "Đăng ký ngay"
+
+#: header.php:227
+msgid "Lost Password"
+msgstr "Quên mật khẩu"
+
+#: header.php:229
+msgid ""
+"Lost your password? Please enter your email address. You will receive a link "
+"and will create a new password via email."
+msgstr ""
+
+#: header.php:239
+msgid "Add question"
+msgstr ""
+
+#: header.php:333 header.php:888 template-login.php:25
+msgid "Create an account"
+msgstr "Tạo tài khoản"
+
+#: header.php:406
+msgid "Search here ..."
+msgstr "Tìm ở đây..."
+
+#: header.php:574
+msgid "Ask any question and you be sure find your answer ?"
+msgstr "Hãy đặt câu hỏi và chắc chắc bạn sẽ tìm thấy câu trả lời"
+
+#: header.php:633 header.php:665
+msgid "Ask Now"
+msgstr "Đặt câu hỏi"
+
+#: header.php:806
+msgid "You are :"
+msgstr "Bạn là:"
+
+#: header.php:807
+msgid "The New Password :"
+msgstr "Mật khẩu mới:"
+
+#: header.php:811
+msgid "Your password has been reset"
+msgstr ""
+
+#: header.php:811
+msgid "Check your email ."
+msgstr ""
+
+#: header.php:817
+msgid "You are already logged in"
+msgstr ""
+
+#: header.php:817
+#, php-format
+msgid ""
+"If you want to change your password go to <a href='%s'>edit profile</a> ."
+msgstr ""
+
+#: header.php:835
+msgid "Membership Activated"
+msgstr ""
+
+#: header.php:835
+msgid "Your membership is now activated."
+msgstr ""
+
+#: header.php:838 header.php:857
+msgid "Kindly activate your membership"
+msgstr ""
+
+#: header.php:838
+#, php-format
+msgid ""
+"A confirmation email has been sent to your registered email account.If you "
+"have not received the confirmation email, kindly  <a href='%s'>Click here</a> "
+"to re-send another confirmation email."
+msgstr ""
+
+#: header.php:848
+msgid ""
+"Your registration has been successful! To confirm your account, kindly click "
+"on 'Activate' below."
+msgstr ""
+
+#: header.php:854
+msgid "Activate the membership"
+msgstr "Kích hoạt tài khoản"
+
+#: header.php:854
+msgid "Check your email again ."
+msgstr "Kiểm tra email của bạn một lần nữa."
+
+#: header.php:857
+#, php-format
+msgid ""
+"A confirmation email has been sent to your registered email account. If you "
+"have not received the confirmation email, kindly <a href='%s'>Click here</a> "
+"to re-send another confirmation email."
+msgstr ""
+
+#: includes/author-head.php:107
+msgid "About"
+msgstr "Giới thiệu"
+
+#: includes/author-head.php:130
+msgid "Registered"
+msgstr "Đã đăng ký"
+
+#: includes/author-head.php:149
+msgid "view"
+msgstr "xem"
+
+#: includes/author-head.php:177 template-followers.php:64
+#: template-i_follow.php:64 template-users.php:42
+msgid "Follow Me"
+msgstr ""
+
+#: includes/author-head.php:247
+msgid "User Stats"
+msgstr "Thống kê"
+
+#: loop-question.php:8 template-home.php:157 template-home.php:174
+msgid "No Questions Found."
+msgstr "Không tìm thấy câu hỏi."
+
+#: loop.php:6
+msgid "No Posts Found."
+msgstr "Không tìm thấy bài viết nào."
+
+#: page.php:37 post.php:95 question.php:156 single-question.php:341
+#: single.php:88 template-home.php:260 template-question_follow.php:88
+#: template-user_favorite_questions.php:92 template-user_question.php:96
+msgid "views"
+msgstr "xem"
+
+#: post.php:100
+msgid "Continue reading"
+msgstr "Xem tiếp"
+
+#: question-comments.php:10
+msgid ""
+"This question is password protected. Enter the password to view comments."
+msgstr ""
+"﻿Câu hỏi này đã được bảo vệ bằng mật khẩu. Hãy nhập mật khẩu để có thể xem và "
+"bình luận."
+
+#: question-comments.php:15 question.php:154 single-question.php:339
+#: template-question_follow.php:86 template-user_favorite_questions.php:90
+#: template-user_question.php:94
+msgid "Answer"
+msgstr "Câu trả lời"
+
+#: question-comments.php:28
+msgid "Sorry, you do not have a permission to show this answers ."
+msgstr "Xin lỗi, bạn không có bản quyền xem câu trả lời này."
+
+#: question-comments.php:70
+msgid "Leave an answer"
+msgstr "Trả lời câu hỏi"
+
+#: question-comments.php:70
+#, php-format
+msgid "Leave an answer to %s"
+msgstr "Trả lời câu hỏi cho %s"
+
+#: question-comments.php:103
+msgid "Sorry this question is a special, The admin must answer first ."
+msgstr ""
+"Xin lỗi, câu hỏi này là câu hỏi đặc biệt, người quản trị phải trả lời trước."
+
+#: question-comments.php:106
+msgid "Sorry this question is closed ."
+msgstr "Xin lỗi bạn, câu hỏi đã đóng ."
+
+#: question-comments.php:185
+msgid "Post your answer"
+msgstr "Viết câu trả lời của ban"
+
+#: question-comments.php:193
+#, php-format
+msgid ""
+"You must <a href=\"%s\" class=\"login-comments\">login</a> or <a href=\"%s\" "
+"class=\"signup\">register</a> to add a new answer ."
+msgstr ""
+"Bạn phải <a href=\"%s\" class=\"login-comments\">đăng nhập</a> hoặc <a href="
+"\"%s\" class=\"signup\">đăng ký</a> để thêm một câu trả lời mới."
+
+#: question-comments.php:196
+msgid "Sorry, you do not have a permission to answer to this question ."
+msgstr "Xin lỗi, bạn không có quyền để trả lời cho câu hỏi này."
+
+#: question.php:118
+msgid "Sorry, you do not have a permission to show this question ."
+msgstr "Xin lỗi, bạn không có quyền để xem câu hỏi này."
+
+#: question.php:122 single-question.php:139
+msgid "Please briefly explain why you feel this question should be reported ."
+msgstr ""
+"Xin vui lòng giải thích tại sao bạn cảm thấy câu trả lời này nên được báo cáo "
+"vi phạm."
+
+#: question.php:134 single-question.php:320 template-question_follow.php:77
+#: template-user_favorite_questions.php:81 template-user_question.php:83
+msgid "solved"
+msgstr "đã giải quyết"
+
+#: question.php:136 single-question.php:322 template-question_follow.php:79
+#: template-user_favorite_questions.php:83 template-user_question.php:85
+msgid "closed"
+msgstr "đã đóng"
+
+#: question.php:138 single-question.php:324 template-question_follow.php:81
+#: template-user_favorite_questions.php:85 template-user_question.php:87
+msgid "in progress"
+msgstr "đang xử lý"
+
+#: question.php:159
+msgid "points"
+msgstr "điểm"
+
+#: question.php:179
+msgid "Sorry it private question ."
+msgstr "Xin lỗi bạn, đây là câu hỏi riêng tư ."
+
+#: search.php:13
+msgid "Sorry, No Results Found."
+msgstr ""
+
+#: single-question.php:48 template-question_follow.php:94
+#: template-user_favorite_questions.php:98 template-user_question.php:102
+msgid "Sorry it a private question ."
+msgstr "Xin lỗi bạn, đây là một câu hỏi riêng tư ."
+
+#: single-question.php:71 single-question.php:273 template-user_question.php:63
+msgid "Edit the question"
+msgstr "Sửa câu hỏi"
+
+#: single-question.php:84 single-question.php:286 template-user_question.php:69
+msgid "Delete the question"
+msgstr "Xóa câu hỏi"
+
+#: single-question.php:103 single-question.php:305
+msgid "Open the question"
+msgstr "Mở câu hỏi"
+
+#: single-question.php:107 single-question.php:309
+msgid "Close the question"
+msgstr "Đóng câu hỏi"
+
+#: single-question.php:162
+msgid "voter"
+msgstr ""
+
+#: single-question.php:170
+msgid "Rating"
+msgstr ""
+
+#: single-question.php:189
+msgid "Results"
+msgstr "Kết quả"
+
+#: single-question.php:229
+msgid "Remove the question of my favorites"
+msgstr "Xóa câu hỏi khỏi danh sách yêu thích"
+
+#: single-question.php:231 single-question.php:234
+msgid "Add a question to Favorites"
+msgstr "Thêm câu hỏi vào danh sách yêu thích"
+
+#: single-question.php:240
+msgid "Question bump points"
+msgstr ""
+
+#: single-question.php:241
+msgid "Bump"
+msgstr ""
+
+#: single-question.php:264
+msgid "Sorry do not have permission to show the questions !"
+msgstr "Xin lỗi, bạn không có quyền để xem câu hỏi này!"
+
+#: single-question.php:305
+msgid "Open"
+msgstr ""
+
+#: single-question.php:309
+msgid "Close"
+msgstr ""
+
+#: single-question.php:415 single.php:156
+msgid "Tumblr"
+msgstr ""
+
+#: single-question.php:443 single.php:184
+msgid "Share"
+msgstr ""
+
+#: single-question.php:555 single.php:297
+msgid "About the Author"
+msgstr "Giới thiệu Tác giả"
+
+#: single-question.php:572
+msgid "Related questions"
+msgstr "Câu hỏi liên quan"
+
+#: single-question.php:593
+msgid "&nbsp;Previous question"
+msgstr "&nbsp; Câu hỏi trước"
+
+#: single-question.php:596
+msgid "Next question&nbsp;"
+msgstr "Câu hỏi tiếp theo&nbsp;"
+
+#: single.php:52
+msgid "Edit the post"
+msgstr "Chỉnh sửa bài viết"
+
+#: single.php:64
+msgid "Delete the post"
+msgstr "Xóa bài viết"
+
+#: single.php:317
+msgid "Related Posts"
+msgstr "Bài viết liên quan"
+
+#: single.php:338
+msgid "&nbsp;Previous post"
+msgstr "&nbsp;Bài viết trước"
+
+#: single.php:341
+msgid "Next post&nbsp;"
+msgstr "Bài viết tiếp theo&nbsp;"
+
+#: template-answer_follow.php:92 template-recently_answered.php:50
+#: template-user_answer.php:76
+msgid "Sorry it a private answer ."
+msgstr "Xin lỗi, đây là câu trả lời riêng tư ."
+
+#: template-answer_follow.php:97 template-comment_follow.php:87
+#: template-recently_answered.php:72 template-user_answer.php:81
+msgid "No answers yet ."
+msgstr "Hiện chưa có câu trả lời ."
+
+#: template-answer_follow.php:99 template-comment_follow.php:89
+#: template-i_follow.php:147 template-post_follow.php:39
+#: template-question_follow.php:99
+msgid "There are no user follow yet ."
+msgstr "Chưa có follow từ thành viên ."
+
+#: template-contact_us.php:42
+msgid "About Us"
+msgstr "Giới thiệu"
+
+#: template-contact_us.php:52
+msgid "Phone number :"
+msgstr "Số điện thoại:"
+
+#: template-contact_us.php:55
+msgid "E-mail :"
+msgstr ""
+
+#: template-contact_us.php:59
+msgid "Social links :"
+msgstr "Mạng xã hội"
+
+#: template-contact_us.php:107
+msgid "RSS"
+msgstr ""
+
+#: template-contact_us.php:125
+msgid "Dribbble"
+msgstr ""
+
+#: template-edit_comment.php:35
+msgid "Edit Comment"
+msgstr ""
+
+#: template-edit_post.php:22
+msgid "Sorry no post has you select or not found ."
+msgstr "Xin lỗi không có bài viết nào được chọn hoặc không tìm thấy."
+
+#: template-edit_question.php:24
+msgid "Sorry no question has you select or not found ."
+msgstr "Xin lỗi không có câu hỏi nào được chọn hoặc không tìm thấy."
+
+#: template-edit_question.php:27
+msgid "Sorry you don't have a premmisions to edit this question ."
+msgstr ""
+
+#: template-followers.php:147
+msgid "There are no Followers yet ."
+msgstr "Hiện chưa có người theo dõi."
+
+#: template-home.php:18
+msgid "Recent Questions"
+msgstr "Câu hỏi mới"
+
+#: template-home.php:21
+msgid "Most Responses"
+msgstr "Được quan tâm"
+
+#: template-home.php:24
+msgid "Recently Answered"
+msgstr "Trả lời mới"
+
+#: template-home.php:27 template-recently_answered.php:71
+msgid "No answers"
+msgstr "Chưa trả lời"
+
+#: template-home.php:30
+msgid "Most Visit"
+msgstr "Được xem nhiều"
+
+#: template-home.php:33
+msgid "Most Vote"
+msgstr ""
+
+#: template-home.php:36
+msgid "Recent Posts"
+msgstr "Bài viết mới"
+
+#: template-home.php:131
+msgid "No answers Found."
+msgstr "Không tìm thấy câu trả lời."
+
+#: template-question_follow.php:97 template-user_question.php:105
+msgid "No questions yet ."
+msgstr "Chưa có câu hỏi."
+
+#: template-questions_bump.php:21 template-user_points.php:110
+msgid "This page is not active ."
+msgstr "Trang này chưa hoạt động."
+
+#: template-user_favorite_questions.php:68
+msgid "remove the question"
+msgstr "xóa câu hỏi"
+
+#: template-user_favorite_questions.php:101
+#: template-user_favorite_questions.php:103
+#: template-user_favorite_questions.php:106
+msgid "There are no questions ."
+msgstr "Chưa có câu hỏi."
+
+#: template-user_points.php:66
+msgid "Rating your question"
+msgstr "Đánh giá các câu hỏi của bạn"
+
+#: template-user_points.php:68
+msgid "Rating your answer"
+msgstr "Đánh giá các câu trả lời của bạn"
+
+#: template-user_points.php:70
+msgid "User unfollow You"
+msgstr "Thành viên unfollow bạn"
+
+#: template-user_points.php:72
+msgid "User follow You"
+msgstr "Thành viên follow bạn"
+
+#: template-user_points.php:74
+msgid "Discount points to bump question"
+msgstr ""
+
+#: template-user_points.php:76
+msgid "Choose your answer Best Answer"
+msgstr ""
+
+#: template-user_points.php:78
+msgid "Cancel your answer Best Answer"
+msgstr ""
+
+#: template-user_points.php:80
+msgid "You answer the question"
+msgstr "Bạn trả lời câu hỏi"
+
+#: template-user_points.php:82
+msgid "Add a new question"
+msgstr "Thêm câu hỏi mới"
+
+#: template-user_points.php:84
+msgid "Gift of the site"
+msgstr ""
+
+#: template-user_points.php:86
+msgid "You charged points for Add a question"
+msgstr ""
+
+#: template-user_points.php:88
+msgid "The administrator add points for you"
+msgstr "Người quản trị thêm điểm cho bạn"
+
+#: template-user_points.php:90
+msgid "The administrator remove points from you"
+msgstr "Các quản trị viên loại bỏ điểm từ bạn"
+
+#: template-user_points.php:103
+msgid "There are no points yet ."
+msgstr "Chưa có điểm ."
+
+#: woocommerce/cart/cart-empty.php:16
+msgid "Your cart is currently empty."
+msgstr "Giỏ hàng của bạn hiện đang trống."
+
+#: woocommerce/cart/cart-empty.php:20
+msgid "Return To Shop"
+msgstr "Trở về Shop"
+
+#: woocommerce/cart/cart-shipping.php:20
+#, php-format
+msgid "Shipping #%d"
+msgstr "Vận chuyển #%d"
+
+#: woocommerce/cart/cart-shipping.php:22
+msgid "Shipping and Handling"
+msgstr "Vận chuyển và xử lý"
+
+#: woocommerce/cart/cart-shipping.php:59
+msgid "Please use the shipping calculator to see available shipping methods."
+msgstr ""
+"Vui lòng sử dụng các tính vận chuyển để xem phương pháp vận chuyển có sẵn."
+
+#: woocommerce/cart/cart-shipping.php:63
+msgid ""
+"Please continue to the checkout and enter your full address to see if there "
+"are any available shipping methods."
+msgstr ""
+"Xin hãy tiếp tục sang trang sau và nhập địa chỉ đầy đủ của bạn để kiểm tra "
+"phương pháp vận chuyển có sẵn."
+
+#: woocommerce/cart/cart-shipping.php:67
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+"Xin vui lòng điền thông tin của bạn để xem phương pháp vận chuyển có sẵn."
+
+#: woocommerce/cart/cart-shipping.php:76 woocommerce/cart/cart-shipping.php:82
+msgid ""
+"There don&lsquo;t seem to be available shipping methods. Please double check "
+"your address, or contact us if you need any help."
+msgstr ""
+"Xin lỗi, có vẻ như không có phương thức thanh toán có sẵn cho khu vực của "
+"bạn. Vui lòng kiểm tra lại địa chỉ của bạn hoặc liên hệ chúng tôi để được "
+"giúp đỡ."
+
+#: woocommerce/cart/cart-shipping.php:97 woocommerce/cart/cart-totals.php:46
+msgid "Shipping"
+msgstr "Phí giao hàng:"
+
+#: woocommerce/cart/cart-totals.php:19
+msgid "Cart Totals"
+msgstr "Tổng hóa đơn"
+
+#: woocommerce/cart/cart-totals.php:24 woocommerce/cart/mini-cart.php:65
+msgid "Subtotal"
+msgstr "Tạm tính"
+
+#: woocommerce/cart/cart-totals.php:90
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr "(Thuế ước tính cho%s)"
+
+#: woocommerce/cart/cart-totals.php:93
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+"Lưu ý: Vận chuyển và thuế ước tính%s sẽ được cập nhật trong thời gian thanh "
+"toán dựa trên địa chỉ và hình thức giao hàng."
+
+#: woocommerce/cart/cart.php:27 woocommerce/checkout/form-pay.php:20
+#: woocommerce/checkout/review-order.php:17
+#: woocommerce/emails/admin-cancelled-order.php:22
+#: woocommerce/emails/admin-new-order.php:27
+#: woocommerce/emails/customer-completed-order.php:27
+#: woocommerce/emails/customer-invoice.php:31
+#: woocommerce/emails/customer-note.php:31
+#: woocommerce/emails/customer-processing-order.php:27
+#: woocommerce/emails/customer-refunded-order.php:34
+#: woocommerce/order/order-details.php:20
+msgid "Product"
+msgstr "Sản phẩm"
+
+#: woocommerce/cart/cart.php:28 woocommerce/emails/admin-cancelled-order.php:24
+#: woocommerce/emails/admin-new-order.php:29
+#: woocommerce/emails/customer-completed-order.php:29
+#: woocommerce/emails/customer-invoice.php:33
+#: woocommerce/emails/customer-note.php:33
+#: woocommerce/emails/customer-processing-order.php:29
+#: woocommerce/emails/customer-refunded-order.php:36
+msgid "Price"
+msgstr "Giá"
+
+#: woocommerce/cart/cart.php:29 woocommerce/emails/admin-cancelled-order.php:23
+#: woocommerce/emails/admin-new-order.php:28
+#: woocommerce/emails/customer-completed-order.php:28
+#: woocommerce/emails/customer-invoice.php:32
+#: woocommerce/emails/customer-note.php:32
+#: woocommerce/emails/customer-processing-order.php:28
+#: woocommerce/emails/customer-refunded-order.php:35
+#: woocommerce/single-product/add-to-cart/simple.php:31
+msgid "Quantity"
+msgstr "Số Lượng"
+
+#: woocommerce/cart/cart.php:47 woocommerce/cart/mini-cart.php:35
+msgid "Remove this item"
+msgstr "Xóa sản phẩm này"
+
+#: woocommerce/cart/cart.php:74
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:119
+msgid "Coupon"
+msgstr "Mã giảm giá"
+
+#: woocommerce/cart/cart.php:119 woocommerce/checkout/form-coupon.php:23
+msgid "Coupon code"
+msgstr "Mã giảm giá"
+
+#: woocommerce/cart/cart.php:119 woocommerce/checkout/form-coupon.php:27
+msgid "Apply Coupon"
+msgstr "Áp Dụng Mã Giảm Giá"
+
+#: woocommerce/cart/cart.php:127
+msgid "Empty Cart"
+msgstr "Giỏ hang trống"
+
+#: woocommerce/cart/cart.php:129
+msgid "Update Cart"
+msgstr "Cập nhật giỏ hàng"
+
+#: woocommerce/cart/cross-sells.php:38
+msgid "You may be interested in&hellip;"
+msgstr "Bạn có thể quan tâm đến&hellip;"
+
+#: woocommerce/cart/mini-cart.php:57
+msgid "No products in the cart."
+msgstr "Không có sản phẩm nào trong giỏ hàng"
+
+#: woocommerce/cart/mini-cart.php:70
+msgid "View Cart"
+msgstr "Xem Giỏ Hàng"
+
+#: woocommerce/cart/mini-cart.php:71
+msgid "Checkout"
+msgstr "Thanh Toán"
+
+#: woocommerce/cart/shipping-calculator.php:20
+msgid "Calculate Shipping"
+msgstr "Tính phí vận chuyển"
+
+#: woocommerce/cart/shipping-calculator.php:43
+#: woocommerce/cart/shipping-calculator.php:49
+#: woocommerce/cart/shipping-calculator.php:61
+msgid "State / county"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:50
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:78
+msgid "Postcode / Zip"
+msgstr "Mã bưu chính"
+
+#: woocommerce/cart/shipping-calculator.php:83
+msgid "Update Totals"
+msgstr "Cập nhật Tổng Hóa Đơn"
+
+#: woocommerce/checkout/cart-errors.php:18
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back to the cart page and resolve these issues before checking out."
+msgstr ""
+"Có một số vấn đề với các mặt hàng trong giỏ hàng của bạn (hiển thị ở trên). "
+"Vui lòng trở lại và giải quyết những vấn đề này trước khi thanh toán."
+
+#: woocommerce/checkout/cart-errors.php:22
+msgid "Return To Cart"
+msgstr "Trở về giỏ hàng"
+
+#: woocommerce/checkout/form-billing.php:15
+msgid "Billing &amp; Shipping"
+msgstr "Thanh toán &amp; Vận chuyển"
+
+#: woocommerce/checkout/form-billing.php:19
+msgid "Billing Details"
+msgstr "Chi tiết Thanh toán"
+
+#: woocommerce/checkout/form-billing.php:38
+msgid "Create an account?"
+msgstr "Bạn có muốn tạo tài khoản không?"
+
+#: woocommerce/checkout/form-billing.php:49
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+"Tạo một tài khoản bằng cách nhập các thông tin dưới đây. Nếu bạn đã đăng ký, "
+"vui lòng đăng nhập."
+
+#: woocommerce/checkout/form-checkout.php:20
+msgid "You must be logged in to checkout."
+msgstr "Bạn phải đăng nhập để thanh toán."
+
+#: woocommerce/checkout/form-checkout.php:45
+msgid "Your order"
+msgstr "Đơn hàng của bạn"
+
+#: woocommerce/checkout/form-coupon.php:16
+msgid "Have a coupon?"
+msgstr "Bạn có phiếu giảm giá không?"
+
+#: woocommerce/checkout/form-coupon.php:16
+msgid "Click here to enter your code"
+msgstr "Bấm vào đây để nhập mã giảm giá"
+
+#: woocommerce/checkout/form-login.php:14
+msgid "Returning customer?"
+msgstr "Bạn đã có tài khoản?"
+
+#: woocommerce/checkout/form-login.php:15
+msgid "Click here to login"
+msgstr "Bấm vào đây để đăng nhập"
+
+#: woocommerce/checkout/form-login.php:22
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; Shipping "
+"section."
+msgstr ""
+"Nếu bạn đã là khách hàng của chúng tôi trước đó, xin vui lòng nhập thông tin "
+"của bạn vào các ô bên dưới. Nếu bạn là một khách hàng mới xin vui lòng vào "
+"phần Thanh toán &amp; Vận chuyển."
+
+#: woocommerce/checkout/form-pay.php:21
+msgid "Qty"
+msgstr "S.Lượng"
+
+#: woocommerce/checkout/form-pay.php:22
+msgid "Totals"
+msgstr "Tổng hóa đơn"
+
+#: woocommerce/checkout/form-pay.php:80
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+"Xin lỗi, có vẻ như không có phương thức thanh toán có sẵn cho khu vực của "
+"bạn. Hãy liên hệ với chúng tôi nếu bạn cần trợ giúp hoặc muốn sắp xếp thay "
+"thế."
+
+#: woocommerce/checkout/form-pay.php:90
+msgid "Pay for order"
+msgstr "Thanh toán đơn hàng"
+
+#: woocommerce/checkout/form-shipping.php:29
+msgid "Ship to a different address?"
+msgstr "Giao hàng đến một địa chỉ khác?"
+
+#: woocommerce/checkout/form-shipping.php:55
+msgid "Additional Information"
+msgstr "Thêm thông tin"
+
+#: woocommerce/checkout/review-order.php:50
+msgid "Cart Subtotal"
+msgstr "Tổng tiền tạm tính"
+
+#: woocommerce/checkout/review-order.php:97
+msgid "Order Total"
+msgstr "Đơn hàng tổng cộng"
+
+#: woocommerce/checkout/thankyou.php:16
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/merchant "
+"has declined your transaction."
+msgstr ""
+"Thật không may, đơn đặt hàng của bạn không thể xử lý do ngân hàng/đối tác đã "
+"từ chối giao dịch của bạn."
+
+#: woocommerce/checkout/thankyou.php:20
+msgid "Please attempt your purchase again or go to your account page."
+msgstr "Hãy thử mua hàng lại một lần nữa hoặc vào trang tài khoản của bạn."
+
+#: woocommerce/checkout/thankyou.php:22
+msgid "Please attempt your purchase again."
+msgstr "Vui lòng đặt hàng lại"
+
+#: woocommerce/checkout/thankyou.php:26 woocommerce/myaccount/my-orders.php:68
+msgid "Pay"
+msgstr "Thanh Toán"
+
+#: woocommerce/checkout/thankyou.php:28
+msgid "My Account"
+msgstr "Tài khoản của tôi"
+
+#: woocommerce/checkout/thankyou.php:34 woocommerce/checkout/thankyou.php:65
+msgid "Thank you. Your order has been received."
+msgstr "Cám ơn. Đơn hàng của bạn đã được gửi."
+
+#: woocommerce/checkout/thankyou.php:38
+msgid "Order:"
+msgstr "Đơn hàng:"
+
+#: woocommerce/checkout/thankyou.php:42
+msgid "Date:"
+msgstr "Ngày:"
+
+#: woocommerce/checkout/thankyou.php:46
+msgid "Total:"
+msgstr "Tổng:"
+
+#: woocommerce/checkout/thankyou.php:51
+msgid "Payment method:"
+msgstr "Phương thức thanh toán:"
+
+#: woocommerce/emails/admin-cancelled-order.php:13
+#: woocommerce/emails/plain/admin-cancelled-order.php:15
+#, php-format
+msgid "The order #%d from %s has been cancelled. The order was as follows:"
+msgstr "Đơn hàng #%d từ %s đã bị hủy. Trình tự như sau:"
+
+#: woocommerce/emails/admin-cancelled-order.php:17
+#, php-format
+msgid "Order: %s"
+msgstr "Đơn hàng: %s"
+
+#: woocommerce/emails/admin-new-order.php:18
+#, php-format
+msgid "You have received an order from %s. The order is as follows:"
+msgstr "Bạn đã nhận được một đơn đặt hàng từ%s. Trình tự như sau:"
+
+#: woocommerce/emails/admin-new-order.php:22
+#: woocommerce/emails/customer-completed-order.php:22
+#: woocommerce/emails/customer-invoice.php:26
+#: woocommerce/emails/customer-note.php:26
+#: woocommerce/emails/customer-processing-order.php:22
+#: woocommerce/emails/customer-refunded-order.php:29
+#, php-format
+msgid "Order #%s"
+msgstr "Đơn hàng: %s"
+
+#: woocommerce/emails/customer-completed-order.php:18
+#: woocommerce/emails/plain/customer-completed-order.php:16
+#, php-format
+msgid ""
+"Hi there. Your recent order on %s has been completed. Your order details are "
+"shown below for your reference:"
+msgstr ""
+"Chào bạn. Đơn đặt hàng %s đã được hoàn thành. Chi tiết đặt hàng của bạn được "
+"hiển thị dưới đây để bạn tham khảo:"
+
+#: woocommerce/emails/customer-invoice.php:20
+#: woocommerce/emails/plain/customer-invoice.php:17
+#, php-format
+msgid ""
+"An order has been created for you on %s. To pay for this order please use the "
+"following link: %s"
+msgstr ""
+"Một đơn hàng đã được tạo cho bạn ở %s. Để thanh toán cho đơn hàng này vui "
+"lòng bấm vào đường dẫn: %s"
+
+#: woocommerce/emails/customer-invoice.php:20
+msgid "pay"
+msgstr "Thanh toán"
+
+#: woocommerce/emails/customer-new-account.php:18
+#: woocommerce/emails/plain/customer-new-account.php:16
+#, php-format
+msgid ""
+"Thanks for creating an account on %s. Your username is <strong>%s</strong>."
+msgstr ""
+"Cảm ơn bạn đã tạo tài khoản tại %s. Tên đăng nhập của bạn là <strong>%s</"
+"strong>."
+
+#: woocommerce/emails/customer-new-account.php:22
+#, php-format
+msgid "Your password has been automatically generated: <strong>%s</strong>"
+msgstr "Mật khẩu của bạn đã được tự động tạo: <strong>%s</strong>"
+
+#: woocommerce/emails/customer-new-account.php:26
+#: woocommerce/emails/plain/customer-new-account.php:21
+#, php-format
+msgid ""
+"You can access your account area to view your orders and change your password "
+"here: %s."
+msgstr ""
+"Bạn có thể truy cập vào khu vực tài khoản của bạn để xem đơn đặt hàng và thay "
+"đổi mật khẩu ở đây: %s."
+
+#: woocommerce/emails/customer-note.php:18
+#: woocommerce/emails/plain/customer-note.php:16
+msgid "Hello, a note has just been added to your order:"
+msgstr "Xin chào, một lưu ý vừa được thêm vào đặt hàng của bạn:"
+
+#: woocommerce/emails/customer-note.php:22
+#: woocommerce/emails/plain/customer-note.php:24
+msgid "For your reference, your order details are shown below."
+msgstr "Để bạn tham khảo, chi tiết đơn hàng của bạn được hiển thị dưới đây."
+
+#: woocommerce/emails/customer-processing-order.php:18
+#: woocommerce/emails/plain/customer-processing-order.php:16
+msgid ""
+"Your order has been received and is now being processed. Your order details "
+"are shown below for your reference:"
+msgstr ""
+"Đơn hàng của bạn đã được nhận và hiện đang được xử lý. Chi tiết đặt hàng của "
+"bạn được hiển thị dưới đây để bạn tham khảo:"
+
+#: woocommerce/emails/customer-refunded-order.php:20
+#, php-format
+msgid "Hi there. Your order on %s has been partially refunded."
+msgstr ""
+
+#: woocommerce/emails/customer-refunded-order.php:23
+#, php-format
+msgid "Hi there. Your order on %s has been refunded."
+msgstr ""
+
+#: woocommerce/emails/customer-refunded-order.php:50
+#: woocommerce/emails/plain/customer-refunded-order.php:32
+msgid "Amount Refunded"
+msgstr ""
+
+#: woocommerce/emails/email-addresses.php:20
+#: woocommerce/emails/plain/email-addresses.php:14
+msgid "Billing address"
+msgstr "Địa Chỉ Thanh Toán"
+
+#: woocommerce/emails/email-addresses.php:30
+#: woocommerce/emails/plain/email-addresses.php:18
+msgid "Shipping address"
+msgstr "Địa Chỉ Giao Hàng"
+
+#: woocommerce/emails/email-order-items.php:25
+msgid "Product Image"
+msgstr "Hình ảnh sản phẩm"
+
+#: woocommerce/emails/email-order-items.php:54
+#: woocommerce/emails/plain/email-order-items.php:49
+#, php-format
+msgid "Download %d"
+msgstr ""
+
+#: woocommerce/emails/email-order-items.php:56
+#: woocommerce/emails/plain/email-order-items.php:51
+msgid "Download"
+msgstr ""
+
+#: woocommerce/emails/plain/admin-cancelled-order.php:21
+#: woocommerce/emails/plain/admin-new-order.php:22
+#: woocommerce/emails/plain/customer-completed-order.php:22
+#: woocommerce/emails/plain/customer-invoice.php:23
+#: woocommerce/emails/plain/customer-note.php:30
+#: woocommerce/emails/plain/customer-processing-order.php:22
+#: woocommerce/emails/plain/customer-refunded-order.php:22
+#, php-format
+msgid "Order number: %s"
+msgstr "Mã số giao dịch: %s"
+
+#: woocommerce/emails/plain/admin-cancelled-order.php:22
+#: woocommerce/emails/plain/admin-new-order.php:23
+#: woocommerce/emails/plain/customer-completed-order.php:23
+#: woocommerce/emails/plain/customer-invoice.php:24
+#: woocommerce/emails/plain/customer-note.php:31
+#: woocommerce/emails/plain/customer-processing-order.php:23
+#: woocommerce/emails/plain/customer-refunded-order.php:23
+msgid "jS F Y"
+msgstr ""
+
+#: woocommerce/emails/plain/admin-cancelled-order.php:36
+#: woocommerce/emails/plain/admin-new-order.php:37
+#, php-format
+msgid "View order: %s"
+msgstr ""
+
+#: woocommerce/emails/plain/admin-new-order.php:16
+#, php-format
+msgid "You have received an order from %s."
+msgstr ""
+
+#: woocommerce/emails/plain/customer-new-account.php:19
+#, php-format
+msgid "Your password is <strong>%s</strong>."
+msgstr "Mật khẩu của bạn là<strong>%s</strong>."
+
+#: woocommerce/emails/plain/customer-refunded-order.php:16
+#, php-format
+msgid ""
+"Hi there. Your order on %s has been refunded. Your order details are shown "
+"below for your reference:"
+msgstr ""
+
+#: woocommerce/emails/plain/email-order-items.php:35
+#, php-format
+msgid "Quantity: %s"
+msgstr "Số lượng: %s"
+
+#: woocommerce/emails/plain/email-order-items.php:38
+#, php-format
+msgid "Cost: %s"
+msgstr "Chi phí: %s"
+
+#: woocommerce/global/form-login.php:22
+#: woocommerce/myaccount/form-lost-password.php:24
+msgid "Username or email"
+msgstr "Tên đăng nhập hoặc địa chỉ email"
+
+#: woocommerce/global/form-login.php:38 woocommerce/myaccount/form-login.php:48
+msgid "Remember me"
+msgstr "Tự động đăng nhập lần sau"
+
+#: woocommerce/global/form-login.php:42 woocommerce/myaccount/form-login.php:52
+msgid "Lost your password?"
+msgstr "Bạn quên mật khẩu?"
+
+#: woocommerce/global/quantity-input.php:12
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:14
+msgid "No products were found matching your selection."
+msgstr "Không có sản phẩm được tìm thấy phù hợp với lựa chọn của bạn."
+
+#: woocommerce/loop/result-count.php:28
+msgid "Showing the single result"
+msgstr "Hiển thị một kết quả"
+
+#: woocommerce/loop/result-count.php:30
+#, php-format
+msgid "Showing all %d results"
+msgstr "Hiển thị tất cả %d kết quả"
+
+#: woocommerce/loop/result-count.php:32
+#, php-format
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr "Hiển thị %1$d&ndash;%2$d của %3$d kết quả"
+
+#: woocommerce/loop/sale-flash.php:15
+#: woocommerce/single-product/sale-flash.php:15
+msgid "Out"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:20
+#: woocommerce/single-product/sale-flash.php:20
+msgid "Sale!"
+msgstr "Giảm Giá!"
+
+#: woocommerce/myaccount/form-add-payment-method.php:40
+msgid ""
+"Sorry, it seems that there are no payment methods which support adding a new "
+"payment method. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+"Xin lỗi, có vẻ như không có phương thức thanh toán phù hợp. Vui lòng liên hệ "
+"với chúng tôi nếu bạn cần trợ giúp hoặc muốn sắp xếp thay thế"
+
+#: woocommerce/myaccount/form-add-payment-method.php:48
+msgid "Add Payment Method"
+msgstr "Thêm Phương Thức Thanh Toán"
+
+#: woocommerce/myaccount/form-edit-account.php:23
+msgid "First name"
+msgstr "Tên"
+
+#: woocommerce/myaccount/form-edit-account.php:27
+msgid "Last name"
+msgstr "Họ và tên đệm"
+
+#: woocommerce/myaccount/form-edit-account.php:33
+#: woocommerce/myaccount/form-login.php:81
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:38
+msgid "Password Change"
+msgstr "Thay đổi mật khẩu"
+
+#: woocommerce/myaccount/form-edit-account.php:41
+msgid "Current Password (leave blank to leave unchanged)"
+msgstr "Mật khẩu hiện tại (bỏ trống nếu bạn không muốn thay đổi)"
+
+#: woocommerce/myaccount/form-edit-account.php:45
+msgid "New Password (leave blank to leave unchanged)"
+msgstr "Mật khẩu mới (bỏ trống nếu bạn không muốn thay đổi)"
+
+#: woocommerce/myaccount/form-edit-account.php:49
+msgid "Confirm New Password"
+msgstr "Xác nhận mật khẩu mới"
+
+#: woocommerce/myaccount/form-edit-account.php:59
+msgid "Save changes"
+msgstr "Lưu tất cả thay đổi"
+
+#: woocommerce/myaccount/form-edit-address.php:16
+#: woocommerce/myaccount/my-address.php:19
+#: woocommerce/myaccount/my-address.php:25
+msgid "Billing Address"
+msgstr "Địa Chỉ Thanh Toán"
+
+#: woocommerce/myaccount/form-edit-address.php:16
+#: woocommerce/myaccount/my-address.php:20
+msgid "Shipping Address"
+msgstr "Địa Chỉ Giao Hàng"
+
+#: woocommerce/myaccount/form-edit-address.php:44
+msgid "Save Address"
+msgstr "Lưu Địa chỉ"
+
+#: woocommerce/myaccount/form-login.php:34
+msgid "Username or email address"
+msgstr "Tên người dùng hoặc địa chỉ email"
+
+#: woocommerce/myaccount/form-login.php:95
+msgid "Anti-spam"
+msgstr "Chống thư rác"
+
+#: woocommerce/myaccount/form-lost-password.php:22
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+"Quên mật khẩu? Vui lòng điền tên đăng nhập hoặc địa chỉ email. Bạn sẽ nhận "
+"được liên kết để tạo mật khẩu mới từ email."
+
+#: woocommerce/myaccount/form-lost-password.php:28
+msgid "Enter a new password below."
+msgstr "Nhập mật khẩu mới của bạn dưới đây."
+
+#: woocommerce/myaccount/form-lost-password.php:31
+msgid "New password"
+msgstr "Mật khẩu mới"
+
+#: woocommerce/myaccount/form-lost-password.php:35
+msgid "Re-enter new password"
+msgstr "Nhập lại mật khẩu mới"
+
+#: woocommerce/myaccount/form-lost-password.php:48
+msgid "Reset Password"
+msgstr "Thiết lập lại mật khẩu"
+
+#: woocommerce/myaccount/my-account.php:19
+#, php-format
+msgid "Hello <strong>%1$s</strong> (not %1$s? <a href=\"%2$s\">Sign out</a>)."
+msgstr ""
+"Xin chào <strong>%1$s</ strong> (không %1$s ? <a href = \" %2$s \"> Đăng xuất "
+"</a>)."
+
+#: woocommerce/myaccount/my-account.php:24
+#, php-format
+msgid ""
+"From your account dashboard you can view your recent orders, manage your "
+"shipping and billing addresses and <a href=\"%s\">edit your password and "
+"account details</a>."
+msgstr ""
+"Từ bảng điều khiển tài khoản của bạn, bạn có thể xem các đơn đặt hàng gần đây "
+"của bạn, quản lý địa chỉ vận chuyển và thanh toán của bạn và <a href= \"%s\"> "
+"chỉnh sửa mật khẩu và tài khoản của bạn chi tiết </a>."
+
+#: woocommerce/myaccount/my-address.php:17
+msgid "My Addresses"
+msgstr "Địa chỉ của tôi"
+
+#: woocommerce/myaccount/my-address.php:23
+msgid "My Address"
+msgstr "Địa chỉ của tôi"
+
+#: woocommerce/myaccount/my-address.php:35
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+"Các địa chỉ sau đây sẽ được sử dụng trên các trang thanh toán theo mặc định."
+
+#: woocommerce/myaccount/my-address.php:64
+msgid "You have not set up this type of address yet."
+msgstr "Bạn chưa thiết lập loại địa chỉ được nêu ra."
+
+#: woocommerce/myaccount/my-downloads.php:20
+msgid "Available downloads"
+msgstr "Cho phép tải về"
+
+#: woocommerce/myaccount/my-downloads.php:29
+#, php-format
+msgid "%s download remaining"
+msgid_plural "%s downloads remaining"
+msgstr[0] ""
+
+#: woocommerce/myaccount/my-orders.php:26
+msgid "Recent Orders"
+msgstr "Đơn đặt hàng gần đây"
+
+#: woocommerce/myaccount/my-orders.php:32
+msgid "Order"
+msgstr "Đơn hàng"
+
+#: woocommerce/myaccount/my-orders.php:34 woocommerce/myaccount/my-orders.php:55
+msgid "Status"
+msgstr "Tình trạng"
+
+#: woocommerce/myaccount/my-orders.php:47
+msgid "Order Number"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:59
+#, php-format
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] "%s cho %s sản phẩm"
+
+#: woocommerce/myaccount/my-orders.php:81
+msgid "View"
+msgstr "Xem"
+
+#: woocommerce/myaccount/view-order.php:19
+#, php-format
+msgid ""
+"Order <mark class=\"order-number\">%s</mark> was placed on <mark class="
+"\"order-date\">%s</mark> and is currently <mark class=\"order-status\">%s</"
+"mark>."
+msgstr ""
+"Đơn hàng <mark class=\"order-number\">%s</mark> đã được đặt ngày <mark class="
+"\"order-date\">%s</mark> và tình trạng hiện nay <mark class=\"order-status\">"
+"%s</mark>."
+
+#: woocommerce/myaccount/view-order.php:23 woocommerce/order/tracking.php:23
+msgid "Order Updates"
+msgstr "Cập Nhật Đơn Hàng"
+
+#: woocommerce/myaccount/view-order.php:29 woocommerce/order/tracking.php:29
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:17
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"return. This was given to you on your receipt and in the confirmation email "
+"you should have received."
+msgstr ""
+"Để theo dõi đơn hàng của bạn xin vui lòng nhập ID đơn hàng của bạn vào ô dưới "
+"đây và nhấn return. Điều này đã được trao cho bạn trên biên lai và xác nhận "
+"trong email bạn sẽ nhận được."
+
+#: woocommerce/order/form-tracking.php:19
+msgid "Order ID"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:19
+msgid "Found in your order confirmation email."
+msgstr "Tìm thấy trong email xác nhận đơn hàng của bạn."
+
+#: woocommerce/order/form-tracking.php:20
+msgid "Billing Email"
+msgstr "Email Thanh Toán"
+
+#: woocommerce/order/form-tracking.php:20
+msgid "Email you used during checkout."
+msgstr "Email bạn sử dụng để thanh toán."
+
+#: woocommerce/order/form-tracking.php:23
+msgid "Track"
+msgstr "Kiểm tra"
+
+#: woocommerce/order/order-again.php:16
+msgid "Order Again"
+msgstr "Đặt Hàng Lại"
+
+#: woocommerce/order/order-details.php:16
+msgid "Order Details"
+msgstr "Chi tiết đơn hàng"
+
+#: woocommerce/order/tracking.php:12
+#, php-format
+msgid "Order %s which was made %s has the status &ldquo;%s&rdquo;"
+msgstr "Đơn hàng %s đã thực hiện %s đang ở tình trạng &ldquo;%s&rdquo;"
+
+#: woocommerce/order/tracking.php:12
+msgid "ago"
+msgstr "cách đây"
+
+#: woocommerce/order/tracking.php:14
+msgid "and was completed"
+msgstr "và đã hoàn thành"
+
+#: woocommerce/order/tracking.php:14
+msgid " ago"
+msgstr "cách đây"
+
+#: woocommerce/single-product-reviews.php:24
+#, php-format
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] "%s đánh giá cho %s"
+
+#: woocommerce/single-product-reviews.php:26
+msgid "Reviews"
+msgstr "Đánh giá"
+
+#: woocommerce/single-product-reviews.php:47
+msgid "There are no reviews yet."
+msgstr "Hiện chưa có đánh giá nào."
+
+#: woocommerce/single-product-reviews.php:60
+msgid "Add a review"
+msgstr "Đánh giá sản phẩm"
+
+#: woocommerce/single-product-reviews.php:60
+msgid "Be the first to review"
+msgstr "Hãy là người đầu tiên đánh giá sản phẩm"
+
+#: woocommerce/single-product-reviews.php:61
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Viết bình luận %s"
+
+#: woocommerce/single-product-reviews.php:70
+msgid "Submit"
+msgstr "Gửi"
+
+#: woocommerce/single-product-reviews.php:76
+msgid "Your Rating"
+msgstr "Đánh Giá Của Bạn"
+
+#: woocommerce/single-product-reviews.php:77
+msgid "Rate&hellip;"
+msgstr "Đánh Giá&hellip;"
+
+#: woocommerce/single-product-reviews.php:78
+msgid "Perfect"
+msgstr "Tuyệt Vời"
+
+#: woocommerce/single-product-reviews.php:79
+msgid "Good"
+msgstr "Tốt"
+
+#: woocommerce/single-product-reviews.php:80
+msgid "Average"
+msgstr "Bình Thường"
+
+#: woocommerce/single-product-reviews.php:81
+msgid "Not that bad"
+msgstr "Không Tệ"
+
+#: woocommerce/single-product-reviews.php:82
+msgid "Very Poor"
+msgstr "Rất Tệ"
+
+#: woocommerce/single-product-reviews.php:86
+msgid "Your Review"
+msgstr "Nhận Xét Của Bạn"
+
+#: woocommerce/single-product-reviews.php:95
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr "Chỉ khách hàng đăng nhập mua sản phẩm này mới có thể để lại nhận xét."
+
+#: woocommerce/single-product/add-to-cart/variable.php:23
+msgid "This product is currently out of stock and unavailable."
+msgstr "Sản phẩm này hiện đang hết hàng và không có sẵn."
+
+#: woocommerce/single-product/add-to-cart/variable.php:34
+msgid "Clear selection"
+msgstr "Xóa lựa chọn"
+
+#: woocommerce/single-product/meta.php:23
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:23
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:29
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+
+#: woocommerce/single-product/product-attributes.php:28
+msgid "Weight"
+msgstr "Trọng lượng"
+
+#: woocommerce/single-product/product-attributes.php:35
+msgid "Dimensions"
+msgstr "Kích thước"
+
+#: woocommerce/single-product/rating.php:31
+msgid "Category :"
+msgid_plural "Categories :"
+msgstr[0] "Danh mục"
+
+#: woocommerce/single-product/rating.php:32
+msgid "Reviews :"
+msgstr "Đánh giá :"
+
+#: woocommerce/single-product/rating.php:33
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Đánh giá %s trên 5"
+
+#: woocommerce/single-product/rating.php:35
+#, php-format
+msgid "out of %s5%s"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:36
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] "dựa trên %s đánh giá của khách hàng"
+
+#: woocommerce/single-product/rating.php:40
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] "%s khách hàng đánh giá"
+
+#: woocommerce/single-product/related.php:36
+msgid "Related Products"
+msgstr "Sản phẩm liên quan"
+
+#: woocommerce/single-product/review.php:28
+#, php-format
+msgid "Rated %d out of 5"
+msgstr "Đánh giá %d trên 5"
+
+#: woocommerce/single-product/review.php:29
+msgid "out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review.php:36
+msgid "Your comment is awaiting approval"
+msgstr "Bình luận của bạn đang chờ kiểm duyệt."
+
+#: woocommerce/single-product/review.php:46
+msgid "verified owner"
+msgstr "chủ sở hữu được xác minh"
+
+#: woocommerce/single-product/up-sells.php:39
+msgid "You may also like&hellip;"
+msgstr "Có thể bạn thích&hellip;"
+
+#. Theme Name of the plugin/theme
+msgid "Ask me"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://2code.info/demo/themes/ask-me/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Responsive Questions and Answers WordPress"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "2codeThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://2code.info"
+msgstr ""
+
+#~ msgid ""
+#~ "Put here the video id : http://www.youtube.com/watch?v=sdUUx5FdySs EX : "
+#~ "'sdUUx5FdySs' . ."
+#~ msgstr ""
+#~ "Nhập vô đây video id : http://www.youtube.com/watch?v=sdUUx5FdySs EX : "
+#~ "'sdUUx5FdySs' . ."
+
+#~ msgid "Page not Found"
+#~ msgstr "Không tìm thấy trang này"
+
+#~ msgid "Your membership is activate now ."
+#~ msgstr "Tài khoản của bạn đã được kích hoạt."
+
+#~ msgid ""
+#~ "Please activate your membership, Click on the link has been sent to email "
+#~ "<a href='%s'>Click here</a> to send it again ."
+#~ msgstr ""
+#~ "Xin vui lòng kích hoạt tài khoản của bạn, nhấp chuột vào liên kết đã được "
+#~ "gửi tới email để kích hoạt. <a href='%s'>Bấm vào đây</a> để gửi lại một "
+#~ "lần nữa."
+
+#~ msgid ""
+#~ "Please activate your membership, Click on the link has been sent to email, "
+#~ "If you lost it <a href='%s'>Click here</a> to send it again ."
+#~ msgstr ""
+#~ "Xin vui lòng kích hoạt tài khoản của bạn, nhấp chuột vào liên kết đã được "
+#~ "gửi tới email để kích hoạt. Nếu bạn không tìm thấy email thì <a "
+#~ "href='%s'>Bấm vào đây</a> để gửi lại một lần nữa."
+
+#~ msgid "Payment"
+#~ msgstr "Thanh toán"
+
+#~ msgid "Order link: %s"
+#~ msgstr "Link đặt hàng: %s"
+
+#~ msgid "Order date: %s"
+#~ msgstr "Ngày mua hàng: %s"
+
+#~ msgid "Refunded:"
+#~ msgstr "Đã hoàn tiền:"
+
+#~ msgid "Note:"
+#~ msgstr "Lưu ý:"
+
+#~ msgid "Customer details"
+#~ msgstr "Thông tin khách hàng"
+
+#~ msgid "Telephone:"
+#~ msgstr "Điện thoại:"
+
+#~ msgid "Telephone"
+#~ msgstr "Điện thoại"
+
+#~ msgid "Choose an option"
+#~ msgstr "Vui lòng chọn"
+
+#~ msgid ""
+#~ "Lost your password? Please enter your username and email address. You will "
+#~ "receive a link to create a new password via email."
+#~ msgstr ""
+#~ "Vui lòng điền tài khoản đăng nhập và email. Bạn sẽ nhận được email có "
+#~ "đường dẫn để tạo mật khẩu mới."
+
+#~ msgid "Name or Email is not correct."
+#~ msgstr "Tên hoặc Email không chính xác."
+
+#~ msgid "Your password"
+#~ msgstr "Mật khẩu của bạn"
+
+#~ msgid "A reset password will be sent to this email address"
+#~ msgstr "Yêu cầu cài đặt lại mật khẩu sẽ được gửi vào email của bạn."

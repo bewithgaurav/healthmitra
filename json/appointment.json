@@ -1,0 +1,17 @@
+[
+	{
+		"id": "id1",
+		"doctorid": "id2",
+		"slot": "11PM - 12 AM",
+		"date": "26-10-2017",
+		"userids":
+		[
+			{
+				"id":"bla",
+				"slot":"11 AM to 2 PM",
+				"timestamp":"2017-03-18 16:39:58.260378",
+				"status": "confirmed"
+			}
+		]
+	}
+]

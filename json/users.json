@@ -1,0 +1,44 @@
+[
+	{
+		"id" : "uid",
+		"email":"random",
+		"password" : "new reply",
+		"aadhar": "gk",
+		"address": "anything",
+		"city": "anything",
+		"district":"anything",
+		"bloodgroup": "anything",
+		"mobile": "99999999",
+		"camps": 
+		[
+			"id1","id2","id3"
+		],
+		"appointments": 
+		[
+			"id1","id2","id3"
+		],
+		"role":"doctor",
+		"roledetails": 
+		{
+			"doctor":
+			{
+				"docdept":"cardiology",
+				"hospital":"Govt Hospital Ajmer",
+				"docdegree":"MBBS",
+				"schedule":
+				[
+					"11 AM to 12 PM", 
+					"4 PM to 8 PM"
+				]
+			},
+			"official":
+			{
+				"office":"",
+				"offdept":"",
+				"offpost":"",
+				"offdegree":""
+			}
+		},
+		"upvotes":["id1","id1","id1"]
+	}
+]

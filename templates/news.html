@@ -1,0 +1,33 @@
+
+
+<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+      
+<html> 
+ <body><center>
+ <h2>News Feed</h2>   
+ <div class="container">
+  <div class="col s12 m7">
+    {% for new in news %}
+    <div class="card horizontal">
+      <div class="card-image" >
+        <img src="{{new['img']}}">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p><h4>{{new["title"]}}</h4><br>{{new["content"]}}</p>
+        </div>
+        <div class="card-action">
+          By {{new["author"]}} at {{new["timestamp"]}}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>     
+  </div>
+    </body>
+</html> 
+                 

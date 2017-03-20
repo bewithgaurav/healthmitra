@@ -1,0 +1,30 @@
+[
+    {
+    	"id": "q1", 
+    	"title": "title1", 
+    	"body": "text1", 
+    	"author": "thug",
+    	"answers":
+    	[
+    		{	
+	    		"answer":"New answer", 
+	    		"id": 1, 
+	    		"author":"authorid",
+	    		"timestamp":"2017-03-18 16:39:58.260378", 
+				"comments" : 
+	    		[ 
+	    			{	
+			    		"comment":"New comment", 
+			    		"id": 1, 
+			    		"author":"authorid",
+			    		"timestamp":"2017-03-18 16:39:58.260378"
+			    	}
+	    		]
+    		}
+		], 
+		"solved":0, 
+		"upvotes":0,
+		"timestamp":"2017-03-18 16:39:58.260378", 
+		"private": 1
+	}
+]

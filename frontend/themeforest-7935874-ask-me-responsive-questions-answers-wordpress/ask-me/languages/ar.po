@@ -1,0 +1,4470 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ask me 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-18 17:22+0200\n"
+"PO-Revision-Date: 2015-12-18 17:22+0200\n"
+"Last-Translator: vbegy <vbegy.info@gmail.com>\n"
+"Language-Team: vbegy <vbegy.info@gmail.com>\n"
+"Language: en_EG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../404.php:7
+msgid "404"
+msgstr "404"
+
+#: ../404.php:8
+msgid "Opps! Page Not Found"
+msgstr ""
+
+#: ../404.php:11 ../template-recently_answered.php:75
+msgid "Home Page"
+msgstr "الصفحة الرئيسية"
+
+#: ../admin/functions/main_functions.php:352
+#: ../admin/functions/main_functions.php:444 ../includes/answers.php:54
+#: ../template-comment_follow.php:72
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:356
+#: ../admin/functions/main_functions.php:448
+#: ../admin/functions/register_post.php:55
+#: ../admin/functions/register_post.php:56
+#: ../admin/functions/register_post.php:80
+#: ../admin/functions/register_post.php:81 ../includes/answers.php:58
+#: ../single-question.php:273 ../woocommerce/myaccount/my-address.php:45
+msgid "Edit"
+msgstr "تعديل"
+
+#: ../admin/functions/main_functions.php:362
+#: ../admin/functions/main_functions.php:457 ../template-question_follow.php:87
+#: ../template-user_favorite_questions.php:91 ../template-user_question.php:95
+msgid "Reply"
+msgstr "رد"
+
+#: ../admin/functions/main_functions.php:367
+#: ../admin/functions/main_functions.php:472
+msgid "This comment is edited."
+msgstr ""
+
+#: ../admin/functions/main_functions.php:370
+#: ../admin/functions/main_functions.php:475 ../template-comment_follow.php:77
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك ينتظر موافقة الادارة ."
+
+#: ../admin/functions/main_functions.php:432
+#: ../admin/functions/main_functions.php:436 ../includes/answers.php:42
+#: ../includes/answers.php:46 ../question.php:167 ../question.php:170
+#: ../single-question.php:348 ../single-question.php:351
+msgid "Like"
+msgstr "معجب"
+
+#: ../admin/functions/main_functions.php:433
+#: ../admin/functions/main_functions.php:437 ../includes/answers.php:43
+#: ../includes/answers.php:47 ../question.php:166 ../question.php:169
+#: ../single-question.php:347 ../single-question.php:350
+msgid "Dislike"
+msgstr "لم يعجبني"
+
+#: ../admin/functions/main_functions.php:455
+#: ../admin/functions/main_functions.php:467 ../includes/answers.php:66
+#: ../includes/answers.php:77 ../question.php:70 ../question.php:126
+#: ../single-question.php:117 ../single-question.php:143
+msgid "Report"
+msgstr "تبليغ"
+
+#: ../admin/functions/main_functions.php:463 ../includes/answers.php:73
+msgid "Please briefly explain why you feel this answer should be reported ."
+msgstr "يرجى شرح بإيجاز لماذا تشعر أنك ينبغي الإبلاغ عن هذه الإجابة."
+
+#: ../admin/functions/main_functions.php:468 ../includes/answers.php:78
+#: ../question.php:127 ../single-question.php:144
+#: ../woocommerce/myaccount/my-orders.php:75
+msgid "Cancel"
+msgstr "‎إلغاء"
+
+#: ../admin/functions/main_functions.php:481
+#: ../admin/functions/register_post.php:192
+#: ../admin/functions/register_post.php:200 ../functions/shortcode_ask.php:151
+#: ../functions/shortcode_ask.php:524 ../functions/shortcode_ask.php:669
+#: ../question-comments.php:131 ../single-question.php:250
+#: ../single-question.php:257 ../single.php:96
+msgid "Attachment"
+msgstr "المرفقات"
+
+#: ../admin/functions/main_functions.php:490 ../functions.php:816
+msgid "Best answer"
+msgstr "افضل اجابة"
+
+#: ../admin/functions/main_functions.php:493 ../functions.php:815
+msgid "Cancel the best answer"
+msgstr "الغاء افضل اجابه"
+
+#: ../admin/functions/main_functions.php:497 ../functions.php:814
+msgid "Select as best answer"
+msgstr "اختيار افضل اجابة"
+
+#: ../admin/functions/main_functions.php:529
+msgid "<i class=\"icon-angle-left\"></i>"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:530
+msgid "<i class=\"icon-angle-right\"></i>"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:604
+msgid "<span class=\"crumbs-span\">/</span>"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:605
+msgid "Home"
+msgstr "الرئيسية"
+
+#: ../admin/functions/main_functions.php:614
+#: ../admin/functions/main_functions.php:723
+msgid "Search"
+msgstr "بحث"
+
+#: ../admin/functions/main_functions.php:646
+msgid "Daily Archives : "
+msgstr "أرشيف اليومي : "
+
+#: ../admin/functions/main_functions.php:648
+msgid "Monthly Archives : "
+msgstr "أرشيف الشهور : "
+
+#: ../admin/functions/main_functions.php:650
+msgid "Yearly Archives : "
+msgstr "أرشيف السنوات : "
+
+#: ../admin/functions/main_functions.php:667
+#: ../admin/functions/main_functions.php:772
+msgid "Error 404"
+msgstr "خطأ 404"
+
+#: ../admin/functions/main_functions.php:695
+#: ../admin/functions/main_functions.php:801
+msgid "Error 404 "
+msgstr "خطأ 404 "
+
+#: ../admin/functions/main_functions.php:708
+#: ../admin/functions/main_functions.php:710
+#: ../admin/functions/main_functions.php:712
+msgid "Archives for "
+msgstr ""
+
+#: ../admin/functions/main_functions.php:714
+msgid "Archives by: "
+msgstr ""
+
+#: ../admin/functions/main_functions.php:793
+msgid "Search results for "
+msgstr "نتائج البحث عن         "
+
+#: ../admin/functions/main_functions.php:795
+msgid "Posts tagged "
+msgstr "Posts tagged "
+
+#: ../admin/functions/main_functions.php:805
+msgid "Page"
+msgstr "الصفحه"
+
+#: ../admin/functions/main_functions.php:832
+#: ../admin/functions/main_functions.php:840
+msgid "Your avatar"
+msgstr "صورتك الشخصية"
+
+#: ../admin/functions/main_functions.php:847 ../functions/shortcode_ask.php:1049
+#: ../functions/shortcode_ask.php:1536 ../includes/author-head.php:137
+msgid "Country"
+msgstr "الدولة"
+
+#: ../admin/functions/main_functions.php:850 ../functions/shortcode_ask.php:1052
+#: ../functions/shortcode_ask.php:1539
+#: ../woocommerce/cart/shipping-calculator.php:26
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:857 ../functions/shortcode_ask.php:1061
+#: ../functions/shortcode_ask.php:1548 ../includes/author-head.php:140
+#: ../woocommerce/cart/shipping-calculator.php:70
+msgid "City"
+msgstr "المدينة"
+
+#: ../admin/functions/main_functions.php:863 ../functions/shortcode_ask.php:1067
+#: ../functions/shortcode_ask.php:1554 ../includes/author-head.php:143
+msgid "Age"
+msgstr "‎العمر"
+
+#: ../admin/functions/main_functions.php:869 ../functions/shortcode_ask.php:1073
+#: ../functions/shortcode_ask.php:1514 ../includes/author-head.php:133
+msgid "Phone"
+msgstr "‎الهاتف"
+
+#: ../admin/functions/main_functions.php:878 ../functions/shortcode_ask.php:1079
+#: ../functions/shortcode_ask.php:1560 ../includes/author-head.php:146
+msgid "Sex"
+msgstr "‎الجنس"
+
+#: ../admin/functions/main_functions.php:881 ../functions/shortcode_ask.php:1081
+#: ../functions/shortcode_ask.php:1562 ../includes/author-head.php:146
+msgid "Male"
+msgstr "‎ذكر"
+
+#: ../admin/functions/main_functions.php:884 ../functions/shortcode_ask.php:1085
+#: ../functions/shortcode_ask.php:1564 ../includes/author-head.php:146
+msgid "Female"
+msgstr "‎انثي"
+
+#: ../admin/functions/main_functions.php:888 ../functions/shortcode_ask.php:1505
+msgid "Follow-up email"
+msgstr "تابعني علي البريد الاليكتروني"
+
+#: ../admin/functions/main_functions.php:894
+msgid ""
+"Show the points, favorite question, authors i follow, followers, question "
+"follow, answer follow, post follow and comment follow"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:898
+msgid "Show this pages only for me or any one?"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:915
+msgid "Received email when any one add a new question"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:919
+msgid "Received email?"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:926
+msgid "Social Networking"
+msgstr "لشبكات الاجتماعية"
+
+#: ../admin/functions/main_functions.php:929
+msgid "Google +"
+msgstr "Google +"
+
+#: ../admin/functions/main_functions.php:935 ../footer.php:149
+#: ../functions/shortcode_ask.php:739 ../functions/shortcode_ask.php:1602
+#: ../header.php:375 ../includes/author-head.php:188 ../single-question.php:395
+#: ../single.php:136 ../template-contact_us.php:71 ../template-followers.php:75
+#: ../template-i_follow.php:75 ../template-users.php:53
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../admin/functions/main_functions.php:941 ../footer.php:152
+#: ../functions/shortcode_ask.php:730 ../functions/shortcode_ask.php:1598
+#: ../header.php:378 ../includes/author-head.php:179 ../single-question.php:385
+#: ../single.php:126 ../template-contact_us.php:62 ../template-followers.php:66
+#: ../template-i_follow.php:66 ../template-users.php:44
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../admin/functions/main_functions.php:947 ../footer.php:158
+#: ../functions/shortcode_ask.php:748 ../functions/shortcode_ask.php:1606
+#: ../header.php:384 ../template-contact_us.php:80 ../template-users.php:80
+msgid "Youtube"
+msgstr "Youtube"
+
+#: ../admin/functions/main_functions.php:953
+msgid "linkedin"
+msgstr "linkedin"
+
+#: ../admin/functions/main_functions.php:959 ../functions/shortcode_ask.php:1622
+#: ../includes/author-head.php:215 ../single-question.php:427 ../single.php:168
+#: ../template-contact_us.php:134 ../template-followers.php:102
+#: ../template-i_follow.php:102 ../template-users.php:89
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: ../admin/functions/main_functions.php:965 ../functions/shortcode_ask.php:1618
+#: ../includes/author-head.php:224 ../template-contact_us.php:116
+#: ../template-followers.php:111 ../template-i_follow.php:111
+#: ../template-users.php:98
+msgid "Instagram"
+msgstr "Instagram"
+
+#: ../admin/functions/main_functions.php:973
+msgid "Add or remove points for the user"
+msgstr "‎اضافة او حذف نقاط للعضو"
+
+#: ../admin/functions/main_functions.php:976
+msgid "Add or remove points"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:980
+msgid "Add"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:981
+#: ../admin/includes/class-options-media-uploader.php:67
+#: ../admin/includes/class-options-media-uploader.php:114
+#: ../admin/meta-box/inc/fields/file-input.php:42
+msgid "Remove"
+msgstr "حذف"
+
+#: ../admin/functions/main_functions.php:984
+msgid "The points"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:986
+msgid "The reason"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1083
+msgid "Afghanistan"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1084
+msgid "&#197;land Islands"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1085
+msgid "Albania"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1086
+msgid "Algeria"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1087
+msgid "Andorra"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1088
+msgid "Angola"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1089
+msgid "Anguilla"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1090
+msgid "Antarctica"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1091
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1092
+msgid "Argentina"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1093
+msgid "Armenia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1094
+msgid "Aruba"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1095
+msgid "Australia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1096
+msgid "Austria"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1097
+msgid "Azerbaijan"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1098
+msgid "Bahamas"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1099
+msgid "Bahrain"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1100
+msgid "Bangladesh"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1101
+msgid "Barbados"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1102
+msgid "Belarus"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1103
+msgid "Belgium"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1104
+msgid "Belau"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1105
+msgid "Belize"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1106
+msgid "Benin"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1107
+msgid "Bermuda"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1108
+msgid "Bhutan"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1109
+msgid "Bolivia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1110
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1111
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1112
+msgid "Botswana"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1113
+msgid "Bouvet Island"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1114
+msgid "Brazil"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1115
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1116
+msgid "British Virgin Islands"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1117
+msgid "Brunei"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1118
+msgid "Bulgaria"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1119
+msgid "Burkina Faso"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1120
+msgid "Burundi"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1121
+msgid "Cambodia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1122
+msgid "Cameroon"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1123
+msgid "Canada"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1124
+msgid "Cape Verde"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1125
+msgid "Cayman Islands"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1126
+msgid "Central African Republic"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1127
+msgid "Chad"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1128
+msgid "Chile"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1129
+msgid "China"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1130
+msgid "Christmas Island"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1131
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1132
+msgid "Colombia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1133
+msgid "Comoros"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1134
+msgid "Congo (Brazzaville)"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1135
+msgid "Congo (Kinshasa)"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1136
+msgid "Cook Islands"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1137
+msgid "Costa Rica"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1138
+msgid "Croatia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1139
+msgid "Cuba"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1140
+msgid "Cura&Ccedil;ao"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1141
+msgid "Cyprus"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1142
+msgid "Czech Republic"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1143
+msgid "Denmark"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1144
+msgid "Djibouti"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1145
+msgid "Dominica"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1146
+msgid "Dominican Republic"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1147
+msgid "Ecuador"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1148
+msgid "Egypt"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1149
+msgid "El Salvador"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1150
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1151
+msgid "Eritrea"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1152
+msgid "Estonia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1153
+msgid "Ethiopia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1154
+msgid "Falkland Islands"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1155
+msgid "Faroe Islands"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1156
+msgid "Fiji"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1157
+msgid "Finland"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1158
+msgid "France"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1159
+msgid "French Guiana"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1160
+msgid "French Polynesia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1161
+msgid "French Southern Territories"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1162
+msgid "Gabon"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1163
+msgid "Gambia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1164
+msgid "Georgia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1165
+msgid "Germany"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1166
+msgid "Ghana"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1167
+msgid "Gibraltar"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1168
+msgid "Greece"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1169
+msgid "Greenland"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1170
+msgid "Grenada"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1171
+msgid "Guadeloupe"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1172
+msgid "Guatemala"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1173
+msgid "Guernsey"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1174
+msgid "Guinea"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1175
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1176
+msgid "Guyana"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1177
+msgid "Haiti"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1178
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1179
+msgid "Honduras"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1180
+msgid "Hong Kong"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1181
+msgid "Hungary"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1182
+msgid "Iceland"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1183
+msgid "India"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1184
+msgid "Indonesia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1185
+msgid "Iran"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1186
+msgid "Iraq"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1187
+msgid "Republic of Ireland"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1188
+msgid "Isle of Man"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1189
+msgid "Israel"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1190
+msgid "Italy"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1191
+msgid "Ivory Coast"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1192
+msgid "Jamaica"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1193
+msgid "Japan"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1194
+msgid "Jersey"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1195
+msgid "Jordan"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1196
+msgid "Kazakhstan"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1197
+msgid "Kenya"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1198
+msgid "Kiribati"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1199
+msgid "Kuwait"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1200
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1201
+msgid "Laos"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1202
+msgid "Latvia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1203
+msgid "Lebanon"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1204
+msgid "Lesotho"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1205
+msgid "Liberia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1206
+msgid "Libya"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1207
+msgid "Liechtenstein"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1208
+msgid "Lithuania"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1209
+msgid "Luxembourg"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1210
+msgid "Macao S.A.R., China"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1211
+msgid "Macedonia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1212
+msgid "Madagascar"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1213
+msgid "Malawi"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1214
+msgid "Malaysia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1215
+msgid "Maldives"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1216
+msgid "Mali"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1217
+msgid "Malta"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1218
+msgid "Marshall Islands"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1219
+msgid "Martinique"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1220
+msgid "Mauritania"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1221
+msgid "Mauritius"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1222
+msgid "Mayotte"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1223
+msgid "Mexico"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1224
+msgid "Micronesia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1225
+msgid "Moldova"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1226
+msgid "Monaco"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1227
+msgid "Mongolia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1228
+msgid "Montenegro"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1229
+msgid "Montserrat"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1230
+msgid "Morocco"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1231
+msgid "Mozambique"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1232
+msgid "Myanmar"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1233
+msgid "Namibia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1234
+msgid "Nauru"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1235
+msgid "Nepal"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1236
+msgid "Netherlands"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1237
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1238
+msgid "New Caledonia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1239
+msgid "New Zealand"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1240
+msgid "Nicaragua"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1241
+msgid "Niger"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1242
+msgid "Nigeria"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1243
+msgid "Niue"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1244
+msgid "Norfolk Island"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1245
+msgid "North Korea"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1246
+msgid "Norway"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1247
+msgid "Oman"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1248
+msgid "Pakistan"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1249
+msgid "Palestinian Territory"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1250
+msgid "Panama"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1251
+msgid "Papua New Guinea"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1252
+msgid "Paraguay"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1253
+msgid "Peru"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1254
+msgid "Philippines"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1255
+msgid "Pitcairn"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1256
+msgid "Poland"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1257
+msgid "Portugal"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1258
+msgid "Qatar"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1259
+msgid "Reunion"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1260
+msgid "Romania"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1261
+msgid "Russia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1262
+msgid "Rwanda"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1263
+msgid "Saint Barth&eacute;lemy"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1264
+msgid "Saint Helena"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1265
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1266
+msgid "Saint Lucia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1267
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1268
+msgid "Saint Martin (Dutch part)"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1269
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1270
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1271
+msgid "San Marino"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1272
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1273
+msgid "Saudi Arabia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1274
+msgid "Senegal"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1275
+msgid "Serbia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1276
+msgid "Seychelles"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1277
+msgid "Sierra Leone"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1278
+msgid "Singapore"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1279
+msgid "Slovakia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1280
+msgid "Slovenia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1281
+msgid "Solomon Islands"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1282
+msgid "Somalia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1283
+msgid "South Africa"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1284
+msgid "South Georgia/Sandwich Islands"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1285
+msgid "South Korea"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1286
+msgid "South Sudan"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1287
+msgid "Spain"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1288
+msgid "Sri Lanka"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1289
+msgid "Sudan"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1290
+msgid "Suriname"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1291
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1292
+msgid "Swaziland"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1293
+msgid "Sweden"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1294
+msgid "Switzerland"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1295
+msgid "Syria"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1296
+msgid "Taiwan"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1297
+msgid "Tajikistan"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1298
+msgid "Tanzania"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1299
+msgid "Thailand"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1300
+msgid "Timor-Leste"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1301
+msgid "Togo"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1302
+msgid "Tokelau"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1303
+msgid "Tonga"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1304
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1305
+msgid "Tunisia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1306
+msgid "Turkey"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1307
+msgid "Turkmenistan"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1308
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1309
+msgid "Tuvalu"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1310
+msgid "Uganda"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1311
+msgid "Ukraine"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1312
+msgid "United Arab Emirates"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1313
+msgid "United Kingdom (UK)"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1314
+msgid "United States (US)"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1315
+msgid "Uruguay"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1316
+msgid "Uzbekistan"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1317
+msgid "Vanuatu"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1318
+msgid "Vatican"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1319
+msgid "Venezuela"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1320
+msgid "Vietnam"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1321
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1322
+msgid "Western Sahara"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1323
+msgid "Western Samoa"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1324
+msgid "Yemen"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1325
+msgid "Zambia"
+msgstr ""
+
+#: ../admin/functions/main_functions.php:1326
+msgid "Zimbabwe"
+msgstr ""
+
+#: ../admin/functions/nav_menu.php:7
+msgid "You can use WP menu builder to build menus"
+msgstr "You can use WP menu builder to build menus"
+
+#: ../admin/functions/page_builder.php:8 ../admin/functions/page_builder.php:9
+msgid "Page slideshow"
+msgstr "Page slideshow"
+
+#: ../admin/functions/page_builder.php:10 ../admin/functions/page_builder.php:11
+msgid "Sort the sections"
+msgstr ""
+
+#: ../admin/functions/page_builder.php:74
+msgid "+ Add new slide"
+msgstr "+ أضف سلايد جديد"
+
+#: ../admin/functions/register_post.php:16
+#: ../admin/functions/register_post.php:18
+#: ../admin/functions/register_post.php:19
+#: ../admin/functions/register_post.php:20
+#: ../admin/functions/register_post.php:21
+#: ../admin/functions/register_post.php:159
+#: ../admin/widgets/profile_links.php:30
+#: ../admin/widgets/questions_categories.php:42 ../admin/widgets/stats.php:41
+#: ../author.php:17 ../functions/shortcode_ask.php:803
+#: ../includes/author-head.php:250 ../template-categories.php:24
+msgid "Questions"
+msgstr "الاسئله"
+
+#: ../admin/functions/register_post.php:22
+msgid "Add New"
+msgstr "اضف جديد"
+
+#: ../admin/functions/register_post.php:23
+msgid "Add New question"
+msgstr "اضف سؤال جديد"
+
+#: ../admin/functions/register_post.php:24
+msgid "New question"
+msgstr "سؤال جديد"
+
+#: ../admin/functions/register_post.php:25
+msgid "Edit question"
+msgstr "تعديل السؤال"
+
+#: ../admin/functions/register_post.php:26
+msgid "View question"
+msgstr "عرض السؤال"
+
+#: ../admin/functions/register_post.php:27
+msgid "All questions"
+msgstr "كل الاسئلة"
+
+#: ../admin/functions/register_post.php:28
+msgid "Search questions"
+msgstr "البحث علي الاسئلة"
+
+#: ../admin/functions/register_post.php:29
+msgid "Parent question:"
+msgstr "السؤال الرئيسي:"
+
+#: ../admin/functions/register_post.php:30
+msgid "No questions found."
+msgstr "لا يوجد اسئله موجوده ."
+
+#: ../admin/functions/register_post.php:31
+msgid "No questions found in Trash."
+msgstr "لا يوجد اسئله في سلة المهملات"
+
+#: ../admin/functions/register_post.php:49
+#: ../admin/functions/register_post.php:50
+#: ../admin/functions/register_post.php:53
+#: ../admin/functions/register_post.php:54
+msgid "Categories"
+msgstr "الافسام"
+
+#: ../admin/functions/register_post.php:51
+msgid "Search in categories"
+msgstr "البحث في الاقسام"
+
+#: ../admin/functions/register_post.php:52
+msgid "All categories"
+msgstr "كل الاقسام"
+
+#: ../admin/functions/register_post.php:57
+#: ../admin/functions/register_post.php:58
+msgid "Add a new category"
+msgstr "اضف قسم جديد"
+
+#: ../admin/functions/register_post.php:74
+#: ../admin/functions/register_post.php:75
+#: ../admin/functions/register_post.php:78
+#: ../admin/functions/register_post.php:79 ../functions/shortcode_ask.php:91
+#: ../functions/shortcode_ask.php:310 ../functions/shortcode_ask.php:509
+#: ../functions/shortcode_ask.php:636
+msgid "Tags"
+msgstr "الكلمات الدليلة"
+
+#: ../admin/functions/register_post.php:76
+msgid "Search in tags"
+msgstr "البحث في الكلمات الدليلية"
+
+#: ../admin/functions/register_post.php:77
+msgid "All tags"
+msgstr "كل الكلمات الدليلية"
+
+#: ../admin/functions/register_post.php:82
+#: ../admin/functions/register_post.php:83
+msgid "Add new tag"
+msgstr "اضف كلمة ديليلة جديدة"
+
+#: ../admin/functions/register_post.php:102
+msgid "Title"
+msgstr "العنوان"
+
+#: ../admin/functions/register_post.php:103
+msgid "Type"
+msgstr "النوع"
+
+#: ../admin/functions/register_post.php:104
+msgid "Added by"
+msgstr "اضيف بواسطة"
+
+#: ../admin/functions/register_post.php:105
+#: ../woocommerce/myaccount/my-orders.php:33
+#: ../woocommerce/myaccount/my-orders.php:52
+msgid "Date"
+msgstr "التاريخ"
+
+#: ../admin/functions/register_post.php:116 ../functions/shortcode_ask.php:107
+#: ../functions/shortcode_ask.php:326 ../question.php:73
+#: ../single-question.php:120 ../template-question_follow.php:70
+#: ../template-user_favorite_questions.php:74 ../template-user_question.php:76
+msgid "Poll"
+msgstr "التصويت"
+
+#: ../admin/functions/register_post.php:116 ../question.php:75
+#: ../single-question.php:122 ../template-question_follow.php:72
+#: ../template-user_favorite_questions.php:76 ../template-user_question.php:78
+msgid "Question"
+msgstr "السؤال"
+
+#: ../admin/functions/register_post.php:132
+#, php-format
+msgid "Updated. <a href=\"%s\">View question</a>"
+msgstr "تم التحيث. <a href=\"%s\">عرض السؤال</a>"
+
+#: ../admin/functions/register_post.php:192
+#: ../admin/functions/register_post.php:200 ../single-question.php:286
+msgid "Delete"
+msgstr ""
+
+#: ../admin/functions/register_post.php:213
+msgid "This question is a poll?"
+msgstr "هذا السؤال عبارة عن استطلاع رأى ?"
+
+#: ../admin/functions/register_post.php:221
+msgid "Add a new option to poll"
+msgstr "اضف خيار جديد للتصويت"
+
+#: ../admin/functions/register_post.php:224
+msgid "Poll Options"
+msgstr "خيارات التصويت"
+
+#: ../admin/functions/register_post.php:271 ../functions/shortcode_ask.php:98
+#: ../functions/shortcode_ask.php:317 ../functions/shortcode_ask.php:516
+#: ../functions/shortcode_ask.php:643
+msgid "Category"
+msgstr "قسم"
+
+#: ../admin/functions/register_post.php:290
+msgid "Choose from here the question category."
+msgstr "اختار من هنا قسم السؤال."
+
+#: ../admin/functions/register_post.php:294 ../functions/shortcode_ask.php:186
+#: ../functions/shortcode_ask.php:403
+msgid "Video description"
+msgstr "وصف فيديو"
+
+#: ../admin/functions/register_post.php:301 ../functions/shortcode_ask.php:188
+#: ../functions/shortcode_ask.php:405
+msgid "Do you need a video to description the problem better ?"
+msgstr "هل تحتاج فيديو لتوضيح المشكله بشكل افضل ؟"
+
+#: ../admin/functions/register_post.php:306 ../functions/shortcode_ask.php:193
+#: ../functions/shortcode_ask.php:410
+msgid "Video type"
+msgstr "نوع الفيديو"
+
+#: ../admin/functions/register_post.php:316
+msgid "Choose from here the video type."
+msgstr ""
+
+#: ../admin/functions/register_post.php:320 ../functions/shortcode_ask.php:205
+#: ../functions/shortcode_ask.php:422
+msgid "Video ID"
+msgstr "اي دي الفيديو"
+
+#: ../admin/functions/register_post.php:324
+msgid ""
+"Put here the video id : http://www.youtube.com/watch?v=sdUUx5FdySs EX : "
+"'sdUUx5FdySs'."
+msgstr ""
+
+#: ../admin/functions/register_post.php:329
+msgid "Notified by e-mail"
+msgstr "تنبية بالبريد"
+
+#: ../admin/functions/register_post.php:336
+msgid "Notified by e-mail at incoming answers"
+msgstr "تنبية بالبريد عند اضافه اجابات جديدة"
+
+#: ../admin/functions/widget_functions.php:30
+msgid "The first footer widget area"
+msgstr ""
+
+#: ../admin/functions/widget_functions.php:37
+msgid "The Second footer widget area"
+msgstr ""
+
+#: ../admin/functions/widget_functions.php:44
+msgid "The Third footer widget area"
+msgstr ""
+
+#: ../admin/functions/widget_functions.php:51
+msgid "The Fourth footer widget area"
+msgstr ""
+
+#: ../admin/includes/class-options-framework-admin.php:117
+msgid "If you press will delete report !"
+msgstr ""
+
+#: ../admin/includes/class-options-framework-admin.php:118
+msgid "If you press will delete the attachemtn !"
+msgstr ""
+
+#: ../admin/includes/class-options-framework-admin.php:119
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "اضغط هنا للاستعادة. اي تعديلات في الموقع سوف تفقد !"
+
+#: ../admin/includes/class-options-framework-admin.php:173
+msgid "Saving"
+msgstr "جاري الحفظ"
+
+#: ../admin/includes/class-options-framework-admin.php:174
+msgid "Reseting Options"
+msgstr "استعادة الخيارات"
+
+#: ../admin/includes/class-options-framework-admin.php:210
+msgid "Default options restored."
+msgstr "تم استعادة الخيارات."
+
+#: ../admin/includes/class-options-framework-admin.php:264
+msgid "Options saved."
+msgstr "تم الحفظ."
+
+#: ../admin/includes/class-options-media-uploader.php:62
+msgid "No file chosen"
+msgstr "لا يوجد ملف مختار"
+
+#: ../admin/includes/class-options-media-uploader.php:65
+#: ../admin/includes/class-options-media-uploader.php:113
+msgid "Upload"
+msgstr "تحميل"
+
+#: ../admin/includes/class-options-media-uploader.php:70
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: ../admin/includes/class-options-media-uploader.php:94
+msgid "View File"
+msgstr "عرض الملف"
+
+#: ../admin/includes/class-options-sanitization.php:250
+msgid "No Repeat"
+msgstr ""
+
+#: ../admin/includes/class-options-sanitization.php:251
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: ../admin/includes/class-options-sanitization.php:252
+msgid "Repeat Vertically"
+msgstr ""
+
+#: ../admin/includes/class-options-sanitization.php:253
+msgid "Repeat All"
+msgstr ""
+
+#: ../admin/includes/class-options-sanitization.php:266
+msgid "Top Left"
+msgstr ""
+
+#: ../admin/includes/class-options-sanitization.php:267
+msgid "Top Center"
+msgstr ""
+
+#: ../admin/includes/class-options-sanitization.php:268
+msgid "Top Right"
+msgstr ""
+
+#: ../admin/includes/class-options-sanitization.php:269
+msgid "Middle Left"
+msgstr ""
+
+#: ../admin/includes/class-options-sanitization.php:270
+msgid "Middle Center"
+msgstr ""
+
+#: ../admin/includes/class-options-sanitization.php:271
+msgid "Middle Right"
+msgstr ""
+
+#: ../admin/includes/class-options-sanitization.php:272
+msgid "Bottom Left"
+msgstr ""
+
+#: ../admin/includes/class-options-sanitization.php:273
+msgid "Bottom Center"
+msgstr ""
+
+#: ../admin/includes/class-options-sanitization.php:274
+msgid "Bottom Right"
+msgstr ""
+
+#: ../admin/includes/class-options-sanitization.php:287
+msgid "Scroll Normally"
+msgstr ""
+
+#: ../admin/includes/class-options-sanitization.php:288
+msgid "Fixed in Place"
+msgstr ""
+
+#: ../admin/includes/class-options-sanitization.php:362
+msgid "Normal"
+msgstr ""
+
+#: ../admin/includes/class-options-sanitization.php:363
+msgid "Italic"
+msgstr ""
+
+#: ../admin/includes/class-options-sanitization.php:364
+msgid "Bold"
+msgstr ""
+
+#: ../admin/includes/class-options-sanitization.php:365
+msgid "Bold Italic"
+msgstr ""
+
+#: ../admin/meta-box/inc/field.php:185
+msgid "+"
+msgstr ""
+
+#: ../admin/meta-box/inc/field.php:202
+msgid "&#8211;"
+msgstr ""
+
+#: ../admin/meta-box/inc/fields/button.php:35
+msgid "Click me"
+msgstr "اضغط هنا"
+
+#: ../admin/meta-box/inc/fields/file-advanced.php:23
+msgid "Select Files"
+msgstr "اختار الملفات"
+
+#: ../admin/meta-box/inc/fields/file-input.php:17
+msgid "Select File"
+msgstr "اختار الملف"
+
+#: ../admin/meta-box/inc/fields/file-input.php:40
+msgid "Select"
+msgstr "اختار"
+
+#: ../admin/meta-box/inc/fields/file.php:19
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr "قمت بتحميل الحد الاقصي %d للملف"
+
+#: ../admin/meta-box/inc/fields/file.php:20
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr "قمت بتحميل الحد الاقصي %d للملفات"
+
+#: ../admin/meta-box/inc/fields/file.php:70
+msgid "Error: Cannot delete file"
+msgstr "خطأ: لا يمكن حذف الملف"
+
+#: ../admin/meta-box/inc/fields/image-advanced.php:22
+msgid "Select Images"
+msgstr "اختار الصور"
+
+#: ../admin/meta-box/inc/fields/map.php:48
+msgid "Find Address"
+msgstr "البحث عن عنوان"
+
+#: ../admin/meta-box/inc/fields/oembed.php:54
+msgid "Embed HTML not available."
+msgstr "تضمين HTML غير متاح."
+
+#: ../admin/meta-box/inc/fields/oembed.php:76
+msgid "Preview"
+msgstr "مراجعه"
+
+#: ../admin/meta-box/inc/fields/post.php:52
+msgid "Post"
+msgstr "نشر"
+
+#: ../admin/meta-box/inc/fields/post.php:66
+#: ../admin/meta-box/inc/fields/taxonomy.php:40
+#: ../admin/meta-box/inc/fields/user.php:62
+#, php-format
+msgid "Select a %s"
+msgstr "حدد %s"
+
+#: ../admin/meta-box/inc/fields/user.php:54
+msgid "User"
+msgstr "العضو"
+
+#: ../admin/meta-box/inc/meta-box.php:241
+msgid "Please correct the errors highlighted below and try again."
+msgstr "يرجى تصحيح الأخطاء المبينة أدناه وحاول مرة أخرى."
+
+#: ../admin/widgets/contact.php:30 ../template-contact_us.php:49
+msgid "Address :"
+msgstr "العنوان :"
+
+#: ../admin/widgets/contact.php:31
+msgid "Support :"
+msgstr "الدعم :"
+
+#: ../admin/widgets/counter.php:38 ../admin/widgets/subscribe.php:36
+msgid "Subscribe"
+msgstr "اشترك"
+
+#: ../admin/widgets/counter.php:39
+msgid "To RSS Feed"
+msgstr "To RSS Feed"
+
+#: ../admin/widgets/counter.php:50
+msgid "People like it"
+msgstr "People like it"
+
+#: ../admin/widgets/counter.php:61 ../admin/widgets/counter.php:72
+#: ../admin/widgets/profile_links.php:34 ../functions/shortcode_ask.php:818
+#: ../includes/author-head.php:263
+msgid "Followers"
+msgstr "متابعون"
+
+#: ../admin/widgets/counter.php:83
+msgid "Subscribers"
+msgstr "اشترك"
+
+#: ../admin/widgets/highest_points.php:56 ../admin/widgets/profile_links.php:36
+#: ../functions/shortcode_ask.php:812 ../includes/author-head.php:256
+msgid "Points"
+msgstr "النقاط"
+
+#: ../admin/widgets/login.php:31 ../functions/shortcode_ask.php:24
+#: ../functions/shortcode_ask.php:27 ../functions/shortcode_ask.php:277
+#: ../functions/shortcode_ask.php:469 ../functions/shortcode_ask.php:602
+#: ../functions/shortcode_ask.php:893 ../woocommerce/myaccount/form-login.php:65
+#: ../woocommerce/myaccount/form-login.php:102
+msgid "Register"
+msgstr "تسجيل"
+
+#: ../admin/widgets/login.php:55 ../header.php:218 ../header.php:323
+#: ../header.php:877 ../template-login-2.php:15 ../template-login.php:15
+#: ../woocommerce/global/form-login.php:35
+#: ../woocommerce/myaccount/form-login.php:27
+#: ../woocommerce/myaccount/form-login.php:46
+msgid "Login"
+msgstr "تسجيل دخول"
+
+#: ../admin/widgets/profile_links.php:29 ../functions/shortcode_ask.php:800
+msgid "Profile page"
+msgstr "صفحة الملف الشخصي"
+
+#: ../admin/widgets/profile_links.php:31 ../admin/widgets/stats.php:42
+#: ../author.php:23 ../functions/shortcode_ask.php:806
+#: ../includes/author-head.php:251 ../question-comments.php:15
+msgid "Answers"
+msgstr "الاجابات"
+
+#: ../admin/widgets/profile_links.php:32 ../functions/shortcode_ask.php:809
+#: ../includes/author-head.php:253
+msgid "Favorite Questions"
+msgstr "الاسئله المفضلة"
+
+#: ../admin/widgets/profile_links.php:33 ../functions/shortcode_ask.php:815
+#: ../includes/author-head.php:262
+msgid "Authors I Follow"
+msgstr "الاعضاء التي اتابعها"
+
+#: ../admin/widgets/profile_links.php:38 ../functions/shortcode_ask.php:830
+#: ../includes/author-head.php:264
+msgid "Follow questions"
+msgstr ""
+
+#: ../admin/widgets/profile_links.php:39 ../functions/shortcode_ask.php:833
+#: ../includes/author-head.php:265
+msgid "Follow answers"
+msgstr ""
+
+#: ../admin/widgets/profile_links.php:40 ../functions/shortcode_ask.php:827
+#: ../includes/author-head.php:259
+msgid "Posts"
+msgstr "المقالات"
+
+#: ../admin/widgets/profile_links.php:41 ../functions/shortcode_ask.php:836
+#: ../includes/author-head.php:266
+msgid "Follow posts"
+msgstr ""
+
+#: ../admin/widgets/profile_links.php:42 ../functions/shortcode_ask.php:839
+#: ../includes/author-head.php:267
+msgid "Follow comments"
+msgstr ""
+
+#: ../admin/widgets/profile_links.php:43 ../functions/shortcode_ask.php:842
+#: ../includes/author-head.php:163
+msgid "Edit profile"
+msgstr "تعديل الملف الشخصي"
+
+#: ../admin/widgets/profile_links.php:44 ../functions/shortcode_ask.php:846
+msgid "Logout"
+msgstr "تسجيل خروج"
+
+#: ../admin/widgets/profile_links.php:60
+msgid "Profile"
+msgstr "‎الملف الشخصي"
+
+#: ../admin/widgets/questions.php:47 ../admin/widgets/tabs.php:35
+msgid "Recent"
+msgstr "الأخيرة"
+
+#: ../admin/widgets/questions_categories.php:59
+msgid "Questions Categories"
+msgstr "‎اقسام الاسئلة"
+
+#: ../admin/widgets/stats.php:43 ../includes/author-head.php:260
+msgid "Best Answers"
+msgstr "افضل اجابة"
+
+#: ../admin/widgets/stats.php:44
+msgid "Users"
+msgstr "الاعضاء"
+
+#: ../admin/widgets/stats.php:58
+msgid "Stats"
+msgstr "الاحصائيات"
+
+#: ../admin/widgets/subscribe.php:31 ../functions/shortcode_ask.php:775
+#: ../includes/author-head.php:233 ../single-question.php:437 ../single.php:178
+#: ../template-followers.php:120 ../template-i_follow.php:120
+#: ../template-users.php:107 ../woocommerce/single-product-reviews.php:67
+msgid "Email"
+msgstr "البريد الالكتروني"
+
+#: ../admin/widgets/tabs.php:32
+msgid "Popular"
+msgstr "الاكثر شعبية"
+
+#: ../admin/widgets/tabs.php:38 ../attachment.php:29 ../comments.php:13
+#: ../page.php:36 ../post.php:93 ../single.php:86 ../template-home.php:259
+msgid "Comments"
+msgstr "التعليقات"
+
+#: ../admin/widgets/twitter.php:38
+msgid "Loading twitter feed..."
+msgstr "Loading twitter feed..."
+
+#: ../admin/widgets/twitter.php:39
+#, php-format
+msgid "about %d seconds ago"
+msgstr ""
+
+#: ../admin/widgets/twitter.php:40
+msgid "about a minute ago"
+msgstr ""
+
+#: ../admin/widgets/twitter.php:41
+#, php-format
+msgid "about %d minutes ago"
+msgstr ""
+
+#: ../admin/widgets/twitter.php:42
+msgid "about an hour ago"
+msgstr ""
+
+#: ../admin/widgets/twitter.php:43
+#, php-format
+msgid "about %d hours ago"
+msgstr ""
+
+#: ../admin/widgets/twitter.php:44
+msgid "about a day ago"
+msgstr ""
+
+#: ../admin/widgets/twitter.php:45
+#, php-format
+msgid "about %d days ago"
+msgstr ""
+
+#: ../admin/widgets/twitter.php:46
+msgid "view tweet on twitter"
+msgstr ""
+
+#: ../admin/woocommerce/woocommerce.php:98
+msgid "Select options"
+msgstr ""
+
+#: ../admin/woocommerce/woocommerce.php:213
+msgid "&nbsp;Previous product"
+msgstr ""
+
+#: ../admin/woocommerce/woocommerce.php:216
+msgid "Next product&nbsp;"
+msgstr ""
+
+#: ../admin/woocommerce/woocommerce.php:229
+msgid "Share This"
+msgstr "‎مشاركة"
+
+#: ../attachment.php:29 ../page.php:36 ../post.php:93 ../single.php:86
+#: ../template-home.php:259
+msgid "0 Comments"
+msgstr "0 تعليق"
+
+#: ../attachment.php:29 ../page.php:36 ../post.php:93 ../single.php:86
+#: ../template-home.php:259
+msgid "1 Comment"
+msgstr "1 تعليق"
+
+#: ../author.php:11
+msgid "#"
+msgstr "#"
+
+#: ../author.php:12
+msgid "Today"
+msgstr "اليوم"
+
+#: ../author.php:13
+msgid "Month"
+msgstr "الشهر"
+
+#: ../author.php:14 ../woocommerce/cart/cart-totals.php:78
+#: ../woocommerce/cart/cart.php:30 ../woocommerce/checkout/review-order.php:18
+#: ../woocommerce/myaccount/my-orders.php:35
+#: ../woocommerce/myaccount/my-orders.php:58
+#: ../woocommerce/order/order-details.php:21
+msgid "Total"
+msgstr "المجموع"
+
+#: ../author.php:29
+msgid "Visitors"
+msgstr "الزوار"
+
+#: ../captcha/captcha.php:5
+msgid "You can only reach this page by posting from the form"
+msgstr ""
+
+#: ../comments.php:3 ../question-comments.php:6
+msgid "Please do not load this page directly. Thanks!"
+msgstr "لو سمحت لا تقم بفتح هذه الصفحه مباشرة . شكرا!"
+
+#: ../comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "هذه التدوينة هي كلمة السر المحمية. أدخل كلمة المرور لمشاهدة التعليقات."
+
+#: ../comments.php:13 ../comments.php:89 ../question-comments.php:172
+#: ../template-edit_comment.php:28
+msgid "Comment"
+msgstr "التعليق"
+
+#: ../comments.php:13 ../question-comments.php:15
+msgid "No"
+msgstr "لا"
+
+#: ../comments.php:13 ../question-comments.php:15
+msgid "1"
+msgstr "1"
+
+#: ../comments.php:13 ../question-comments.php:15
+msgid "%"
+msgstr "%"
+
+#: ../comments.php:28
+msgid "Leave a reply"
+msgstr "‎اضافة تعليق"
+
+#: ../comments.php:28
+#, php-format
+msgid "Leave a reply to %s"
+msgstr "‎اضافة تعليق ل %s"
+
+#: ../comments.php:40 ../question-comments.php:111
+msgid "Logged in as"
+msgstr "مسجل دخول ب"
+
+#: ../comments.php:40 ../question-comments.php:111
+msgid "Log out &raquo;"
+msgstr "تسجيل خروج &raquo;"
+
+#: ../comments.php:44 ../question-comments.php:115
+#: ../woocommerce/single-product-reviews.php:65
+msgid "Name"
+msgstr "الاسم"
+
+#: ../comments.php:48 ../functions/shortcode_ask.php:78
+#: ../functions/shortcode_ask.php:496 ../functions/shortcode_ask.php:995
+#: ../functions/shortcode_ask.php:1360 ../functions/shortcode_ask.php:1493
+#: ../question-comments.php:119
+msgid "E-Mail"
+msgstr "البريد الاليكتروني"
+
+#: ../comments.php:52 ../functions/shortcode_ask.php:1593
+#: ../includes/author-head.php:149 ../question-comments.php:123
+msgid "Website"
+msgstr "الموقع"
+
+#: ../comments.php:68 ../comments.php:78 ../comments.php:79
+#: ../functions/shortcode_ask.php:226 ../functions/shortcode_ask.php:233
+#: ../functions/shortcode_ask.php:234 ../functions/shortcode_ask.php:564
+#: ../functions/shortcode_ask.php:571 ../functions/shortcode_ask.php:572
+#: ../functions/shortcode_ask.php:1098 ../functions/shortcode_ask.php:1105
+#: ../functions/shortcode_ask.php:1106 ../question-comments.php:151
+#: ../question-comments.php:161 ../question-comments.php:162
+msgid "Captcha"
+msgstr "الرمز الامني"
+
+#: ../comments.php:79 ../functions/shortcode_ask.php:234
+#: ../functions/shortcode_ask.php:572 ../functions/shortcode_ask.php:1106
+#: ../question-comments.php:162
+msgid "Click here to update the captcha"
+msgstr "اضغط هنا لتحديث الرمز الامني ."
+
+#: ../comments.php:80 ../functions/shortcode_ask.php:235
+#: ../functions/shortcode_ask.php:573 ../functions/shortcode_ask.php:1107
+#: ../question-comments.php:163
+msgid "Click on image to update the captcha ."
+msgstr "اضغط علي الصورة لتحديث الرمز الامني ."
+
+#: ../comments.php:98 ../functions/shortcode_ask.php:179
+#: ../functions/shortcode_ask.php:392 ../functions/shortcode_ask.php:550
+#: ../functions/shortcode_ask.php:665 ../question-comments.php:181
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+
+#: ../comments.php:102
+msgid "Post Comment"
+msgstr "اضف تعليق"
+
+#: ../comments.php:108
+#, php-format
+msgid ""
+"You must <a href=\"%s\" class=\"login-comments\">login</a> or <a href=\"%s\" "
+"class=\"signup\">register</a> to add a new comment ."
+msgstr ""
+"يجب عليك <a href=\"%s\">تسجيل الدخول</a> او <a href=\"%s\">التسجيل</a> "
+"لتستطيع اضافه تعليق ."
+
+#: ../footer.php:155 ../functions/shortcode_ask.php:766
+#: ../functions/shortcode_ask.php:1614 ../header.php:381
+#: ../includes/author-head.php:206 ../single-question.php:405 ../single.php:146
+#: ../template-contact_us.php:98 ../template-followers.php:93
+#: ../template-i_follow.php:93 ../template-users.php:71
+msgid "Google plus"
+msgstr "Google plus"
+
+#: ../footer.php:161 ../header.php:387
+msgid "Skype"
+msgstr "Skype"
+
+#: ../footer.php:164 ../header.php:390
+msgid "Flickr"
+msgstr "Flickr"
+
+#: ../footer.php:167 ../functions/shortcode_ask.php:757
+#: ../functions/shortcode_ask.php:1610 ../header.php:393
+#: ../includes/author-head.php:197 ../template-contact_us.php:89
+#: ../template-followers.php:84 ../template-i_follow.php:84
+#: ../template-users.php:62
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: ../footer.php:170 ../header.php:396
+msgid "Rss"
+msgstr "Rss"
+
+#: ../functions.php:799 ../header.php:566
+msgid "Go to..."
+msgstr "الذهاب الي..."
+
+#: ../functions.php:800
+msgid "Please fill the required field."
+msgstr "يرجى ملء الحقول المطلوبة."
+
+#: ../functions.php:801 ../functions/functions_ask.php:650
+#: ../functions/functions_ask.php:652 ../functions/functions_ask.php:658
+#: ../functions/functions_ask.php:660 ../functions/functions_ask.php:945
+#: ../functions/functions_ask.php:949 ../functions/functions_ask.php:1233
+#: ../functions/functions_ask.php:1237 ../functions/shortcode_ask.php:1188
+#: ../functions/shortcode_ask.php:1192
+msgid "The captcha is incorrect, please try again."
+msgstr "يوجد خطأ في الرمز الامني الرجاء المحاولة"
+
+#: ../functions.php:805
+msgid "Fill out all the required fields."
+msgstr "يرجى ملء الحقول المطلوبة."
+
+#: ../functions.php:806
+msgid "Sorry, you cannot vote on the same question more than once."
+msgstr "عفوا ، لا تستطيع التصويت علي نفس السؤال اكثر من مرة ."
+
+#: ../functions.php:807
+msgid "Rating is available to members only."
+msgstr "التصويت متاح للاعضاء فقط ."
+
+#: ../functions.php:808
+msgid "Sorry, you cannot vote on the same comment more than once."
+msgstr "عفوا ، لا تستطيع التصويت علي نفس التعليق اكثر من مرة ."
+
+#: ../functions.php:810
+msgid "Are you sure you want to Report?"
+msgstr "هل تريد فعلا التبليغ !"
+
+#: ../functions.php:811
+msgid "Are you sure you want to delete the question?"
+msgstr "‎هل تريد حذف السؤال !"
+
+#: ../functions.php:812
+msgid "Are you sure you want to delete the post?"
+msgstr "‎هل انت متاكد من حذف المقالة ؟"
+
+#: ../functions.php:813
+msgid "Were reported for the question!"
+msgstr "تم الابلاغ عن السؤال!"
+
+#: ../functions.php:817 ../single-question.php:94 ../single-question.php:296
+msgid "Follow the question"
+msgstr ""
+
+#: ../functions.php:818 ../single-question.php:92 ../single-question.php:294
+msgid "Unfollow the question"
+msgstr ""
+
+#: ../functions.php:819 ../includes/author-head.php:170
+#: ../single-question.php:296
+msgid "Follow"
+msgstr "تابعني"
+
+#: ../functions.php:820 ../includes/author-head.php:168
+#: ../single-question.php:294
+msgid "Unfollow"
+msgstr "الغاء المتابعة"
+
+#: ../functions.php:822 ../functions/shortcode_ask.php:528
+#: ../functions/shortcode_ask.php:673 ../functions/shortcode_ask.php:1013
+#: ../question-comments.php:135
+msgid "Select file"
+msgstr "اختار الملف"
+
+#: ../functions.php:823 ../functions/shortcode_ask.php:529
+#: ../functions/shortcode_ask.php:674 ../functions/shortcode_ask.php:1014
+#: ../question-comments.php:136
+msgid "Browse"
+msgstr "تصفح"
+
+#: ../functions/functions_ask.php:317
+msgid "Sorry no mistake, this is not a question asked ."
+msgstr "عفوا يوجد خطأ هذا السؤال ليس سؤالك ."
+
+#: ../functions/functions_ask.php:320 ../functions/functions_ask.php:322
+msgid "You must enter a numeric value and a value greater than zero ."
+msgstr "القمية المدخلة يجب ان تكون رقمية واكبر من صفر ."
+
+#: ../functions/functions_ask.php:340
+msgid "Your points are insufficient ."
+msgstr "نقاطتك غير كافية ."
+
+#: ../functions/functions_ask.php:369
+msgid " ago "
+msgstr "منذ"
+
+#: ../functions/functions_ask.php:418 ../functions/functions_ask.php:427
+#: ../functions/functions_ask.php:467 ../functions/functions_ask.php:475
+#: ../functions/functions_ask.php:717 ../functions/functions_ask.php:730
+#: ../functions/functions_ask.php:737 ../functions/functions_ask.php:746
+#: ../functions/functions_ask.php:855 ../functions/functions_ask.php:866
+#: ../functions/functions_ask.php:1355 ../functions/functions_ask.php:1393
+#: ../functions/shortcode_ask.php:1291 ../functions/shortcode_ask.php:1299
+#: ../header.php:846 ../header.php:853
+msgid "Hi there"
+msgstr "السلام عليكم ورحمه الله وبركاته"
+
+#: ../functions/functions_ask.php:420
+msgid "Abuse have been reported on the use of the following question"
+msgstr "تم الابلاغ عن اساءة الاستخدام علي السؤال التالي"
+
+#: ../functions/functions_ask.php:469
+msgid "Abuse have been reported on the use of the following comment"
+msgstr "تم الابلاغ عن اساءة الاستخدام علي التعليق التالي"
+
+#: ../functions/functions_ask.php:642 ../functions/functions_ask.php:644
+msgid "<strong>ERROR</strong>: please type a captcha."
+msgstr ""
+
+#: ../functions/functions_ask.php:719
+msgid "We would tell you"
+msgstr "نود ابلاغك"
+
+#: ../functions/functions_ask.php:719
+msgid "That the new post was added on a common theme by"
+msgstr "بأن تم اضافة مشاركة جديدة على موضوع مشترك به بواسطة"
+
+#: ../functions/functions_ask.php:719
+msgid "Entitled"
+msgstr "بعنوان"
+
+#: ../functions/functions_ask.php:721
+msgid "Click on the link below to go to the topic"
+msgstr "اضغط على الرابط الموجود بالأسفل للتوجه الى الموضوع"
+
+#: ../functions/functions_ask.php:725
+msgid ""
+"There may be more of Posts and we hope the answer to encourage members and "
+"get them to help."
+msgstr ""
+"قد تكون هنالك المزيد من المشاركات ونتمنى تقييم الاجابه لتشجيع الاعضاء ودفعهم "
+"للمساعدة ."
+
+#: ../functions/functions_ask.php:727
+msgid "Accept from us Sincerely"
+msgstr "تقبل منا فائق الاحترام والتقدير"
+
+#: ../functions/functions_ask.php:739
+msgid "There are a new answers in this question"
+msgstr ""
+
+#: ../functions/functions_ask.php:788 ../functions/functions_ask.php:790
+#: ../functions/functions_ask.php:806 ../functions/functions_ask.php:876
+msgid "Added been successfully"
+msgstr "تم الاضافه بنجاح"
+
+#: ../functions/functions_ask.php:788
+msgid "Has been Added successfully ."
+msgstr ""
+
+#: ../functions/functions_ask.php:790
+msgid "Has been Added successfully, the answer under review ."
+msgstr ""
+
+#: ../functions/functions_ask.php:806
+msgid "Has been added successfully, the question under review ."
+msgstr "تم الاضافة بنجاح ، والسؤال قد المراجعه الان ."
+
+#: ../functions/functions_ask.php:857 ../functions/functions_ask.php:1357
+msgid "There are a new question"
+msgstr "يوجد اسئلة جديدة ."
+
+#: ../functions/functions_ask.php:876
+msgid "Has been added successfully, the post under review ."
+msgstr "‎تم الاضافة بنجاح, مقالك الان تحت المراجعة ."
+
+#: ../functions/functions_ask.php:912 ../functions/functions_ask.php:915
+#: ../functions/functions_ask.php:916 ../functions/functions_ask.php:917
+#: ../functions/functions_ask.php:921 ../functions/functions_ask.php:922
+#: ../functions/functions_ask.php:925 ../functions/functions_ask.php:930
+#: ../functions/functions_ask.php:932 ../functions/functions_ask.php:1210
+#: ../functions/functions_ask.php:1211 ../functions/functions_ask.php:1212
+#: ../functions/functions_ask.php:1216 ../functions/functions_ask.php:1217
+#: ../functions/functions_ask.php:1219 ../functions/functions_ask.php:1450
+#: ../functions/functions_ask.php:1453 ../functions/functions_ask.php:1455
+#: ../functions/functions_ask.php:1456 ../functions/functions_ask.php:1459
+#: ../functions/functions_ask.php:1463 ../functions/functions_ask.php:1465
+#: ../functions/functions_ask.php:1581 ../functions/functions_ask.php:1584
+#: ../functions/functions_ask.php:1587 ../functions/functions_ask.php:1588
+#: ../functions/functions_ask.php:1657 ../functions/functions_ask.php:1660
+#: ../functions/functions_ask.php:1662 ../functions/functions_ask.php:1663
+#: ../functions/functions_ask.php:1666 ../functions/functions_ask.php:1749
+#: ../functions/functions_ask.php:1750 ../functions/shortcode_ask.php:1336
+#: ../functions/shortcode_ask.php:1411
+msgid "Error"
+msgstr "خطأ"
+
+#: ../functions/functions_ask.php:912 ../functions/shortcode_ask.php:263
+#, php-format
+msgid ""
+"Sorry do not have the minimum points Please do answer questions, even gaining "
+"points ( The minimum points = %s ) ."
+msgstr ""
+"عفوا لا تملك الحد الادني من النقاط قم بالاجابة علي الاسئلة , حتي تحصل علي "
+"النقاط ( الحد الادني من النقاط = %s ) ."
+
+#: ../functions/functions_ask.php:915 ../functions/functions_ask.php:1210
+msgid "There are required fields ( username )."
+msgstr "هناك حقول مطلوبة ( الأسم )."
+
+#: ../functions/functions_ask.php:916 ../functions/functions_ask.php:1211
+msgid "There are required fields ( email )."
+msgstr "هناك حقول مطلوبة ( البريد الالكتروني )."
+
+#: ../functions/functions_ask.php:917 ../functions/functions_ask.php:1212
+#: ../functions/shortcode_ask.php:1247
+msgid "Please write correctly email."
+msgstr "ادخل ايميل صحيح ."
+
+#: ../functions/functions_ask.php:921 ../functions/functions_ask.php:1216
+#: ../functions/functions_ask.php:1455 ../functions/functions_ask.php:1662
+msgid "There are required fields ( title )."
+msgstr "هناك حقول مطلوبة ( العنوان )."
+
+#: ../functions/functions_ask.php:922 ../functions/functions_ask.php:1217
+#: ../functions/functions_ask.php:1456 ../functions/functions_ask.php:1663
+msgid "There are required fields ( category )."
+msgstr "هناك حقول مطلوبة ( القسم )."
+
+#: ../functions/functions_ask.php:925 ../functions/functions_ask.php:1459
+msgid "Please enter at least two values in poll."
+msgstr "لو سمحت قم بادخال قمتين للتصويت علي الاقل"
+
+#: ../functions/functions_ask.php:930 ../functions/functions_ask.php:1463
+#: ../functions/functions_ask.php:1666
+msgid "There are required fields ( content )."
+msgstr "‎هناك حقول مطلوبة ( المحتوي )."
+
+#: ../functions/functions_ask.php:932 ../functions/functions_ask.php:1465
+msgid "There are required fields ( Video ID )."
+msgstr "هناك حقول مطلوبة ( Video ID )."
+
+#: ../functions/functions_ask.php:941 ../functions/functions_ask.php:1229
+#: ../functions/shortcode_ask.php:1184
+msgid "There are required fields ( captcha )."
+msgstr "هناك حقول مطلوبة ( الرمز الامني )."
+
+#: ../functions/functions_ask.php:956 ../functions/shortcode_ask.php:1239
+msgid "There are required fields ( Agree of the terms )."
+msgstr "‎هناك حقول مطلوبة ( الموافقه علي الشروط )."
+
+#: ../functions/functions_ask.php:973
+msgid "Error in question."
+msgstr "خطأ في السؤال."
+
+#: ../functions/functions_ask.php:1219
+msgid "There are required fields ( details )."
+msgstr "‎هناك حقول مطلوبة ( التفاصيل )."
+
+#: ../functions/functions_ask.php:1256
+msgid "Error in post."
+msgstr "‎خطإ في المقالة ."
+
+#: ../functions/functions_ask.php:1272 ../functions/functions_ask.php:1696
+msgid "Attachment Error: "
+msgstr "خطأ المرفقات: "
+
+#: ../functions/functions_ask.php:1421 ../functions/functions_ask.php:1542
+#: ../functions/functions_ask.php:1544 ../functions/functions_ask.php:1629
+msgid "Edited been successfully"
+msgstr "تم التعديل بنجاح ."
+
+#: ../functions/functions_ask.php:1421 ../functions/functions_ask.php:1542
+#: ../functions/functions_ask.php:1629
+msgid "Has been edited successfully ."
+msgstr "تم التعديل بنجاح ."
+
+#: ../functions/functions_ask.php:1450 ../template-edit_question.php:18
+#: ../template-edit_question.php:21
+msgid "Sorry you can't edit this question ."
+msgstr "عفوا لا تستطيع التعديل علي هذا السؤال ."
+
+#: ../functions/functions_ask.php:1453
+msgid "Sorry no question select or not found ."
+msgstr "عفوا لا يوجود سؤال محدد او السؤال غير موجود ."
+
+#: ../functions/functions_ask.php:1544
+msgid "Has been added successfully, the comment under review ."
+msgstr ""
+
+#: ../functions/functions_ask.php:1581 ../template-edit_comment.php:40
+msgid "You are not allowed to edit this comment."
+msgstr ""
+
+#: ../functions/functions_ask.php:1584 ../template-edit_comment.php:43
+msgid "Sorry no comment has you select or not found."
+msgstr ""
+
+#: ../functions/functions_ask.php:1587
+msgid "There are required fields ( comment )."
+msgstr "هناك حقول مطلوبة ( التعليق )."
+
+#: ../functions/functions_ask.php:1588
+msgid "You don't modify anything this is the same comment!."
+msgstr ""
+
+#: ../functions/functions_ask.php:1657 ../template-edit_post.php:16
+#: ../template-edit_post.php:19
+msgid "Sorry you can't edit this post ."
+msgstr "‎عفوا لا تستطيع التعديل علي هذه المقالة ."
+
+#: ../functions/functions_ask.php:1660
+msgid "Sorry no post select or not found ."
+msgstr "‎عفوا لا يوجود مقالة محددة او المقالة غير موجودة ."
+
+#: ../functions/functions_ask.php:1749
+msgid "There are required fields."
+msgstr "هناك حقول مطلوبة."
+
+#: ../functions/functions_ask.php:1750 ../functions/shortcode_ask.php:1162
+msgid "Password does not match."
+msgstr "كلمة المرور غير متطابقة"
+
+#: ../functions/functions_ask.php:1762
+msgid "Error type , please upload: jpg, jpeg, png"
+msgstr ""
+
+#: ../functions/functions_ask.php:1770 ../functions/shortcode_ask.php:1203
+msgid "Error in upload the image : "
+msgstr "خطأ في رفع الصورة : "
+
+#: ../functions/functions_ask.php:1789
+msgid "Profile has been updated"
+msgstr "تم تحديث الملف الشخصي"
+
+#: ../functions/functions_ask.php:1933
+msgid "Hello there,"
+msgstr ""
+
+#: ../functions/functions_ask.php:1934
+msgid "A new post has been submitted in "
+msgstr ""
+
+#: ../functions/functions_ask.php:1934
+msgid " Please find details below:"
+msgstr ""
+
+#: ../functions/functions_ask.php:1952
+msgid "To take action (approve/reject)- please go here:"
+msgstr ""
+
+#: ../functions/functions_ask.php:1955
+msgid "Thank You"
+msgstr ""
+
+#: ../functions/functions_ask.php:1956
+msgid "New Post Submission"
+msgstr ""
+
+#: ../functions/shortcode_ask.php:22
+msgid "Sorry, you do not have a permission to add a question ."
+msgstr ""
+
+#: ../functions/shortcode_ask.php:24 ../functions/shortcode_ask.php:27
+#: ../functions/shortcode_ask.php:277
+msgid "You must login to ask question ."
+msgstr "يجب عليك تسجيل الدخول لطرح سؤال."
+
+#: ../functions/shortcode_ask.php:72 ../functions/shortcode_ask.php:490
+#: ../functions/shortcode_ask.php:881 ../functions/shortcode_ask.php:991
+#: ../woocommerce/myaccount/form-login.php:74
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: ../functions/shortcode_ask.php:74 ../functions/shortcode_ask.php:492
+msgid "Please type your username ."
+msgstr "ادخل اسمك ."
+
+#: ../functions/shortcode_ask.php:80 ../functions/shortcode_ask.php:498
+msgid "Please type your E-Mail ."
+msgstr "ادخل ايميلك ."
+
+#: ../functions/shortcode_ask.php:84 ../functions/shortcode_ask.php:303
+msgid "Question Title"
+msgstr "عنوان السؤال"
+
+#: ../functions/shortcode_ask.php:86 ../functions/shortcode_ask.php:305
+msgid ""
+"Please choose an appropriate title for the question to answer it even easier ."
+msgstr " يرجى اختيار عنوان مناسب للسؤال حتي يتم الرد عليه بسهوله ."
+
+#: ../functions/shortcode_ask.php:93 ../functions/shortcode_ask.php:312
+#: ../functions/shortcode_ask.php:511 ../functions/shortcode_ask.php:638
+msgid "Please choose  suitable Keywords Ex : "
+msgstr "الرجاء اختيار كلمات مناسبة مثال :"
+
+#: ../functions/shortcode_ask.php:93 ../functions/shortcode_ask.php:312
+msgid "question , poll"
+msgstr "سؤال , استطلاع"
+
+#: ../functions/shortcode_ask.php:100 ../functions/shortcode_ask.php:319
+#: ../functions/shortcode_ask.php:518 ../functions/shortcode_ask.php:645
+msgid "Select a Category"
+msgstr "اختار القسم"
+
+#: ../functions/shortcode_ask.php:102 ../functions/shortcode_ask.php:321
+msgid ""
+"Please choose the appropriate section so easily search for your question ."
+msgstr "الرجاء اختيار القسم المناسب لسهوله البحث والوصول الي سؤالك ."
+
+#: ../functions/shortcode_ask.php:109 ../functions/shortcode_ask.php:328
+msgid "This question is a poll ?"
+msgstr "هذا السؤال عبارة عن استطلاع رأى ?"
+
+#: ../functions/shortcode_ask.php:110 ../functions/shortcode_ask.php:329
+msgid "If you want to be doing a poll click here ."
+msgstr "اذا كنت تريده استطلاع اضغط هنا ."
+
+#: ../functions/shortcode_ask.php:116 ../functions/shortcode_ask.php:155
+#: ../functions/shortcode_ask.php:335
+msgid "Add Field"
+msgstr "اضف جديد"
+
+#: ../functions/shortcode_ask.php:166 ../functions/shortcode_ask.php:379
+#: ../functions/shortcode_ask.php:537 ../functions/shortcode_ask.php:652
+msgid "Details"
+msgstr "التفاصيل"
+
+#: ../functions/shortcode_ask.php:178 ../functions/shortcode_ask.php:391
+#: ../functions/shortcode_ask.php:549 ../functions/shortcode_ask.php:664
+msgid "Type the description thoroughly and in details ."
+msgstr "‎اكتب وصفا بدقة وبالتفصيل."
+
+#: ../functions/shortcode_ask.php:201 ../functions/shortcode_ask.php:418
+msgid "Choose from here the video type ."
+msgstr "اختر من هنا نوع الفيديو."
+
+#: ../functions/shortcode_ask.php:207 ../functions/shortcode_ask.php:424
+msgid ""
+"Put here the video id : http://www.youtube.com/watch?v=sdUUx5FdySs EX : "
+"'sdUUx5FdySs' ."
+msgstr ""
+"ضع هنا id الفيديو : http://www.youtube.com/watch?v=sdUUx5FdySs EX : "
+"'sdUUx5FdySs' ."
+
+#: ../functions/shortcode_ask.php:213 ../functions/shortcode_ask.php:431
+msgid "Notified"
+msgstr "تنبية بالبريد"
+
+#: ../functions/shortcode_ask.php:215 ../functions/shortcode_ask.php:433
+msgid "Notified by e-mail at incoming answers ."
+msgstr "تنبية بالبريد عند اضافه اجابات جديدة"
+
+#: ../functions/shortcode_ask.php:244 ../functions/shortcode_ask.php:1116
+msgid "Terms"
+msgstr "‎القوانين"
+
+#: ../functions/shortcode_ask.php:246
+#, php-format
+msgid ""
+"By posting your question, you agree to the <a target='%s' href='%s'>terms of "
+"service</a>."
+msgstr ""
+"‎باضافة هذا السؤال, انت موافق علي <a target='%s' href='%s'>شروط الاستخدام</a>."
+
+#: ../functions/shortcode_ask.php:255
+msgid "Publish Your Question"
+msgstr "نشر سؤالك"
+
+#: ../functions/shortcode_ask.php:439
+msgid "Edit Your Question"
+msgstr "تعديل السؤال"
+
+#: ../functions/shortcode_ask.php:467
+msgid "Sorry, you do not have a permission to add a post ."
+msgstr "‎عفوا, لا تملك اي تصريح لاضافة مقالة ."
+
+#: ../functions/shortcode_ask.php:469 ../functions/shortcode_ask.php:602
+msgid "You must login to add post ."
+msgstr "‎يجب تسجيل الدخول لتستطيع أضافة مقالة ."
+
+#: ../functions/shortcode_ask.php:502
+msgid "Post Title"
+msgstr "‎عنوان المقال"
+
+#: ../functions/shortcode_ask.php:504 ../functions/shortcode_ask.php:631
+msgid "Please choose an appropriate title for the post ."
+msgstr "‎برجاء كتابة عنوان مناسب للمقالة ."
+
+#: ../functions/shortcode_ask.php:511 ../functions/shortcode_ask.php:638
+msgid "post , video"
+msgstr "‎مقال, فيديو"
+
+#: ../functions/shortcode_ask.php:520 ../functions/shortcode_ask.php:647
+msgid "Please choose the appropriate section so easily search for your post ."
+msgstr "‎برجاء اختيار قسم مناسب لسهولة البحث عن المقال ."
+
+#: ../functions/shortcode_ask.php:582
+msgid "Publish Your Post"
+msgstr "‎نشر المقالة"
+
+#: ../functions/shortcode_ask.php:629
+msgid "post Title"
+msgstr "‎عنوان المقالة"
+
+#: ../functions/shortcode_ask.php:685
+msgid "Edit Your post"
+msgstr "‎تعديل المقالة"
+
+#: ../functions/shortcode_ask.php:726
+msgid "Welcome"
+msgstr "أهلا وسهلا"
+
+#: ../functions/shortcode_ask.php:794
+msgid "Quick Links"
+msgstr "وصلات سريعة"
+
+#: ../functions/shortcode_ask.php:885 ../functions/shortcode_ask.php:999
+#: ../functions/shortcode_ask.php:1497 ../woocommerce/global/form-login.php:26
+#: ../woocommerce/myaccount/form-login.php:38
+#: ../woocommerce/myaccount/form-login.php:88
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: ../functions/shortcode_ask.php:887 ../template-login-2.php:25
+msgid "Forget"
+msgstr "نسيت"
+
+#: ../functions/shortcode_ask.php:892
+msgid "Log in"
+msgstr "تسجيل دخول"
+
+#: ../functions/shortcode_ask.php:896
+msgid "Remember Me"
+msgstr "تذكرني"
+
+#: ../functions/shortcode_ask.php:922
+msgid "<strong>Error :&nbsp;</strong>please insert your name ."
+msgstr "<strong>خطأ :&nbsp;</strong>لو سمحت قم بادخال الاسم ."
+
+#: ../functions/shortcode_ask.php:925
+msgid "<strong>Error :&nbsp;</strong>please insert your password ."
+msgstr "<strong>خطأ :&nbsp;</strong>لو سمحت قم بادخال كلمة المرور ."
+
+#: ../functions/shortcode_ask.php:1003 ../functions/shortcode_ask.php:1501
+msgid "Confirm Password"
+msgstr "أعادة كلمة المرور"
+
+#: ../functions/shortcode_ask.php:1009 ../functions/shortcode_ask.php:1574
+msgid "Profile Picture"
+msgstr "صورة الملف الشخصي"
+
+#: ../functions/shortcode_ask.php:1035 ../functions/shortcode_ask.php:1481
+msgid "First Name"
+msgstr "الأسم الأول"
+
+#: ../functions/shortcode_ask.php:1039 ../functions/shortcode_ask.php:1485
+msgid "Last Name"
+msgstr "الاسم الاخير"
+
+#: ../functions/shortcode_ask.php:1043 ../functions/shortcode_ask.php:1489
+msgid "Display name"
+msgstr "‎الاسم العلني"
+
+#: ../functions/shortcode_ask.php:1118
+#, php-format
+msgid ""
+"By registering, you agree to the <a target='%s' href='%s'>terms of service</"
+"a>."
+msgstr "‎بتسجيلك, انت موافق علي <a target='%s' href='%s'> شروط الاستخدام </a>."
+
+#: ../functions/shortcode_ask.php:1126
+msgid "Signup"
+msgstr "تسجيل جديد"
+
+#: ../functions/shortcode_ask.php:1158
+msgid "Please enter your name."
+msgstr "ادخل اسمك ."
+
+#: ../functions/shortcode_ask.php:1159 ../functions/shortcode_ask.php:1382
+msgid "Please enter your email."
+msgstr "ادخل ايميلك ."
+
+#: ../functions/shortcode_ask.php:1160
+msgid "Please enter your password."
+msgstr "ادخل كلمة المرور."
+
+#: ../functions/shortcode_ask.php:1161
+msgid "Please rewrite password."
+msgstr "اعد كتابة الباسورد ."
+
+#: ../functions/shortcode_ask.php:1208
+msgid "There are required fields ( Profile Picture )."
+msgstr "هناك حقول مطلوبة ( الصورة الشخصية )."
+
+#: ../functions/shortcode_ask.php:1213
+msgid "There are required fields ( Country )."
+msgstr "‎هناك حقول مطلوبة ( الدولة )."
+
+#: ../functions/shortcode_ask.php:1216
+msgid "There are required fields ( City )."
+msgstr ""
+
+#: ../functions/shortcode_ask.php:1219
+msgid "There are required fields ( Age )."
+msgstr "‎هناك حقول مطلوبة ( العمر )."
+
+#: ../functions/shortcode_ask.php:1222
+msgid "There are required fields ( Phone )."
+msgstr "‎هناك حقول مطلوبة ( الهاتف )."
+
+#: ../functions/shortcode_ask.php:1225
+msgid "There are required fields ( Sex )."
+msgstr "‎هناك حقول مطلوبة ( الجنس )."
+
+#: ../functions/shortcode_ask.php:1228
+msgid "There are required fields ( First Name )."
+msgstr ""
+
+#: ../functions/shortcode_ask.php:1231
+msgid "There are required fields ( Last Name )."
+msgstr ""
+
+#: ../functions/shortcode_ask.php:1234
+msgid "There are required fields ( Display Name )."
+msgstr ""
+
+#: ../functions/shortcode_ask.php:1243 ../functions/shortcode_ask.php:1249
+msgid "This account is already registered."
+msgstr "هذا الحساب مسجل بالفعل ."
+
+#: ../functions/shortcode_ask.php:1259
+msgid ""
+"<strong>Error</strong>: Sorry can not register please contact the webmaster "
+msgstr "<strong>خطأ</strong>: رجاء الاتصال بمدير الموقع "
+
+#: ../functions/shortcode_ask.php:1293
+msgid "This is the link to activate your membership"
+msgstr "هذا هو الرابط لتفعيل عضويتك"
+
+#: ../functions/shortcode_ask.php:1295 ../header.php:850
+msgid "Activate"
+msgstr "تفعيل"
+
+#: ../functions/shortcode_ask.php:1365
+msgid "Reset"
+msgstr "إستعادة"
+
+#: ../functions/shortcode_ask.php:1384
+msgid "Email is not correct."
+msgstr ""
+
+#: ../functions/shortcode_ask.php:1398
+#: ../woocommerce/emails/customer-reset-password.php:18
+#: ../woocommerce/emails/plain/customer-reset-password.php:16
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: ../functions/shortcode_ask.php:1399
+#: ../woocommerce/emails/customer-reset-password.php:19
+#: ../woocommerce/emails/plain/customer-reset-password.php:18
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: ../functions/shortcode_ask.php:1400
+#: ../woocommerce/emails/customer-reset-password.php:20
+#: ../woocommerce/emails/plain/customer-reset-password.php:19
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: ../functions/shortcode_ask.php:1401
+#: ../woocommerce/emails/customer-reset-password.php:21
+#: ../woocommerce/emails/plain/customer-reset-password.php:20
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: ../functions/shortcode_ask.php:1402
+#: ../woocommerce/emails/customer-reset-password.php:24
+msgid "Click here to reset your password"
+msgstr ""
+
+#: ../functions/shortcode_ask.php:1404 ../header.php:810
+msgid "Reset your password"
+msgstr ""
+
+#: ../functions/shortcode_ask.php:1413
+msgid "Check your email please."
+msgstr ""
+
+#: ../functions/shortcode_ask.php:1448
+msgid "Please login to edit profile ."
+msgstr "قم بتسجيل الدخول لتستطيع التعديل علي الملف الشخصي ."
+
+#: ../functions/shortcode_ask.php:1586
+msgid "About Yourself"
+msgstr "نبذة عنك"
+
+#: ../functions/shortcode_ask.php:1629
+msgid "Show your private pages for all the users?"
+msgstr ""
+
+#: ../functions/shortcode_ask.php:1644
+msgid "Received mail when user add a new question"
+msgstr ""
+
+#: ../functions/shortcode_ask.php:1654
+#: ../woocommerce/myaccount/form-lost-password.php:48
+msgid "Save"
+msgstr "‎حفظ"
+
+#: ../header.php:19
+#, php-format
+msgid "Page %s"
+msgstr "صفحة %s"
+
+#: ../header.php:209 ../header.php:331 ../header.php:886
+#: ../template-login-2.php:24 ../template-login.php:23
+msgid "Register Now"
+msgstr "سجل الأن"
+
+#: ../header.php:227
+msgid "Lost Password"
+msgstr "فقدت كلمة المرور"
+
+#: ../header.php:229
+msgid ""
+"Lost your password? Please enter your email address. You will receive a link "
+"and will create a new password via email."
+msgstr ""
+
+#: ../header.php:239
+msgid "Add question"
+msgstr "اضف سؤال جديد"
+
+#: ../header.php:333 ../header.php:888 ../template-login.php:25
+msgid "Create an account"
+msgstr "تسجيل حساب جديد"
+
+#: ../header.php:406
+msgid "Search here ..."
+msgstr "بحث عن شيء ..."
+
+#: ../header.php:574
+msgid "Ask any question and you be sure find your answer ?"
+msgstr "أسئل اي سؤال وكن متاكد انك سوف تجد إجابتك ؟"
+
+#: ../header.php:633 ../header.php:665
+msgid "Ask Now"
+msgstr "أسئل الآن"
+
+#: ../header.php:806
+msgid "You are :"
+msgstr "أنت :"
+
+#: ../header.php:807
+msgid "The New Password :"
+msgstr "كلمة المرور الجديدة:"
+
+#: ../header.php:811
+msgid "Your password has been reset"
+msgstr ""
+
+#: ../header.php:811
+msgid "Check your email ."
+msgstr ""
+
+#: ../header.php:817
+msgid "You are already logged in"
+msgstr ""
+
+#: ../header.php:817
+#, php-format
+msgid ""
+"If you want to change your password go to <a href='%s'>edit profile</a> ."
+msgstr ""
+
+#: ../header.php:835
+msgid "Membership Activated"
+msgstr ""
+
+#: ../header.php:835
+msgid "Your membership is now activated."
+msgstr ""
+
+#: ../header.php:838 ../header.php:857
+msgid "Kindly activate your membership"
+msgstr ""
+
+#: ../header.php:838
+#, php-format
+msgid ""
+"A confirmation email has been sent to your registered email account.If you "
+"have not received the confirmation email, kindly  <a href='%s'>Click here</a> "
+"to re-send another confirmation email."
+msgstr ""
+
+#: ../header.php:848
+msgid ""
+"Your registration has been successful! To confirm your account, kindly click "
+"on 'Activate' below."
+msgstr ""
+
+#: ../header.php:854
+msgid "Activate the membership"
+msgstr "تفعيل عضوتيك"
+
+#: ../header.php:854
+msgid "Check your email again ."
+msgstr "برجاء التحقق من بريدك الالكتروني مرة أخرى."
+
+#: ../header.php:857
+#, php-format
+msgid ""
+"A confirmation email has been sent to your registered email account. If you "
+"have not received the confirmation email, kindly <a href='%s'>Click here</a> "
+"to re-send another confirmation email."
+msgstr ""
+
+#: ../includes/author-head.php:107
+msgid "About"
+msgstr "عن"
+
+#: ../includes/author-head.php:130
+msgid "Registered"
+msgstr "تاريخ التسجيل"
+
+#: ../includes/author-head.php:149
+msgid "view"
+msgstr "عرض"
+
+#: ../includes/author-head.php:177 ../template-followers.php:64
+#: ../template-i_follow.php:64 ../template-users.php:42
+msgid "Follow Me"
+msgstr "تابعني"
+
+#: ../includes/author-head.php:247
+msgid "User Stats"
+msgstr "أحصائيات العضو"
+
+#: ../loop-question.php:8 ../template-home.php:157 ../template-home.php:174
+msgid "No Questions Found."
+msgstr "‎لا يوجد اسئلة ."
+
+#: ../loop.php:6
+msgid "No Posts Found."
+msgstr "‎لا يوجد مقالات ."
+
+#: ../page.php:37 ../post.php:95 ../question.php:156 ../single-question.php:341
+#: ../single.php:88 ../template-home.php:260 ../template-question_follow.php:88
+#: ../template-user_favorite_questions.php:92 ../template-user_question.php:96
+msgid "views"
+msgstr "مشاهدات"
+
+#: ../post.php:100
+msgid "Continue reading"
+msgstr "أكمل القراءة"
+
+#: ../question-comments.php:10
+msgid ""
+"This question is password protected. Enter the password to view comments."
+msgstr "هذه السؤال هي كلمة السر المحمية. أدخل كلمة المرور لمشاهدة التعليقات."
+
+#: ../question-comments.php:15 ../question.php:154 ../single-question.php:339
+#: ../template-question_follow.php:86 ../template-user_favorite_questions.php:90
+#: ../template-user_question.php:94
+msgid "Answer"
+msgstr "اجابة"
+
+#: ../question-comments.php:28
+msgid "Sorry, you do not have a permission to show this answers ."
+msgstr "‎عفوا, لا تملك تصريح لمشاهدة الاجابات ."
+
+#: ../question-comments.php:70
+msgid "Leave an answer"
+msgstr "اضف اجابة"
+
+#: ../question-comments.php:70
+#, php-format
+msgid "Leave an answer to %s"
+msgstr "اضف اجابة لـ %s"
+
+#: ../question-comments.php:103
+msgid "Sorry this question is a special, The admin must answer first ."
+msgstr "آسف هذا السؤال هو خاص، ويجب على المدير يجيب أولا."
+
+#: ../question-comments.php:106
+msgid "Sorry this question is closed ."
+msgstr "عفوا هذا السؤال مغلق ."
+
+#: ../question-comments.php:185
+msgid "Post your answer"
+msgstr "أضف اجابتك"
+
+#: ../question-comments.php:193
+#, php-format
+msgid ""
+"You must <a href=\"%s\" class=\"login-comments\">login</a> or <a href=\"%s\" "
+"class=\"signup\">register</a> to add a new answer ."
+msgstr ""
+"يجب عليك <a href=\"%s\">تسجيل الدخول</a> او <a href=\"%s\">التسجيل</a> "
+"لتستطيع اضافه اجابة ."
+
+#: ../question-comments.php:196
+msgid "Sorry, you do not have a permission to answer to this question ."
+msgstr "‎عفوا, لا تملك تصريح للاجابة علي السؤال ."
+
+#: ../question.php:118
+msgid "Sorry, you do not have a permission to show this question ."
+msgstr "‎عفوا, لا تملك تصريح لمشاهدة السؤال ."
+
+#: ../question.php:122 ../single-question.php:139
+msgid "Please briefly explain why you feel this question should be reported ."
+msgstr "يرجى شرح بإيجاز لماذا تشعر أنك ينبغي الإبلاغ عن هذا السؤال."
+
+#: ../question.php:134 ../single-question.php:320
+#: ../template-question_follow.php:77 ../template-user_favorite_questions.php:81
+#: ../template-user_question.php:83
+msgid "solved"
+msgstr "تم الحل"
+
+#: ../question.php:136 ../single-question.php:322
+#: ../template-question_follow.php:79 ../template-user_favorite_questions.php:83
+#: ../template-user_question.php:85
+msgid "closed"
+msgstr "مغلق"
+
+#: ../question.php:138 ../single-question.php:324
+#: ../template-question_follow.php:81 ../template-user_favorite_questions.php:85
+#: ../template-user_question.php:87
+msgid "in progress"
+msgstr "بانتظار الحل"
+
+#: ../question.php:159
+msgid "points"
+msgstr "‎النقاط"
+
+#: ../question.php:179
+msgid "Sorry it private question ."
+msgstr "عفوا هذا السؤال خاص ."
+
+#: ../search.php:13
+msgid "Sorry, No Results Found."
+msgstr ""
+
+#: ../single-question.php:48 ../template-question_follow.php:94
+#: ../template-user_favorite_questions.php:98 ../template-user_question.php:102
+msgid "Sorry it a private question ."
+msgstr "عفوا هذا السؤال خاص ."
+
+#: ../single-question.php:71 ../single-question.php:273
+#: ../template-user_question.php:63
+msgid "Edit the question"
+msgstr "تعديل السؤال"
+
+#: ../single-question.php:84 ../single-question.php:286
+#: ../template-user_question.php:69
+msgid "Delete the question"
+msgstr "‎حذف السؤال"
+
+#: ../single-question.php:103 ../single-question.php:305
+msgid "Open the question"
+msgstr "فتح السؤال"
+
+#: ../single-question.php:107 ../single-question.php:309
+msgid "Close the question"
+msgstr "غلق السؤال"
+
+#: ../single-question.php:162
+msgid "voter"
+msgstr "مصوت"
+
+#: ../single-question.php:170
+msgid "Rating"
+msgstr "التصويت"
+
+#: ../single-question.php:189
+msgid "Results"
+msgstr "النتائج"
+
+#: ../single-question.php:229
+msgid "Remove the question of my favorites"
+msgstr "احذف السؤال من المفضلة"
+
+#: ../single-question.php:231 ../single-question.php:234
+msgid "Add a question to Favorites"
+msgstr "اضف السؤال للمفضلة"
+
+#: ../single-question.php:240
+msgid "Question bump points"
+msgstr "دعم السؤال بالنقاط"
+
+#: ../single-question.php:241
+msgid "Bump"
+msgstr "دعم"
+
+#: ../single-question.php:264
+msgid "Sorry do not have permission to show the questions !"
+msgstr "‎عفوا لا تملك صلاحيات لمشاهده الاسئلة ."
+
+#: ../single-question.php:305
+msgid "Open"
+msgstr ""
+
+#: ../single-question.php:309
+msgid "Close"
+msgstr ""
+
+#: ../single-question.php:415 ../single.php:156
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: ../single-question.php:443 ../single.php:184
+msgid "Share"
+msgstr "شارك"
+
+#: ../single-question.php:555 ../single.php:297
+msgid "About the Author"
+msgstr "عن الكاتب"
+
+#: ../single-question.php:572
+msgid "Related questions"
+msgstr "أسئلة متعلقة"
+
+#: ../single-question.php:593
+msgid "&nbsp;Previous question"
+msgstr "&nbsp;السؤال السابق"
+
+#: ../single-question.php:596
+msgid "Next question&nbsp;"
+msgstr "السؤال التالي&nbsp;"
+
+#: ../single.php:52
+msgid "Edit the post"
+msgstr "‎تعديل المقالة"
+
+#: ../single.php:64
+msgid "Delete the post"
+msgstr "‎حذف المقالة"
+
+#: ../single.php:317
+msgid "Related Posts"
+msgstr "اخر المقالات"
+
+#: ../single.php:338
+msgid "&nbsp;Previous post"
+msgstr "&nbsp;المقالة السابقة"
+
+#: ../single.php:341
+msgid "Next post&nbsp;"
+msgstr "المقالة التالية&nbsp;"
+
+#: ../template-answer_follow.php:92 ../template-recently_answered.php:50
+#: ../template-user_answer.php:76
+msgid "Sorry it a private answer ."
+msgstr "آسف انها إجابة خاصة."
+
+#: ../template-answer_follow.php:97 ../template-comment_follow.php:87
+#: ../template-recently_answered.php:72 ../template-user_answer.php:81
+msgid "No answers yet ."
+msgstr "لا يوجد اجابات حتي الان ."
+
+#: ../template-answer_follow.php:99 ../template-comment_follow.php:89
+#: ../template-i_follow.php:147 ../template-post_follow.php:39
+#: ../template-question_follow.php:99
+msgid "There are no user follow yet ."
+msgstr "لا يوجد اعضاء تتابعها حتي الان ."
+
+#: ../template-contact_us.php:42
+msgid "About Us"
+msgstr "من نحن"
+
+#: ../template-contact_us.php:52
+msgid "Phone number :"
+msgstr "رقم الهاتف :"
+
+#: ../template-contact_us.php:55
+msgid "E-mail :"
+msgstr "البريد الالكتروني :"
+
+#: ../template-contact_us.php:59
+msgid "Social links :"
+msgstr "الروابط الاجتماعية :"
+
+#: ../template-contact_us.php:107
+msgid "RSS"
+msgstr "RSS"
+
+#: ../template-contact_us.php:125
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: ../template-edit_comment.php:35
+msgid "Edit Comment"
+msgstr ""
+
+#: ../template-edit_post.php:22
+msgid "Sorry no post has you select or not found ."
+msgstr "‎عفوا لا يوجود مقالة محددة او المقالة غير موجودة ."
+
+#: ../template-edit_question.php:24
+msgid "Sorry no question has you select or not found ."
+msgstr "عفوا لا يوجود سؤال محدد او السؤال غير موجود ."
+
+#: ../template-edit_question.php:27
+msgid "Sorry you don't have a premmisions to edit this question ."
+msgstr ""
+
+#: ../template-followers.php:147
+msgid "There are no Followers yet ."
+msgstr "لا يوجد متابعون حتي الان ."
+
+#: ../template-home.php:18
+msgid "Recent Questions"
+msgstr "اخر الاسئله"
+
+#: ../template-home.php:21
+msgid "Most Responses"
+msgstr "الاكثر اجابة"
+
+#: ../template-home.php:24
+msgid "Recently Answered"
+msgstr "‎اخر الاجابات"
+
+#: ../template-home.php:27 ../template-recently_answered.php:71
+msgid "No answers"
+msgstr "لا يوجد إجابات"
+
+#: ../template-home.php:30
+msgid "Most Visit"
+msgstr "الاكثر زيارة"
+
+#: ../template-home.php:33
+msgid "Most Vote"
+msgstr "الاكثر تقيما"
+
+#: ../template-home.php:36
+msgid "Recent Posts"
+msgstr "‎اخر المقالات"
+
+#: ../template-home.php:131
+msgid "No answers Found."
+msgstr ""
+
+#: ../template-question_follow.php:97 ../template-user_question.php:105
+msgid "No questions yet ."
+msgstr "لا يوجد اسئلة حتي الان ."
+
+#: ../template-questions_bump.php:21 ../template-user_points.php:110
+msgid "This page is not active ."
+msgstr "‎هذه الصفحة غير مفعلة."
+
+#: ../template-user_favorite_questions.php:68
+msgid "remove the question"
+msgstr "احذف السؤال"
+
+#: ../template-user_favorite_questions.php:101
+#: ../template-user_favorite_questions.php:103
+#: ../template-user_favorite_questions.php:106
+msgid "There are no questions ."
+msgstr "لا يوجد اسئلة حتي الان ."
+
+#: ../template-user_points.php:66
+msgid "Rating your question"
+msgstr "‎تقيم سؤالك"
+
+#: ../template-user_points.php:68
+msgid "Rating your answer"
+msgstr "تقييم اجابتك"
+
+#: ../template-user_points.php:70
+msgid "User unfollow You"
+msgstr "عضو قام بالغاء المتابعة"
+
+#: ../template-user_points.php:72
+msgid "User follow You"
+msgstr "عضو قام بمتابعتك"
+
+#: ../template-user_points.php:74
+msgid "Discount points to bump question"
+msgstr "خصم نقاط لدعم سؤالك"
+
+#: ../template-user_points.php:76
+msgid "Choose your answer Best Answer"
+msgstr "‎اختيار اجابتك افضل اجابة"
+
+#: ../template-user_points.php:78
+msgid "Cancel your answer Best Answer"
+msgstr "الغاء اجابتك افضل اجابة"
+
+#: ../template-user_points.php:80
+msgid "You answer the question"
+msgstr "اجبت علي سؤال"
+
+#: ../template-user_points.php:82
+msgid "Add a new question"
+msgstr "‎اضف سؤال جديد"
+
+#: ../template-user_points.php:84
+msgid "Gift of the site"
+msgstr "‎هدية من الموقع"
+
+#: ../template-user_points.php:86
+msgid "You charged points for Add a question"
+msgstr ""
+
+#: ../template-user_points.php:88
+msgid "The administrator add points for you"
+msgstr "‎مدير الموقع قام باضافة نقاط لك"
+
+#: ../template-user_points.php:90
+msgid "The administrator remove points from you"
+msgstr "‎مدير الموقع قام بحذف نقاط منك"
+
+#: ../template-user_points.php:103
+msgid "There are no points yet ."
+msgstr "لا يوجد نقاط حتي الان ."
+
+#: ../woocommerce/cart/cart-empty.php:16
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: ../woocommerce/cart/cart-empty.php:20
+msgid "Return To Shop"
+msgstr ""
+
+#: ../woocommerce/cart/cart-shipping.php:20
+#, php-format
+msgid "Shipping #%d"
+msgstr ""
+
+#: ../woocommerce/cart/cart-shipping.php:22
+msgid "Shipping and Handling"
+msgstr ""
+
+#: ../woocommerce/cart/cart-shipping.php:59
+msgid "Please use the shipping calculator to see available shipping methods."
+msgstr ""
+
+#: ../woocommerce/cart/cart-shipping.php:63
+msgid ""
+"Please continue to the checkout and enter your full address to see if there "
+"are any available shipping methods."
+msgstr ""
+
+#: ../woocommerce/cart/cart-shipping.php:67
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+
+#: ../woocommerce/cart/cart-shipping.php:76
+#: ../woocommerce/cart/cart-shipping.php:82
+msgid ""
+"There don&lsquo;t seem to be available shipping methods. Please double check "
+"your address, or contact us if you need any help."
+msgstr ""
+
+#: ../woocommerce/cart/cart-shipping.php:97
+#: ../woocommerce/cart/cart-totals.php:46
+msgid "Shipping"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:19
+msgid "Cart Totals"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:24 ../woocommerce/cart/mini-cart.php:65
+msgid "Subtotal"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:90
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:93
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:27 ../woocommerce/checkout/form-pay.php:20
+#: ../woocommerce/checkout/review-order.php:17
+#: ../woocommerce/emails/admin-cancelled-order.php:22
+#: ../woocommerce/emails/admin-new-order.php:27
+#: ../woocommerce/emails/customer-completed-order.php:27
+#: ../woocommerce/emails/customer-invoice.php:31
+#: ../woocommerce/emails/customer-note.php:31
+#: ../woocommerce/emails/customer-processing-order.php:27
+#: ../woocommerce/emails/customer-refunded-order.php:34
+#: ../woocommerce/order/order-details.php:20
+msgid "Product"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:28
+#: ../woocommerce/emails/admin-cancelled-order.php:24
+#: ../woocommerce/emails/admin-new-order.php:29
+#: ../woocommerce/emails/customer-completed-order.php:29
+#: ../woocommerce/emails/customer-invoice.php:33
+#: ../woocommerce/emails/customer-note.php:33
+#: ../woocommerce/emails/customer-processing-order.php:29
+#: ../woocommerce/emails/customer-refunded-order.php:36
+msgid "Price"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:29
+#: ../woocommerce/emails/admin-cancelled-order.php:23
+#: ../woocommerce/emails/admin-new-order.php:28
+#: ../woocommerce/emails/customer-completed-order.php:28
+#: ../woocommerce/emails/customer-invoice.php:32
+#: ../woocommerce/emails/customer-note.php:32
+#: ../woocommerce/emails/customer-processing-order.php:28
+#: ../woocommerce/emails/customer-refunded-order.php:35
+#: ../woocommerce/single-product/add-to-cart/simple.php:31
+msgid "Quantity"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:47 ../woocommerce/cart/mini-cart.php:35
+msgid "Remove this item"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:74
+msgid "Available on backorder"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:119
+msgid "Coupon"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:119 ../woocommerce/checkout/form-coupon.php:23
+msgid "Coupon code"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:119 ../woocommerce/checkout/form-coupon.php:27
+msgid "Apply Coupon"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:127
+msgid "Empty Cart"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:129
+msgid "Update Cart"
+msgstr ""
+
+#: ../woocommerce/cart/cross-sells.php:38
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: ../woocommerce/cart/mini-cart.php:57
+msgid "No products in the cart."
+msgstr ""
+
+#: ../woocommerce/cart/mini-cart.php:70
+msgid "View Cart"
+msgstr ""
+
+#: ../woocommerce/cart/mini-cart.php:71
+msgid "Checkout"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:20
+msgid "Calculate Shipping"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:43
+#: ../woocommerce/cart/shipping-calculator.php:49
+#: ../woocommerce/cart/shipping-calculator.php:61
+msgid "State / county"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:50
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:78
+msgid "Postcode / Zip"
+msgstr ""
+
+#: ../woocommerce/cart/shipping-calculator.php:83
+msgid "Update Totals"
+msgstr ""
+
+#: ../woocommerce/checkout/cart-errors.php:18
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back to the cart page and resolve these issues before checking out."
+msgstr ""
+
+#: ../woocommerce/checkout/cart-errors.php:22
+msgid "Return To Cart"
+msgstr ""
+
+#: ../woocommerce/checkout/form-billing.php:15
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: ../woocommerce/checkout/form-billing.php:19
+msgid "Billing Details"
+msgstr ""
+
+#: ../woocommerce/checkout/form-billing.php:38
+msgid "Create an account?"
+msgstr ""
+
+#: ../woocommerce/checkout/form-billing.php:49
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:20
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:45
+msgid "Your order"
+msgstr ""
+
+#: ../woocommerce/checkout/form-coupon.php:16
+msgid "Have a coupon?"
+msgstr ""
+
+#: ../woocommerce/checkout/form-coupon.php:16
+msgid "Click here to enter your code"
+msgstr ""
+
+#: ../woocommerce/checkout/form-login.php:14
+msgid "Returning customer?"
+msgstr ""
+
+#: ../woocommerce/checkout/form-login.php:15
+msgid "Click here to login"
+msgstr ""
+
+#: ../woocommerce/checkout/form-login.php:22
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; Shipping "
+"section."
+msgstr ""
+
+#: ../woocommerce/checkout/form-pay.php:21
+msgid "Qty"
+msgstr ""
+
+#: ../woocommerce/checkout/form-pay.php:22
+msgid "Totals"
+msgstr ""
+
+#: ../woocommerce/checkout/form-pay.php:80
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: ../woocommerce/checkout/form-pay.php:90
+msgid "Pay for order"
+msgstr ""
+
+#: ../woocommerce/checkout/form-shipping.php:29
+msgid "Ship to a different address?"
+msgstr ""
+
+#: ../woocommerce/checkout/form-shipping.php:55
+msgid "Additional Information"
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:50
+msgid "Cart Subtotal"
+msgstr ""
+
+#: ../woocommerce/checkout/review-order.php:97
+msgid "Order Total"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:16
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/merchant "
+"has declined your transaction."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:20
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:22
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:26
+#: ../woocommerce/myaccount/my-orders.php:68
+msgid "Pay"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:28
+msgid "My Account"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:34
+#: ../woocommerce/checkout/thankyou.php:65
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:38
+msgid "Order:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:42
+msgid "Date:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:46
+msgid "Total:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:51
+msgid "Payment method:"
+msgstr ""
+
+#: ../woocommerce/emails/admin-cancelled-order.php:13
+#: ../woocommerce/emails/plain/admin-cancelled-order.php:15
+#, php-format
+msgid "The order #%d from %s has been cancelled. The order was as follows:"
+msgstr ""
+
+#: ../woocommerce/emails/admin-cancelled-order.php:17
+#, php-format
+msgid "Order: %s"
+msgstr ""
+
+#: ../woocommerce/emails/admin-new-order.php:18
+#, php-format
+msgid "You have received an order from %s. The order is as follows:"
+msgstr ""
+
+#: ../woocommerce/emails/admin-new-order.php:22
+#: ../woocommerce/emails/customer-completed-order.php:22
+#: ../woocommerce/emails/customer-invoice.php:26
+#: ../woocommerce/emails/customer-note.php:26
+#: ../woocommerce/emails/customer-processing-order.php:22
+#: ../woocommerce/emails/customer-refunded-order.php:29
+#, php-format
+msgid "Order #%s"
+msgstr ""
+
+#: ../woocommerce/emails/customer-completed-order.php:18
+#: ../woocommerce/emails/plain/customer-completed-order.php:16
+#, php-format
+msgid ""
+"Hi there. Your recent order on %s has been completed. Your order details are "
+"shown below for your reference:"
+msgstr ""
+
+#: ../woocommerce/emails/customer-invoice.php:20
+#: ../woocommerce/emails/plain/customer-invoice.php:17
+#, php-format
+msgid ""
+"An order has been created for you on %s. To pay for this order please use the "
+"following link: %s"
+msgstr ""
+
+#: ../woocommerce/emails/customer-invoice.php:20
+msgid "pay"
+msgstr ""
+
+#: ../woocommerce/emails/customer-new-account.php:18
+#: ../woocommerce/emails/plain/customer-new-account.php:16
+#, php-format
+msgid ""
+"Thanks for creating an account on %s. Your username is <strong>%s</strong>."
+msgstr ""
+
+#: ../woocommerce/emails/customer-new-account.php:22
+#, php-format
+msgid "Your password has been automatically generated: <strong>%s</strong>"
+msgstr ""
+
+#: ../woocommerce/emails/customer-new-account.php:26
+#: ../woocommerce/emails/plain/customer-new-account.php:21
+#, php-format
+msgid ""
+"You can access your account area to view your orders and change your password "
+"here: %s."
+msgstr ""
+
+#: ../woocommerce/emails/customer-note.php:18
+#: ../woocommerce/emails/plain/customer-note.php:16
+msgid "Hello, a note has just been added to your order:"
+msgstr ""
+
+#: ../woocommerce/emails/customer-note.php:22
+#: ../woocommerce/emails/plain/customer-note.php:24
+msgid "For your reference, your order details are shown below."
+msgstr ""
+
+#: ../woocommerce/emails/customer-processing-order.php:18
+#: ../woocommerce/emails/plain/customer-processing-order.php:16
+msgid ""
+"Your order has been received and is now being processed. Your order details "
+"are shown below for your reference:"
+msgstr ""
+
+#: ../woocommerce/emails/customer-refunded-order.php:20
+#, php-format
+msgid "Hi there. Your order on %s has been partially refunded."
+msgstr ""
+
+#: ../woocommerce/emails/customer-refunded-order.php:23
+#, php-format
+msgid "Hi there. Your order on %s has been refunded."
+msgstr ""
+
+#: ../woocommerce/emails/customer-refunded-order.php:50
+#: ../woocommerce/emails/plain/customer-refunded-order.php:32
+msgid "Amount Refunded"
+msgstr ""
+
+#: ../woocommerce/emails/email-addresses.php:20
+#: ../woocommerce/emails/plain/email-addresses.php:14
+msgid "Billing address"
+msgstr ""
+
+#: ../woocommerce/emails/email-addresses.php:30
+#: ../woocommerce/emails/plain/email-addresses.php:18
+msgid "Shipping address"
+msgstr ""
+
+#: ../woocommerce/emails/email-order-items.php:54
+#: ../woocommerce/emails/plain/email-order-items.php:49
+#, php-format
+msgid "Download %d"
+msgstr ""
+
+#: ../woocommerce/emails/email-order-items.php:56
+#: ../woocommerce/emails/plain/email-order-items.php:51
+msgid "Download"
+msgstr ""
+
+#: ../woocommerce/emails/plain/admin-cancelled-order.php:21
+#: ../woocommerce/emails/plain/admin-new-order.php:22
+#: ../woocommerce/emails/plain/customer-completed-order.php:22
+#: ../woocommerce/emails/plain/customer-invoice.php:23
+#: ../woocommerce/emails/plain/customer-note.php:30
+#: ../woocommerce/emails/plain/customer-processing-order.php:22
+#: ../woocommerce/emails/plain/customer-refunded-order.php:22
+#, php-format
+msgid "Order number: %s"
+msgstr ""
+
+#: ../woocommerce/emails/plain/admin-cancelled-order.php:22
+#: ../woocommerce/emails/plain/admin-new-order.php:23
+#: ../woocommerce/emails/plain/customer-completed-order.php:23
+#: ../woocommerce/emails/plain/customer-invoice.php:24
+#: ../woocommerce/emails/plain/customer-note.php:31
+#: ../woocommerce/emails/plain/customer-processing-order.php:23
+#: ../woocommerce/emails/plain/customer-refunded-order.php:23
+msgid "jS F Y"
+msgstr ""
+
+#: ../woocommerce/emails/plain/admin-cancelled-order.php:36
+#: ../woocommerce/emails/plain/admin-new-order.php:37
+#, php-format
+msgid "View order: %s"
+msgstr ""
+
+#: ../woocommerce/emails/plain/admin-new-order.php:16
+#, php-format
+msgid "You have received an order from %s."
+msgstr ""
+
+#: ../woocommerce/emails/plain/customer-new-account.php:19
+#, php-format
+msgid "Your password is <strong>%s</strong>."
+msgstr ""
+
+#: ../woocommerce/emails/plain/customer-refunded-order.php:16
+#, php-format
+msgid ""
+"Hi there. Your order on %s has been refunded. Your order details are shown "
+"below for your reference:"
+msgstr ""
+
+#: ../woocommerce/emails/plain/email-order-items.php:35
+#, php-format
+msgid "Quantity: %s"
+msgstr ""
+
+#: ../woocommerce/emails/plain/email-order-items.php:38
+#, php-format
+msgid "Cost: %s"
+msgstr ""
+
+#: ../woocommerce/global/form-login.php:22
+#: ../woocommerce/myaccount/form-lost-password.php:24
+msgid "Username or email"
+msgstr ""
+
+#: ../woocommerce/global/form-login.php:38
+#: ../woocommerce/myaccount/form-login.php:48
+msgid "Remember me"
+msgstr ""
+
+#: ../woocommerce/global/form-login.php:42
+#: ../woocommerce/myaccount/form-login.php:52
+msgid "Lost your password?"
+msgstr ""
+
+#: ../woocommerce/loop/no-products-found.php:14
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: ../woocommerce/loop/result-count.php:28
+msgid "Showing the single result"
+msgstr ""
+
+#: ../woocommerce/loop/result-count.php:30
+#, php-format
+msgid "Showing all %d results"
+msgstr ""
+
+#: ../woocommerce/loop/sale-flash.php:15
+#: ../woocommerce/single-product/sale-flash.php:15
+msgid "Out"
+msgstr ""
+
+#: ../woocommerce/loop/sale-flash.php:20
+#: ../woocommerce/single-product/sale-flash.php:20
+msgid "Sale!"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-add-payment-method.php:40
+msgid ""
+"Sorry, it seems that there are no payment methods which support adding a new "
+"payment method. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: ../woocommerce/myaccount/form-add-payment-method.php:48
+msgid "Add Payment Method"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:23
+msgid "First name"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:27
+msgid "Last name"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:33
+#: ../woocommerce/myaccount/form-login.php:81
+msgid "Email address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:38
+msgid "Password Change"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:41
+msgid "Current Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:45
+msgid "New Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:49
+msgid "Confirm New Password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:59
+msgid "Save changes"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:16
+#: ../woocommerce/myaccount/my-address.php:19
+#: ../woocommerce/myaccount/my-address.php:25
+msgid "Billing Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:16
+#: ../woocommerce/myaccount/my-address.php:20
+msgid "Shipping Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:44
+msgid "Save Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:34
+msgid "Username or email address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:95
+msgid "Anti-spam"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:22
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:28
+msgid "Enter a new password below."
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:31
+msgid "New password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:35
+msgid "Re-enter new password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:48
+msgid "Reset Password"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-account.php:19
+#, php-format
+msgid "Hello <strong>%1$s</strong> (not %1$s? <a href=\"%2$s\">Sign out</a>)."
+msgstr ""
+
+#: ../woocommerce/myaccount/my-account.php:24
+#, php-format
+msgid ""
+"From your account dashboard you can view your recent orders, manage your "
+"shipping and billing addresses and <a href=\"%s\">edit your password and "
+"account details</a>."
+msgstr ""
+
+#: ../woocommerce/myaccount/my-address.php:17
+msgid "My Addresses"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-address.php:23
+msgid "My Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-address.php:35
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: ../woocommerce/myaccount/my-address.php:64
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: ../woocommerce/myaccount/my-downloads.php:20
+msgid "Available downloads"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:26
+msgid "Recent Orders"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:32
+msgid "Order"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:34
+#: ../woocommerce/myaccount/my-orders.php:55
+msgid "Status"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:47
+msgid "Order Number"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:81
+msgid "View"
+msgstr ""
+
+#: ../woocommerce/myaccount/view-order.php:19
+#, php-format
+msgid ""
+"Order <mark class=\"order-number\">%s</mark> was placed on <mark class="
+"\"order-date\">%s</mark> and is currently <mark class=\"order-status\">%s</"
+"mark>."
+msgstr ""
+
+#: ../woocommerce/myaccount/view-order.php:23
+#: ../woocommerce/order/tracking.php:23
+msgid "Order Updates"
+msgstr ""
+
+#: ../woocommerce/myaccount/view-order.php:29
+#: ../woocommerce/order/tracking.php:29
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: ../woocommerce/order/form-tracking.php:17
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"return. This was given to you on your receipt and in the confirmation email "
+"you should have received."
+msgstr ""
+
+#: ../woocommerce/order/form-tracking.php:19
+msgid "Order ID"
+msgstr ""
+
+#: ../woocommerce/order/form-tracking.php:19
+msgid "Found in your order confirmation email."
+msgstr ""
+
+#: ../woocommerce/order/form-tracking.php:20
+msgid "Billing Email"
+msgstr ""
+
+#: ../woocommerce/order/form-tracking.php:20
+msgid "Email you used during checkout."
+msgstr ""
+
+#: ../woocommerce/order/form-tracking.php:23
+msgid "Track"
+msgstr ""
+
+#: ../woocommerce/order/order-again.php:16
+msgid "Order Again"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:16
+msgid "Order Details"
+msgstr ""
+
+#: ../woocommerce/order/tracking.php:12
+#, php-format
+msgid "Order %s which was made %s has the status &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../woocommerce/order/tracking.php:12
+msgid "ago"
+msgstr ""
+
+#: ../woocommerce/order/tracking.php:14
+msgid "and was completed"
+msgstr ""
+
+#: ../woocommerce/order/tracking.php:14
+msgid " ago"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:26
+msgid "Reviews"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:47
+msgid "There are no reviews yet."
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:60
+msgid "Add a review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:60
+msgid "Be the first to review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:61
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:70
+msgid "Submit"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:76
+msgid "Your Rating"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:77
+msgid "Rate&hellip;"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:78
+msgid "Perfect"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:79
+msgid "Good"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:80
+msgid "Average"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:81
+msgid "Not that bad"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:82
+msgid "Very Poor"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:86
+msgid "Your Review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:95
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:23
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:34
+msgid "Clear selection"
+msgstr ""
+
+#: ../woocommerce/single-product/meta.php:23
+msgid "SKU:"
+msgstr ""
+
+#: ../woocommerce/single-product/meta.php:23
+msgid "N/A"
+msgstr ""
+
+#: ../woocommerce/single-product/product-attributes.php:28
+msgid "Weight"
+msgstr ""
+
+#: ../woocommerce/single-product/product-attributes.php:35
+msgid "Dimensions"
+msgstr ""
+
+#: ../woocommerce/single-product/rating.php:32
+msgid "Reviews :"
+msgstr ""
+
+#: ../woocommerce/single-product/rating.php:33
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: ../woocommerce/single-product/rating.php:35
+#, php-format
+msgid "out of %s5%s"
+msgstr ""
+
+#: ../woocommerce/single-product/related.php:36
+msgid "Related Products"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:28
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:29
+msgid "out of 5"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:36
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:46
+msgid "verified owner"
+msgstr ""
+
+#: ../woocommerce/single-product/up-sells.php:39
+msgid "You may also like&hellip;"
+msgstr ""
+
+#~ msgid ""
+#~ "Put here the video id : http://www.youtube.com/watch?v=sdUUx5FdySs EX : "
+#~ "'sdUUx5FdySs' . ."
+#~ msgstr ""
+#~ "ضع هنا id الفيديو : http://www.youtube.com/watch?v=sdUUx5FdySs EX : "
+#~ "'sdUUx5FdySs' ."
+
+#~ msgid "Page not Found"
+#~ msgstr "الصفحه غير متوفره"
+
+#~ msgid "Your membership is activate now ."
+#~ msgstr "عضويتك تم تفعيلها الان ."
+
+#~ msgid ""
+#~ "Please activate your membership, Click on the link has been sent to email "
+#~ "<a href='%s'>Click here</a> to send it again ."
+#~ msgstr ""
+#~ "‎الرجاء تفعيل عضويتك, اضغط على الرابط لإرسالها إلى البريد الإلكتروني <a "
+#~ "href='%s'>اضغط هنا</a> لإرساله مرة أخرى ."
+
+#~ msgid ""
+#~ "Please activate your membership, Click on the link has been sent to email, "
+#~ "If you lost it <a href='%s'>Click here</a> to send it again ."
+#~ msgstr ""
+#~ "الرجاء تفعيل عضويتك، انقر على الرابط تم إرسالها إلى البريد الإلكتروني، "
+#~ "وإذا فقدت <a href='%s'>اضغط هنا</a> لارسالها مرة اخري ."
+
+#~ msgid ""
+#~ "Lost your password? Please enter your username and email address. You will "
+#~ "receive a link to create a new password via email."
+#~ msgstr ""
+#~ "نسيت كلمة المرور ؟ لو سمحت قم بادخال الاسم والبريد الإلكتروني. وسوف يصلك "
+#~ "كلمة المرور الجديدة علي البريد الإلكتروني."
+
+#~ msgid "Name or Email is not correct."
+#~ msgstr "الأسم او البريد الاليكتروني غير صحيح ."
+
+#~ msgid "Your password"
+#~ msgstr "كلمة المرور"
+
+#~ msgid "A reset password will be sent to this email address"
+#~ msgstr "كلمة المرور سوف تصلك علي البريد الاليكتروني"
+
+#~ msgid "Follow question"
+#~ msgstr "اسئلة الاعضاء التي اتابعها"
+
+#~ msgid "Follow answer"
+#~ msgstr "اجابات الاعضاء التي اتابعها"
+
+#~ msgid "No posts yet ."
+#~ msgstr "لا يوجد نقاط حتي الان ."
+
+#~ msgid "Comments are closed."
+#~ msgstr "التعليقات مغلقة ."
+
+#~ msgid "Leave an reply"
+#~ msgstr "اضف رد"
+
+#~ msgid "Leave an reply to %s"
+#~ msgstr "اضف رد لـ %s"
+
+#~ msgid "Report abuse"
+#~ msgstr "الابلاغ عن اساءة الاستخدام"
+
+#~ msgid "Sorry do not have permission to add question !"
+#~ msgstr "‎عفوا لا تملك صلاحية لاضافه سؤال ."
+
+#~ msgid ""
+#~ "Please choose an appropriate title for the post to answer it even easier ."
+#~ msgstr "‎لو سمحت قم باختيار عنوان مناسب للمقال"
+
+#~ msgid ""
+#~ "Please activate your membership, Click on the link has been sent to email ."
+#~ msgstr ""
+#~ "الرجاء تفعيل عضويتك، اضغط على الرابط تم إرسالها إلى البريد الإلكتروني."
+
+#~ msgid "Sorry do not have permission to show the answers !"
+#~ msgstr "‎عفوا لا تملك صلاحيات لمشاهده الاجابات ."
+
+#~ msgid "Sorry do not have permission to add answer !"
+#~ msgstr "‎عفوا لا تملك صلاحية لاضافة اجابة ."
+
+#~ msgid "You must type in all required fields!"
+#~ msgstr "يجب عليك كتابة في جميع الحقول المطلوبة!."
+
+#~ msgid "You must book at least two options to vote!"
+#~ msgstr "يجب كتاب خيارين علي الاقل في التصويت !"
+
+#~ msgid "Category must be selected!"
+#~ msgstr "يجب اختيار التصنيف !"
+
+#~ msgid "Type the description thoroughly and in detail ."
+#~ msgstr "اكتب وصفا جيدا وبالتفصيل ."
+
+#~ msgid "Wrong name."
+#~ msgstr "اسم خطأ ."
+
+#~ msgid "Choose the best answer"
+#~ msgstr "اختيار افضل اجابة"
+
+#~ msgid "Type in the required fields."
+#~ msgstr "اكتب الحقول المطلوبة ."
+
+#~ msgid "Saveing"
+#~ msgstr "جاري الحفظ"
+
+#~ msgid "No questions yet"
+#~ msgstr "لا يوجد اسئلة حتي الان"
+
+#~ msgid "read more..."
+#~ msgstr "اقرأ المزيد ..."
+
+#~ msgid "Summary:"
+#~ msgstr "الملخص:"
+
+#~ msgid "RATING : "
+#~ msgstr "التقيم : "
+
+#~ msgid "&laquo; Previous"
+#~ msgstr "&laquo; السابق"
+
+#~ msgid "Next &raquo;"
+#~ msgstr "التالي &raquo;"
+
+#~ msgid "Page builder"
+#~ msgstr "Page builder"
+
+#~ msgid "Export and Import"
+#~ msgstr "Export and Import"
+
+#~ msgid "This is ( Page builder , Custom Slideshow )."
+#~ msgstr "This is ( Page builder , Custom Slideshow )."
+
+#~ msgid "Import"
+#~ msgstr "استيراد"
+
+#~ msgid "+ Slideshow"
+#~ msgstr "+ Slideshow"
+
+#~ msgid "+ Box news"
+#~ msgstr "+ Box news"
+
+#~ msgid "+ Pictures news"
+#~ msgstr "+ Pictures news"
+
+#~ msgid "+ Tabs box news"
+#~ msgstr "+ Tabs box news"
+
+#~ msgid "+ Scroll news"
+#~ msgstr "+ Scroll news"
+
+#~ msgid "+ Recent posts"
+#~ msgstr "+ Recent posts"
+
+#~ msgid "+ Adv"
+#~ msgstr "+ Adv"
+
+#~ msgid "+ Clear"
+#~ msgstr "+ Clear"
+
+#~ msgid "+ Gap"
+#~ msgstr "+ Gap"
+
+#~ msgid "[+] Expand All"
+#~ msgstr "[+] فتح الكل"
+
+#~ msgid "[-] Collapse All"
+#~ msgstr "[-] إغلاق الكل"
+
+#~ msgid "+ Add new review"
+#~ msgstr "+ Add new review"
+
+#~ msgid "Install Required Plugins"
+#~ msgstr "Install Required Plugins"
+
+#~ msgid "Install Plugins"
+#~ msgstr "Install Plugins"
+
+#~ msgid "Hide Details"
+#~ msgstr "إخفاء التفاصيل"
+
+#~ msgid "Posted By"
+#~ msgstr "نشر بواسطة"
+
+#~ msgid "Please choose one category at least ."
+#~ msgstr "الرجاء اختيار قسم واحدة على الأقل."
+
+#~ msgid "Daily Archives : <span>%s</span>"
+#~ msgstr "الارشيف اليومي : <span>%s</span>"
+
+#~ msgid "Monthly Archives : <span>%s</span>"
+#~ msgstr "الارشيف الشهري : <span>%s</span>"
+
+#~ msgid "Yearly Archives : <span>%s</span>"
+#~ msgstr "الارشيف السنوي : <span>%s</span>"
+
+#~ msgid "Blog Archives"
+#~ msgstr "ارشيف المقالات"
+
+#~ msgid "No Comments"
+#~ msgstr "لا تعليقات"
+
+#~ msgid " On "
+#~ msgstr " في "
+
+#~ msgid "LEAVE A REPLY"
+#~ msgstr "اترك تعليق"
+
+#~ msgid "You must be %slogged in%s to post a comment."
+#~ msgstr "يجب عليك %sتسجيل الدخول%s لتتمكن من إضافة تعليق."
+
+#~ msgid "Name (required)"
+#~ msgstr "الاسم (مطلوب)"
+
+#~ msgid "Email (required)"
+#~ msgstr "البريد الإلكتروني (مطلوب)"
+
+#~ msgid "Latest"
+#~ msgstr "آخر الاخبار"
+
+#~ msgid "by"
+#~ msgstr "بواسطة"
+
+#~ msgid "Not Found"
+#~ msgstr "لا يوجد شئ"
+
+#~ msgid "Sorry, No results yet please search again."
+#~ msgstr "آسف، لا توجد نتائج حتى الان الرجاء البحث مرة أخرى."
+
+#~ msgid "Previous"
+#~ msgstr "السابق"
+
+#~ msgid "Next"
+#~ msgstr "التالي"
+
+#~ msgid "Number of questions"
+#~ msgstr "عدد الاسئلة"
+
+#~ msgid "Number of Visitors"
+#~ msgstr "عدد الزوار"
+
+#~ msgid "Oldest answers"
+#~ msgstr "الاسئله الاقدم"
+
+#~ msgid ""
+#~ "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out "
+#~ "of this account\">Log out?</a>"
+#~ msgstr ""
+#~ "مُسجل الدخول كـ <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"تسجيل "
+#~ "الخروج من هذا الحساب\">تسجيل الخروج؟</a>"
+
+#~ msgid "<div class=\"cancel_reply\">Cancel reply</div>"
+#~ msgstr "<div class=\"cancel_reply\">الغاء الرد</div>"
+
+#~ msgid "Country : "
+#~ msgstr "الدولة : "
+
+#~ msgid "Put your answer here"
+#~ msgstr "ضع اجابتك هنا"
+
+#~ msgid "There are no questions in the trash"
+#~ msgstr "لا يوجد اسئله في سله المهملات"
+
+#~ msgid "Countries"
+#~ msgstr "الدول : "
+
+#~ msgid "All Countries"
+#~ msgstr "كل الدول"
+
+#~ msgid "Add a new country"
+#~ msgstr "اضف دولة جديدة"
+
+#~ msgid "Country must be selected!"
+#~ msgstr "يجب اختيار الدولة !"
+
+#~ msgid "Add options from here to vote"
+#~ msgstr "اضف من هنا خيارات التصويت"
+
+#~ msgid "You are already a user please go to Home"
+#~ msgstr "انت بالفعل مسجل دخول رجاء التوجه الي الرئيسية"
+
+#~ msgid "SUBMIT"
+#~ msgstr "دخول"
+
+#~ msgid "All fields are required ."
+#~ msgstr "كل الحقول مطلوبة."
+
+#~ msgid "No match in password please make sure ."
+#~ msgstr "كلمة المرور غير متطابقة رجاء التاكد ."
+
+#~ msgid "Since"
+#~ msgstr "عضو منذ"
+
+#~ msgid "Questions favorite"
+#~ msgstr "الاسئلة المفضلة"
+
+#~ msgid "Record points"
+#~ msgstr "سجل النقاط"
+
+#~ msgid "<span class=\"meta-nav\">&larr;</span> Older questions"
+#~ msgstr "<span class='meta-nav'>&larr;</span> الاسئله الاقدم"
+
+#~ msgid "Newer questions <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "الاسئلة الاحدث <span class='meta-nav'>&rarr;</span>"
+
+#~ msgid "Unanswered"
+#~ msgstr "بدون اجابات"

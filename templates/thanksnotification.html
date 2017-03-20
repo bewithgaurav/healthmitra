@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<link type="text/css" rel="stylesheet" href="static/css/materialize.min.css"  media="screen,projection"/>
+<link type="text/css" rel="stylesheet" href="static/css/materialize.css"  media="screen,projection"/>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<head>
+	<title></title>
+</head>
+<body>
+<!--<center>
+<form action="/" method="post">
+<br><br>
+	Source - <input type="text" name="source"></input><br>
+	Destination - <input type="text" name="dest"></input><br>
+	Lattitude - <input type="text" name="lat"></input><br>
+	Longitude - <input type="text" name="lng"></input>
+	<input type="submit"></input>
+</form><br><br><br>
+-->
+<br><br>
+<center>
+<div class="container">
+<h4>
+Process Completed 
+</h4>
+<br><br>
+{% if failures|length %}
+The Notification could not be sent to the following ids - <br><br>
+{% for i in failures %}
+{{i}}<br>
+{% endfor %}
+{% endif %}
+
+
+{% if responses|length %}
+The following responses were Generated - <br><br>
+{% for i in responses %}
+{{i}}<br>
+{% endfor %}
+{% endif %}
+<br><br>	
+<table>
+        <thead>
+          <tr>
+              <th data-field="code">Description</th>
+              <th data-field="desc">Code</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Successfully Sent the Notification</td>
+            <td>200</td>
+          </tr>
+          <tr>
+            <td>The request could not be parsed as JSON, or it contained invalid fields</td>
+            <td>400</td>
+          </tr>
+          <tr>
+            <td>There was an error authenticating the sender account </td>
+            <td>401</td>
+          </tr>
+          <tr>
+            <td>An Internal error in the GCM connection server while trying to process the request <br>/ Server is temporarily unavailable / Timeout Occured </td>
+            <td>5xx</td>
+          </tr>
+          
+        </tbody>
+</table>
+</div>
+</center>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<!-- Jim Moriarty. Hi. Thanks For Checking Out the Code.  -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width , initial-scale=1.0,user-scalable=no"/>
+<title>News Application</title>
+<!-- <link rel="icon" type="image/png" href="static/img/logo1.png"> -->
+<link type="text/css" rel="stylesheet" href="static/css/materialize.min.css"  media="screen,projection"/>
+<link type="text/css" rel="stylesheet" href="static/css/materialize.css"  media="screen,projection"/>
+<link href="static/css/style5.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<script type="text/javascript" src="static/js/materialize.min.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+<script type="text/javascript" src="static/js/validation.js"></script>
+      <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+ <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+<head>
+	<!-- <title></title> -->
+	<div id="page">
+  
+</div>
+<script>
+	
+</script>
+</head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <body>
+
+<center>
+<br><br>
+<h3>Post</h3>
+{% for category, message in get_flashed_messages(with_categories=true) %}
+<h6>{{ message }}</h6>
+{% endfor %}
+</center>
+<br><br>
+<div class="container">
+	<!-- <div class="row"> -->
+	    <form id="myForm" action="/addnews" method="post" class="col s12" name="form1" onsubmit="return validateForm()" enctype = "multipart/form-data">
+	      <div class="row">
+	        <font face="Calibri" size=2 >&nbsp;&nbsp;&nbsp;&nbsp;Content Heading</font>
+          <div class="input-field col s12">
+	        <!-- Team Password   -->
+            <input id="heading" name="heading" type="text" class="validate" >
+			  <!-- <label for="password">Team Password</label> -->
+			   <p class="error" id="err2"></p>
+	          <!-- <label for="body">Destination</label> -->
+	        </div>
+	      </div>
+        <div class="row">
+          <div class="col s12">
+             <font face="Calibri" size=2>Content</font>
+            <textarea name="content" id="content" class="materialize-textarea validate" ></textarea>
+             
+          </div>
+        </div>
+        <div class="row">
+            <div class="file-field input-field">
+              <div class="btn">
+                <span>File</span>
+                <input name="file" type="file">
+              </div>
+              <div class="file-path-wrapper">
+                <input class="file-path validate" type="text">
+              </div>
+          </div>
+        </div>
+	      <div class="row">
+	      	<center><button class="btn waves-effect waves-light grey darken-1" type="submit" name="action">Post</button></center>
+          </div>
+	    </form>
+</div>
+ <div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">mode_edit</i>
+
+
+    </a>
+    <ul>
+      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+  </div>
+
+         
+
+
+  
+
+
+        
+<center>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+      <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  
+
+  <script src="static/js/init.js"></script>
+  <script type="text/javascript" src="static/js/analytics.js"></script>   
+   
+
+<script >
+  $("#myForm").validate();
+</script>
+</body>
+</html>

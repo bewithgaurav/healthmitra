@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<!-- Jim Moriarty. Hi. Thanks For Checking Out the Code.  -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width , initial-scale=1.0,user-scalable=no"/>
+<title>Profile</title>
+<link type="text/css" rel="stylesheet" href="static/css/materialize.min.css"  media="screen,projection"/>
+<link type="text/css" rel="stylesheet" href="static/css/materialize.css"  media="screen,projection"/>
+<link href="static/css/style5.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<script type="text/javascript" src="static/js/materialize.min.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+<script type="text/javascript" src="static/js/validation.js"></script>
+      <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+ <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<head>
+	<!-- <title></title> -->
+<script>
+	
+</script>
+</head>
+<body>
+</div>
+
+<center>
+<br><br>
+<h3>Hello {{ name }}, You are Now Logged In</h3>
+{% for category, message in get_flashed_messages(with_categories=true) %}
+<h6>{{ message }}</h6>
+{% endfor %}
+<br><br>
+<div class="container">
+	<!-- <div class="row"> -->
+	    Email - {{ email }}
+</div>
+</center>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+      <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  
+
+  <script src="static/js/init.js"></script>
+  <script type="text/javascript" src="static/js/analytics.js"></script>   
+   
+
+<script >
+  $("#myForm").validate();
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+six
+requests>=2.3.0
+urllib3==1.17
+pyopenssl
+ndg-httpsclient
+pyasn1
+
+[aiohttp]
+aiohttp>=0.9.0
+
+[tornado]
+tornado>=4.0.0

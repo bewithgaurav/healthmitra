@@ -1,0 +1,28 @@
+[
+	{
+		"id": "id1",
+		"title": "title1", 
+		"body": "text1", 
+		"address": "",
+		"city": "",
+		"author": "thug",
+		"doctors": 
+		[
+			{
+				"id":"bla",
+				"desc":"anything",
+				"slot":"11 AM to 2 PM"
+			}
+		],
+		"timestamp":"2017-03-18 16:39:58.260378",
+		"users": 
+		[
+			{
+				"id":"bla",
+				"status":"anything",
+				"slot":"11 AM to 2 PM",
+				"timestamp":"2017-03-18 16:39:58.260378"
+			}
+		]
+	}
+]

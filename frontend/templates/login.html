@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<!-- Jim Moriarty. Hi. Thanks For Checking Out the Code.  -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width , initial-scale=1.0,user-scalable=no"/>
+<title>Login</title>
+<link type="text/css" rel="stylesheet" href="static/css/materialize.min.css"  media="screen,projection"/>
+<link type="text/css" rel="stylesheet" href="static/css/materialize.css"  media="screen,projection"/>
+<link href="static/css/style5.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<script type="text/javascript" src="static/js/materialize.min.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+<script type="text/javascript" src="static/js/validation.js"></script>
+      <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+ <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <meta name="twitter:card" content="Hackathon">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<head>
+	<!-- <title></title> -->
+<script>
+	
+</script>
+</head>
+<body>
+</div>
+
+<center>
+<br><br>
+<h3>Login</h3>
+{% for category, message in get_flashed_messages(with_categories=true) %}
+<h6>{{ message }}</h6>
+{% endfor %}
+</center>
+<br><br>
+<div class="container">
+	<!-- <div class="row"> -->
+	    <form id="myForm" action="/login" method="post" class="col s12" name="form1" onsubmit="return validateForm()">
+	      <div class="row">
+	        <font face="Calibri" size=2 >&nbsp;&nbsp;&nbsp;&nbsp;Email</font>
+          
+          <div class="input-field col s12">
+            <input  id="email" name="email" type="email" class="validate" required>
+			   <!-- <label for="uname">Team Username</label> -->
+			  <p class="error" id="err1"></p>
+	          <!-- <label for="uname">Username</label> -->
+	        </div>
+
+	      </div>
+	      <!-- </div> -->
+	      <div class="row">
+	        <font face="Calibri" size=2 >&nbsp;&nbsp;&nbsp;&nbsp;Password</font>
+          <div class="input-field col s12">
+	        <!-- Team Password   -->
+            <input  id="password" name="password" type="password" class="validate" required minlength="6">
+			  <!-- <label for="password">Team Password</label> -->
+			   <p class="error" id="err2"></p>
+	          <!-- <label for="body">Destination</label> -->
+	        </div>
+	      </div>
+
+	      <div class="row">
+	      	<center><button class="btn waves-effect waves-light grey darken-1" type="submit" name="action">Login</button></center>
+          </div>
+	    </form>
+</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+      <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  
+
+  <script src="static/js/init.js"></script>
+  <script type="text/javascript" src="static/js/analytics.js"></script>   
+   
+
+<script >
+  $("#myForm").validate();
+</script>
+</body>
+</html>
