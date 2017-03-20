@@ -23,7 +23,6 @@ config = {
 	"serviceAccount": "auth.json"
 }
 
-
 def generatetimestamp():
 	return strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
@@ -38,11 +37,14 @@ app.secret_key = 'moriarty'
 
 @app.route('/', methods=['POST','GET'])
 def index():
-	return render_template("index.html")
+	news = db.child("news").get()
+	news=(news.val())
+	return render_template("index.html",news=news)
 
-@app.route('/show/<d>',methods=['GET','POST'])
-def showList(d):
+@app.route('/show',methods=['GET','POST'])
+def showList():
 	obj=[]
+	d=request.args["index"]
 	for line in open('h'+str(d)+'o.txt'):
 		line=line.split(',')
 		if len(line)==4:
@@ -60,7 +62,6 @@ def show(d):
 @app.route('/map')
 def showMap(name=None):
 	obj=[]
-
 	for file in glob.glob("h*o.txt"): 
 		obj.append(file[1])
 	return render_template('heatmapindex.html',obj=obj)
@@ -326,7 +327,9 @@ def bloodapi():
 		message_title = "Sanskar"
 		message_body = "Chutiya hai"
 		result = push_service.notify_multiple_devices(registration_ids=registration_ids, message_title=message_title, message_body=message_body, message_icon="facebook.png")
-	js = jsonify(b)
+	d={}
+	d["details"]=b
+	js = jsonify(d)
 	resp = Response(js, status=200, mimetype='application/json')
 	return js
 

@@ -1,17 +1,85 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    
-    <style>
-      html, body, #map { margin: 0; padding: 0; height: 100%; }
-    </style>
-      <script>var a={{ obj|safe }};</script>
+<head>
+<title>ColorMag</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="static/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="static/assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="static/assets/css/font.css">
+<link rel="stylesheet" href="static/assets/css/animate.css">
+<link rel="stylesheet" href="static/assets/css/structure.css">
+<script>var a={{ obj|safe }};</script>
 
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVzWndyAd1kRlvwLOWuLLG-PF1_JXP3XE"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVzWndyAd1kRlvwLOWuLLG-PF1_JXP3XE"></script>
   <script type="text/javascript" src="{{ url_for('static', filename='mapFunctions.js') }}"></script>
-	
-  </head>
+  
 
-  <body>
-    <div id="map"></div>
-    
+<!--[if lt IE 9]>
+<script src="static/assets/js/html5shiv.min.js"></script>
+<script src="static/assets/js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
+<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+<header id="header">
+  <div class="container">
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <a class="navbar-brand" href="index.html"><span>Color</span>Mag</a> </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav custom_nav">
+            <li class=""><a href="index.html">Home Feed</a></li>
+            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Locations</a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="dropdown"></li>
+                <li><a href="#">Nearest Hospitals and Clinics</a></li>
+                <li><a href="#">Nearest Medicine Shops</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Interaction</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Question Answer Forum</a></li>
+                <li><a href="#">Video Chat with Doctors</a></li>
+                <li><a href="#">Create Appointment with Doctors</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Statistics</a></li>
+            <li><a href="#">Government Camps</a></li>
+            <li><a href="#">Blood Help</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <form id="searchForm">
+      <input type="text" placeholder="Search...">
+      <input type="submit" value="">
+    </form>
+  </div>
+</header>
+<div id="map"></div>
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer_inner">
+          <p class="pull-left">Copyright &copy; 2014 ColorMag</p>
+          <p class="pull-right">Developed By WpFreeware</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="static/assets/js/jquery.min.js"></script> 
+<script src="static/assets/js/bootstrap.min.js"></script> 
+<script src="static/assets/js/wow.min.js"></script> 
+<script src="static/assets/js/custom.js"></script>
+</body>
+</html>

@@ -16,18 +16,9 @@ var infoWindow = new google.maps.InfoWindow({
 
 //function to reverse geocode
 function geocodeLatLng(geocoder, map,marker, infoWindow,myLatLng,i) {
-geocoder.geocode({'location': myLatLng}, function(results, status) {
-	if (status === google.maps.GeocoderStatus.OK) {
-	    if (results[1]) {
-	      infoWindow.setContent(''+a[i].speed+ '\n' + a[i].lat + ',' + a[i].lng + '\n'+ a[i].timestamp);
+	      infoWindow.setContent(a[i][2]+'\n'+a[i][3]+'\n');
 	      infoWindow.open(map, marker);
-	    } else {
-	      window.alert('No results found');
-	    }
-	} else {
-	    window.alert('Geocoder failed due to: ' + status +" Please Wait for a few seconds..");
-	  	}
-	});
+	    
 }
 
 
@@ -42,7 +33,7 @@ function initialize() {
 	var l=a.length;
 	console.log(a);
 	
-	//var bounds = new google.maps.LatLngBounds();
+	var bounds = new google.maps.LatLngBounds();
 	for(var k=0;k<l;k++)
 	{
 		var lat=a[k][0];
@@ -54,10 +45,11 @@ function initialize() {
 			position: myLatLng,
 			map: map
 		});
-		//bounds.extend(myLatLng);
+		bounds.extend(myLatLng);
+		addInfoWindow(marker,'j',myLatLng,k);
 		
 	}
-	//map.fitBounds(bounds);
+	map.fitBounds(bounds);
 
 }
 google.maps.event.addDomListener(window, 'load', initialize);
