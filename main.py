@@ -40,7 +40,7 @@ app.secret_key = 'moriarty'
 @app.route('/', methods=['POST','GET'])
 def index():
 	if "user" not in session:
-		return redirect(url_for(signup))
+		return redirect(url_for("signup"))
 	news = db.child("news").get()
 	news=(news.val())
 	return render_template("index.html",news=news)
@@ -184,14 +184,14 @@ def logout():
 @app.route('/login',methods=['POST','GET'])
 def login():
 	if "user" in session:
-		return render_template("profile.html")
+		return redirect(url_for("index"))
 	if request.method=="POST":
 		uid=request.form.get("id",'')
 		password=request.form.get("password",'')
 		users = db.child("users").get()
 		users=(users.val())
 		for user in users:
-			if user["id"]==uid and user["password"]==password:
+			if "id" in user and user["id"]==uid and user["password"]==password:
 				session["user"]=user
 				return render_template("profile.html")
 		flash("Invalid Credentials")
