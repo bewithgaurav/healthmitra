@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>ColorMag</title>
+<title>HealthMitra - Profile</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,7 +26,7 @@
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-          <a class="navbar-brand" href="index.html"><img src="static/images/header.png" height="30px"></a> </div>
+          <a class="navbar-brand" href="/"><img src="static/images/header.png" height="30px"></a> </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav custom_nav">
             <li class=""><a href="/">Home Feed</a></li>
@@ -48,7 +48,7 @@
             <li><a href="/statistics">Statistics</a></li>
             <li><a href="#">Govt Camps</a></li>
             <li><a href="#">Blood Help</a></li>
-            
+            <li><a href="/logout">Log Out</a></li>
           </ul>
         </div>
       </div>
@@ -65,7 +65,7 @@
             <h2 >Recent News</h2>
             {% for new in news %}
             <div class="single_stuff wow fadeInDown">
-              <div class="single_stuff_img"> <a href="static/pages/single.html"><img src="{{new['img']}}" alt=""></a> </div>
+              <div class="single_stuff_img"> <img src="{{new['img']}}" alt=""></div>
               <div class="single_stuff_article">
                 <div class="single_sarticle_inner"> <a class="stuff_category" href="#">{{new["author"]}}</a>
                   <div class="stuff_article_inner"> <span class="stuff_date">{{new["timestamp"]}} <strong>17</strong></span>
@@ -94,27 +94,17 @@
             <h2 class="yellow_bg">Blood Requirements</h2>
             <div class="middlebar_content_inner wow fadeInUp">
               <ul class="middlebar_nav">
-                <li> <a class="mbar_thubnail" href="#"><img src="static/images/hot_img1.jpg" alt=""></a> <a class="mbar_title" href="#">Sed luctus semper odio aliquam rhoncus</a> </li>
-                <li> <a class="mbar_thubnail" href="#"><img src="static/images/hot_img2.jpg" alt=""></a> <a class="mbar_title" href="#">Sed luctus semper odio aliquam rhoncus</a> </li>
-                <li> <a class="mbar_thubnail" href="#"><img src="static/images/hot_img1.jpg" alt=""></a> <a class="mbar_title" href="#">Sed luctus semper odio aliquam rhoncus</a> </li>
-                <li> <a class="mbar_thubnail" href="#"><img src="static/images/hot_img1.jpg" alt=""></a> <a class="mbar_title" href="#">Sed luctus semper odio aliquam rhoncus</a> </li>
-                <li> <a class="mbar_thubnail" href="#"><img src="static/images/hot_img1.jpg" alt=""></a> <a class="mbar_title" href="#">Sed luctus semper odio aliquam rhoncus</a> </li>
-                <li> <a class="mbar_thubnail" href="#"><img src="static/images/hot_img1.jpg" alt=""></a> <a class="mbar_title" href="#">Sed luctus semper odio aliquam rhoncus</a> </li>
-                <li> <a class="mbar_thubnail" href="#"><img src="static/images/hot_img1.jpg" alt=""></a> <a class="mbar_title" href="#">Sed luctus semper odio aliquam rhoncus</a> </li>
-                <li> <a class="mbar_thubnail" href="#"><img src="static/images/hot_img1.jpg" alt=""></a> <a class="mbar_title" href="#">Sed luctus semper odio aliquam rhoncus</a> </li>
+                <li> <a class="mbar_thubnail" href="#"><img src="static/images/blood group/BLOOD1.png" alt=""></a> <a class="mbar_title" href="#">A+ Blood Required at Janta Colony, Kota - Contact - 9999999999</a> </li>
+                <li> <a class="mbar_thubnail" href="#"><img src="static/images/blood group/BLOOD2.png" alt=""></a> <a class="mbar_title" href="#">A+ Blood Required at Janta Colony, Kota - Contact - 9999999999</a> </li>
+                <li> <a class="mbar_thubnail" href="#"><img src="static/images/blood group/BLOOD1.png" alt=""></a> <a class="mbar_title" href="#">A+ Blood Required at Janta Colony, Kota - Contact - 9999999999</a> </li>
+                <li> <a class="mbar_thubnail" href="#"><img src="static/images/blood group/BLOOD4.png" alt=""></a> <a class="mbar_title" href="#">A+ Blood Required at Janta Colony, Kota - Contact - 9999999999</a> </li>
+                <li> <a class="mbar_thubnail" href="#"><img src="static/images/blood group/BLOOD5.png" alt=""></a> <a class="mbar_title" href="#">A+ Blood Required at Janta Colony, Kota - Contact - 9999999999</a> </li>
+                <li> <a class="mbar_thubnail" href="#"><img src="static/images/blood group/BLOOD3.png" alt=""></a> <a class="mbar_title" href="#">A+ Blood Required at Janta Colony, Kota - Contact - 9999999999</a> </li>
+                <li> <a class="mbar_thubnail" href="#"><img src="static/images/blood group/BLOOD5.png" alt=""></a> <a class="mbar_title" href="#">A+ Blood Required at Janta Colony, Kota - Contact - 9999999999</a> </li>
+                <li> <a class="mbar_thubnail" href="#"><img src="static/images/blood group/BLOOD4.png" alt=""></a> <a class="mbar_title" href="#">A+ Blood Required at Janta Colony, Kota - Contact - 9999999999</a> </li>
               </ul>
             </div>
-            <div class="popular_categori  wow fadeInUp">
-              <h2 class="limeblue_bg">Most Popular Categories</h2>
-              <ul class="poplr_catgnva">
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Life &amp; Style</a></li>
-                <li><a href="#">Games</a></li>
-                <li><a href="#">Slider</a></li>
-                <li><a href="#">Sports</a></li>
-              </ul>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -138,22 +128,20 @@
             <div class="single_blog_sidebar wow fadeInUp">
               <h2>Government Campaigns</h2>
               <ul class="middlebar_nav wow">
-                <li> <a href="#" class="mbar_thubnail"><img alt="" src="static/images/hot_img1.jpg"></a> <a href="#" class="mbar_title">Sed luctus semper odio aliquam rhoncus</a> </li>
-                <li> <a href="#" class="mbar_thubnail"><img alt="" src="static/images/hot_img2.jpg"></a> <a href="#" class="mbar_title">Sed luctus semper odio aliquam rhoncus</a> </li>
-                <li> <a href="#" class="mbar_thubnail"><img alt="" src="static/images/hot_img1.jpg"></a> <a href="#" class="mbar_title">Sed luctus semper odio aliquam rhoncus</a> </li>
-                <li> <a href="#" class="mbar_thubnail"><img alt="" src="static/images/hot_img1.jpg"></a> <a href="#" class="mbar_title">Sed luctus semper odio aliquam rhoncus</a> </li>
+                <li> <a href="#" class="mbar_thubnail"><img alt="" src="static/images/hot_img1.jpg"></a> <a href="#" class="mbar_title">Cycle Marathon at Jaipur</a> </li>
+                <li> <a href="#" class="mbar_thubnail"><img alt="" src="static/images/hot_img2.jpg"></a> <a href="#" class="mbar_title">Women Pregrnancy Awareness Drive</a> </li>
+                <li> <a href="#" class="mbar_thubnail"><img alt="" src="static/images/hot_img1.jpg"></a> <a href="#" class="mbar_title">Free Health camp at Kota</a> </li>
+                <li> <a href="#" class="mbar_thubnail"><img alt="" src="static/images/hot_img1.jpg"></a> <a href="#" class="mbar_title">Obesity Camp at Bikaner</a> </li>
               </ul>
             </div>
             <div class="single_blog_sidebar wow fadeInUp">
               <h2>Popular Tags</h2>
               <ul class="poplr_tagnav">
-                <li><a href="#">Arts</a></li>
-                <li><a href="#">Games</a></li>
-                <li><a href="#">Nature</a></li>
-                <li><a href="#">Comedy</a></li>
-                <li><a href="#">Sports</a></li>
-                <li><a href="#">Tourism</a></li>
-                <li><a href="#">Videos</a></li>
+                <li><a href="#">Rajasthan</a></li>
+                <li><a href="#">Doctor</a></li>
+                <li><a href="#">health</a></li>
+                <li><a href="#">generic</a></li>
+          
               </ul>
             </div>
           </div>
@@ -167,8 +155,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="footer_inner">
-          <p class="pull-left">Copyright &copy; 2014 ColorMag</p>
-          <p class="pull-right">Developed By WpFreeware</p>
+         
         </div>
       </div>
     </div>

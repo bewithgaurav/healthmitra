@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ColorMag</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="static/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="static/assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="static/assets/css/font.css">
+<link rel="stylesheet" href="static/assets/css/animate.css">
+<link rel="stylesheet" href="static/assets/css/structure.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+
+<style>
+html, body, #map-wrapper #map-canvas {
+    margin: 0;
+    padding: 0;
+    height: 540px;
+    width: 100%;  }
+textarea {
+    max-width: 100%; 
+    max-height: 100%;
+    width: 100%;
+}
+    </style>
+
+<!--[if lt IE 9]>
+<script src="static/assets/js/html5shiv.min.js"></script>
+<script src="static/assets/js/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
+<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+<header id="header">
+  <div class="container">
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+         <a class="navbar-brand" href="index.html"><img src="static/images/header.png" height="30px"></a> </div>
+       <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav custom_nav">
+            <li class=""><a href="index.html">Home Feed</a></li>
+            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Locations</a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="dropdown"></li>
+                <li><a href="#">Nearest Hospitals and Clinics</a></li>
+                <li><a href="#">Nearest Medicine Shops</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Interaction</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Question Answer Forum</a></li>
+                <li><a href="#">Video Chat with Doctors</a></li>
+                <li><a href="#">Create Appointment with Doctors</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Statistics</a></li>
+            <li><a href="#">Government Camps</a></li>
+            <li><a href="#">Blood Help</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+  </div>
+</header>
+<br><br>
+<br><br>
+<center>
+<div class="container">
+{% for i in camps %}
+        <div class="w3-card-4" style="width:50%;">
+    <header class="w3-container w3-red">
+      <h1>{{i.title}}</h1>
+    </header>
+
+    <div class="w3-container">
+      <p>{{i.body}}
+    </div>
+
+    <footer class="w3-container w3-red">
+      <h5>{{i.datetime}}</h5>
+    </footer>
+  </div>
+{% endfor %}
+      
+
+      </div>
+      </center>
+<script src="static/assets/js/jquery.min.js"></script> 
+<script src="static/assets/js/bootstrap.min.js"></script> 
+<script src="static/assets/js/wow.min.js"></script> 
+<script src="static/assets/js/custom.js"></script>
+</body>
+</html>

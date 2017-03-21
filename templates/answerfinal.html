@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HealthMitra - Answers</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="static/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="static/assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="static/assets/css/font.css">
+<link rel="stylesheet" href="static/assets/css/animate.css">
+<link rel="stylesheet" href="static/assets/css/structure.css">
+<style>
+html, body, #map-wrapper #map-canvas {
+    margin: 0;
+    padding: 0;
+    height: 540px;
+    width: 100%;  }
+textarea {
+    max-width: 100%; 
+    max-height: 100%;
+    width: 100%;
+}
+    </style>
+
+<!--[if lt IE 9]>
+<script src="static/assets/js/html5shiv.min.js"></script>
+<script src="static/assets/js/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
+<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+<header id="header">
+  <div class="container">
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <a class="navbar-brand" href="/"><img src="static/images/header.png" height="30px"></a> </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav custom_nav">
+            <li class=""><a href="/">Home Feed</a></li>
+            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Locations</a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="dropdown"></li>
+                <li><a href="/nearbyhospitals?lat=26.89&lng=75.77">Nearest Hospitals and Clinics</a></li>
+                <li><a href="/nearbymedicals?lat=26.89&lng=75.77">Nearest Medicine Shops</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Interaction</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="/questions">Question Answer Forum</a></li>
+                <li><a href="/videochat">Video Chat with Doctors</a></li>
+                <li><a href="/show_online_docs">Show Online Users</a></li>
+                <li><a href="#">Create Appointment with Doctors</a></li>
+              </ul>
+            </li>
+            <li><a href="/statistics">Statistics</a></li>
+            <li><a href="#">Govt Camps</a></li>
+            <li><a href="#">Blood Help</a></li>
+            <li><a href="/logout">Log Out</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+  </div>
+</header>
+<br><br>
+<br><br>
+<center>
+<button class="btn btn-primary" data-toggle="modal" data-target="#myModalNorm">
+    <h2>Answer this question</h2>
+</button><br>
+<div class="modal fade" id="myModalNorm" tabindex="-1" role="dialog" 
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" 
+                   data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    Enter Your Answer
+                </h4>
+            </div>
+            
+            <!-- Modal Body -->
+            <div class="modal-body">
+                
+                <form role="form" action="/answer" method="POST">
+                  <div class="form-group">
+                      <textarea name="answer" placeholder="Enter Your Answer Here....." maxlength="500"></textarea>
+                      <!-- <input type="text" class="form-control"
+                      id="comment" name="answer" placeholder="Type Here"/> -->
+                  </div>
+                 
+                      <input type="hidden" id="author" value="user.id" />
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                
+                
+            </div>
+            
+            <!-- Modal Footer 
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">
+                            Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                    Save changes
+                </button>
+            </div>
+            -->
+        </div>
+    </div>
+</div>
+<br>
+{% for i in available %}
+  <form method=POST action="/join_chat">
+  <input name="duid" type="hidden" id={{i.duid}} value={{i.duid}} />
+  <button type="submit">{{i.duid}}</button>
+  </form>
+{% endfor %}
+</center>
+<script src="static/assets/js/jquery.min.js"></script> 
+<script src="static/assets/js/bootstrap.min.js"></script> 
+<script src="static/assets/js/wow.min.js"></script> 
+<script src="static/assets/js/custom.js"></script>
+</body>
+</html>

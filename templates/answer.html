@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ColorMag</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="static/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="static/assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="static/assets/css/font.css">
+<link rel="stylesheet" href="static/assets/css/animate.css">
+<link rel="stylesheet" href="static/assets/css/structure.css">
+<style>
+html, body, #map-wrapper #map-canvas {
+    margin: 0;
+    padding: 0;
+    height: 540px;
+    width: 100%;  }
+    </style>
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <title>HTML5/CSS3 Threaded Comments Block</title>
+  <meta name="author" content="Jake Rocheleau">
+  <link rel="shortcut icon" href="http://www.webdesignerdepot.com/favicon.ico">
+  <link rel="icon" href="http://www.webdesignerdepot.com/favicon.ico">
+  <!-- <link rel="stylesheet" type="text/css" href="static/styles.css"> -->
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Wellfleet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+
+<!--[if lt IE 9]>
+<script src="static/assets/js/html5shiv.min.js"></script>
+<script src="static/assets/js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
+<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+<header id="header">
+  <div class="container">
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+         <a class="navbar-brand" href="index.html"><img src="static/images/header.png" height="30px"></a> </div>
+       <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav custom_nav">
+            <li class=""><a href="index.html">Home Feed</a></li>
+            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Locations</a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="dropdown"></li>
+                <li><a href="#">Nearest Hospitals and Clinics</a></li>
+                <li><a href="#">Nearest Medicine Shops</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Interaction</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Question Answer Forum</a></li>
+                <li><a href="#">Video Chat with Doctors</a></li>
+                <li><a href="#">Create Appointment with Doctors</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Statistics</a></li>
+            <li><a href="#">Government Camps</a></li>
+            <li><a href="#">Blood Help</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+  </div>
+</header>
+<br><br>
+<br><br>
+<div>
+<center>
+<button class="btn btn-primary" data-toggle="modal" data-target="#myModalNorm">
+    New Comment
+</button>
+
+
+<!-- Modal New Comment-->
+<div class="modal fade" id="myModalNorm" tabindex="-1" role="dialog" 
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" 
+                   data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    Enter Comment
+                </h4>
+            </div>
+            
+            <!-- Modal Body -->
+            <div class="modal-body">
+                
+                <form role="form" action="/answer" method="POST">
+                  <div class="form-group">
+                      <textarea name="answer"></textarea>
+                      <!-- <input type="text" class="form-control"
+                      id="comment" name="answer" placeholder="Type Here"/> -->
+                  </div>
+                 
+                      <input type="hidden" id="author" value="user.id" />
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                
+                
+            </div>
+            
+            <!-- Modal Footer 
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">
+                            Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                    Save changes
+                </button>
+            </div>
+            -->
+        </div>
+    </div>
+</div>
+{{id}}
+<!-- Modal Reply-->
+
+
+
+  <div id="w">
+    <h1>Threaded Comments Block</h1>
+    
+    <div id="container">
+      <ul id="comments">
+      {% for d in data %}
+        <li class="cmmnt">
+          <div class="avatar"><a href="javascript:void(0);"><img src="images/dark-cubes.png" width="55" height="55" alt="DarkCubes photo avatar"></a></div>
+          <div class="cmmnt-content">
+            <header><a href="javascript:void(0);" class="userlink">{{d.author}}</a> - <span class="pubdate">posted 1 week ago</span></header>
+            <p>{{d.answer}}</p>
+          </div>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#myModalNorm1">
+               <a href="javascript:setid({{d.id}});">Reply</a>
+          </button>
+          
+          </li>
+          
+          
+        </li>
+          </div>  
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</center>
+<
+<script src="static/assets/js/jquery.min.js"></script> 
+<script src="static/assets/js/bootstrap.min.js"></script> 
+<script src="static/assets/js/wow.min.js"></script> 
+<script src="static/assets/js/custom.js"></script>
+</body>
+</html>

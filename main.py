@@ -39,6 +39,8 @@ app.secret_key = 'moriarty'
 
 @app.route('/', methods=['POST','GET'])
 def index():
+	if "user" not in session:
+		return redirect(url_for(signup))
 	news = db.child("news").get()
 	news=(news.val())
 	return render_template("index.html",news=news)
@@ -383,42 +385,69 @@ def question():
 	queupdated={}
 	if request.method=="POST":
 		newque={}
-		newque["id"]=generateid()
 		newque["title"]=request.form.get("title",'')
 		newque["body"]=request.form.get("body",'')
 		newque["solved"]=0
 		newque["timestamp"]=generatetimestamp()
-		newque["private"]=request.form.get("private",'')
+		uniq=session["user"]["id"]+timestamp
+		newque["id"]=(hashlib.md5(uniq.encode('utf-8')).hexdigest())
+		# newque["private"]=request.form.get("private",'')
 		newque["author"]=session["user"]["name"]
 		newque["upvotes"]=[]
 		questions.append(newque)
 	queupdated["questions"]=questions
-	db.update(queupdated)	
-	for i in comments:
-		content.append(i["content"])
-	return render_template("index.html",contents=content)
+	db.update(queupdated)
+	return render_template("questionfinal.html",questions=questions)
+
+@app.route('/camps',methods=['POST','GET'])
+def camps():
+	questions = db.child("camps").get()
+	camps=(camps.val())
+	qid=str(request.args.get('que'))
+	if request.method=="POST":
+		newanswer={}
+		newanswer["answer"]=request.form.get("answer",'')
+		uniq=session["user"]["id"]+qid
+		newanswer["id"]=(hashlib.md5(uniq.encode('utf-8')).hexdigest())
+		newanswer["timestamp"]=generatetimestamp()
+		newanswer["author"]=session["user"]["name"]
+		newanswer["upvotes"]=[]
+		for que in range(len(questions)):
+			if questions[que]["id"]==questionid:
+				answers=questions[que]["answers"]
+				questions[que]["answers"].append(newanswer)
+				break
+		queupdated={}
+		queupdated["questions"]=questions
+		db.update(queupdated)
 
 @app.route('/answer',methods=['POST','GET'])
 def answer():
 	questions = db.child("questions").get()
 	questions=(questions.val())
-	questionid=str(request.args.get('que'))
+	qid=str(request.args.get('que'))
 	if request.method=="POST":
-		answer=request.form.get("answer",'')
+		newanswer={}
+		newanswer["answer"]=request.form.get("answer",'')
+		uniq=session["user"]["id"]+qid
+		newanswer["id"]=(hashlib.md5(uniq.encode('utf-8')).hexdigest())
+		newanswer["timestamp"]=generatetimestamp()
+		newanswer["author"]=session["user"]["name"]
+		newanswer["upvotes"]=[]
 		for que in range(len(questions)):
 			if questions[que]["id"]==questionid:
 				answers=questions[que]["answers"]
-				questions[que]["answers"].append(answer)
+				questions[que]["answers"].append(newanswer)
 				break
 		queupdated={}
 		queupdated["questions"]=questions
 		db.update(queupdated)
-	content=[]
-	for que in questions:
-		if questionid==que["id"]:
-			answers=que["answers"]
-			break
-	return render_template("answer.html",answers=answers)
+	# content=[]
+	# for que in questions:
+	# 	if questionid==que["id"]:
+	# 		answers=que["answers"]
+	# 		break
+	return render_template("answerfinal.html",answers=[],i=0)
 
 if __name__ == '__main__':
     app.run( debug=True )
