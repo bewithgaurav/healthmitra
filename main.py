@@ -16,13 +16,14 @@ push_service = FCMNotification(api_key="AAAAH6ulmio:APA91bHmJnSaRswJukPEUnVe4OPl
 
 
 config = {
-  	
-  "apiKey" : "AIzaSyCLlwtDViQPRFWCYrm4OXVUoXx5oC12e2U",
+
+	"apiKey" : "AIzaSyCLlwtDViQPRFWCYrm4OXVUoXx5oC12e2U",
 	"authDomain" : "test-38881.firebaseapp.com",
 	"databaseURL" : "https://test-38881.firebaseio.com",
 	"storageBucket" : "test-38881.appspot.com",
 	"messagingSenderId" : "136023743018",
 	"serviceAccount": "auth.json"
+
 }
 
 def generatetimestamp():
@@ -39,8 +40,8 @@ app.secret_key = 'moriarty'
 
 @app.route('/', methods=['POST','GET'])
 def index():
-	if "user" not in session:
-		return redirect(url_for("signup"))
+	# if "user" not in session:
+	# 	return redirect(url_for("signup"))
 	news = db.child("news").get()
 	news=(news.val())
 	return render_template("index.html",news=news)
