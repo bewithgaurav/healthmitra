@@ -14,10 +14,11 @@ You can find a detailed presentation <a href="http://bit.ly/rajasthanhackathon">
 
 Here are some screenshots of the Web Application -
 
-![alt tag](https://github.com/bewithgaurav/healthmitra/blob/master/screenshot1.PNG)
-
 ![alt tag](https://github.com/bewithgaurav/healthmitra/blob/master/screenshot2.PNG)
 
 ![alt tag](https://github.com/bewithgaurav/healthmitra/blob/master/screenshot3.PNG)
 
 ![alt tag](https://github.com/bewithgaurav/healthmitra/blob/master/screenshot4.PNG)
+
+![alt tag](https://github.com/bewithgaurav/healthmitra/blob/master/screenshot1.PNG)
+
