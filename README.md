@@ -10,7 +10,7 @@ Frontend - HTML/CSS, Materialize & Bootstrap
 
 Android App - Java, Firebase BAS, Google Maps API Utility
 
-You can find a detailed presentation <a href="http://bit.ly/rajasthanhackathon">here</a>
+You can find a detailed presentation <a href="https://drive.google.com/file/d/0BxxUb54aR_hkQzZvb19jQlktNm8/view">here</a>
 
 Here are some screenshots of the Web Application -
 
