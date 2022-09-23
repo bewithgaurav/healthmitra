@@ -15,7 +15,7 @@ MarkupSafe==1.0
 ndg-httpsclient==0.4.2
 oauth2client==3.0.0
 packaging==16.8
-protobuf==3.2.0
+protobuf==3.18.3
 pusher==1.6
 pyasn1==0.2.3
 pyasn1-modules==0.0.8
